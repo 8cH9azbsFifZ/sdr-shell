@@ -1,0 +1,3 @@
+This is a fork (copy) of the sdr-shell-v2 (http://code.google.com/p/sdr-shell/)
+It uses pipe communication for sdr-core. 
+This version is included for later reference.
