@@ -26,7 +26,7 @@ Fedora 14
 
 (4) Configure udev to set usbsoftrock permissions (see below)
 
-Ubuntu 10.10
+Ubuntu 10.10 / Debian squeeze
 
 (1) From a live CD installation of Ubuntu, Xubuntu or lubuntu, install
 
