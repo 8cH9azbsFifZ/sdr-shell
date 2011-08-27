@@ -11,15 +11,15 @@ DEV_PLAYBACK=hw:0
 export SDR_NAME=sdr-tx # double entry?
 
 ## communication over ports
-#export SDR_PARMPORT=19005 # sdr-core eats this
-#export SDR_SPECPORT=19006  # sdr-core eats this
-#export SDR_METERPORT=19007  # sdr-core eats this
+export SDR_PARMPORT=19005 # sdr-core eats this
+export SDR_SPECPORT=19006  # sdr-core eats this
+export SDR_METERPORT=19007  # sdr-core eats this
 
 ## FIFOs
 # if communication over fifos
-export SDR_PARMPATH=/dev/shm/SDRcommands
-export SDR_METERPATH=/dev/shm/SDRmeter
-export SDR_SPECPATH=/dev/shm/SDRspectrum
+#export SDR_PARMPATH=/dev/shm/SDRcommands
+#export SDR_METERPATH=/dev/shm/SDRmeter
+#export SDR_SPECPATH=/dev/shm/SDRspectrum
 for f in $SDR_PARMPATH $SDR_METERPATH $SDR_SPECPATH; do test -e $f || mkfifo $f; done;
 
 
@@ -61,7 +61,9 @@ echo "The folliwing pids have been used: $PIDS"
 echo "Starting SDR shell"
 #export SDR_MODE=$PWD/hook-mode
 #export SDR_BAND=$PWD/hook-band
-./sdr-shell
+./sdr-shell --sample_rate=$SDR_DEFRATE --meter-port=$SDR_METERPORT \
+ --spectrum-port=$SDR_SPECPORT --rx-command-port=$SDR_PARMPORT
+
 
 # kill jack clients before killing jack himself.
 # this seems to be a cleaner shutdown than everything at once
