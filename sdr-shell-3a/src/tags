@@ -1,0 +1,841 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.6	//
+AGC_F_label	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		*AGC_S_label, *AGC_M_label, *AGC_F_label;$/;"	m	class:Main_Widget
+AGC_L_label	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		Varilabel *AGC_O_label, *AGC_L_label,$/;"	m	class:Main_Widget
+AGC_M_label	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		*AGC_S_label, *AGC_M_label, *AGC_F_label;$/;"	m	class:Main_Widget
+AGC_O_label	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		Varilabel *AGC_O_label, *AGC_L_label,$/;"	m	class:Main_Widget
+AGC_S_label	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		*AGC_S_label, *AGC_M_label, *AGC_F_label;$/;"	m	class:Main_Widget
+AGC_label	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		QLabel *AGC_label;$/;"	m	class:Main_Widget
+AM	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		{ LSB, USB, DSB, CWL, CWU, FMN, AM, DIGU, SPEC, DIGL, SAM, DRM }; $/;"	e	enum:Main_Widget::modes
+AM_filter_h	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		int AM_filter_l, AM_filter_h;$/;"	m	class:Main_Widget
+AM_filter_l	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		int AM_filter_l, AM_filter_h;$/;"	m	class:Main_Widget
+AM_label	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		VariModelabel *AM_label;$/;"	m	class:Main_Widget
+ANF_label	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		Varilabel *ANF_label;$/;"	m	class:Main_Widget
+ANF_state	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		int ANF_state;$/;"	m	class:Main_Widget
+BARTLETT_WINDOW	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		    BARTLETT_WINDOW,$/;"	e	enum:Main_Widget::_windowtype
+BIN_label	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		Varilabel *BIN_label;$/;"	m	class:Main_Widget
+BIN_state	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		int BIN_state;$/;"	m	class:Main_Widget
+BLACKMAN2_WINDOW	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		    BLACKMAN2_WINDOW,$/;"	e	enum:Main_Widget::_windowtype
+BLACKMAN3_WINDOW	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		    BLACKMAN3_WINDOW,$/;"	e	enum:Main_Widget::_windowtype
+BLACKMAN4_WINDOW	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		    BLACKMAN4_WINDOW,$/;"	e	enum:Main_Widget::_windowtype
+BLACKMANHARRIS_WINDOW	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		    BLACKMANHARRIS_WINDOW,$/;"	e	enum:Main_Widget::_windowtype
+C1	/home/frohro/Projects/sdr-shell-v2b/src/constants.h	/^#define C1 /;"	d
+CA_label	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		QLabel *CA_label;$/;"	m	class:Main_Widget
+CFG_label	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		Varilabel *CFG_label;$/;"	m	class:Main_Widget
+CMD_FILE	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^#define CMD_FILE /;"	d
+CPU_label	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		QLabel *CPU_label;$/;"	m	class:Main_Widget
+CWL	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		{ LSB, USB, DSB, CWL, CWU, FMN, AM, DIGU, SPEC, DIGL, SAM, DRM }; $/;"	e	enum:Main_Widget::modes
+CWL_filter_h	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		int CWL_filter_l, CWL_filter_h;$/;"	m	class:Main_Widget
+CWL_filter_l	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		int CWL_filter_l, CWL_filter_h;$/;"	m	class:Main_Widget
+CWL_label	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		VariModelabel *CWL_label;$/;"	m	class:Main_Widget
+CWU	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		{ LSB, USB, DSB, CWL, CWU, FMN, AM, DIGU, SPEC, DIGL, SAM, DRM }; $/;"	e	enum:Main_Widget::modes
+CWU_filter_h	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		int CWU_filter_l, CWU_filter_h;$/;"	m	class:Main_Widget
+CWU_filter_l	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		int CWU_filter_l, CWU_filter_h;$/;"	m	class:Main_Widget
+CWU_label	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		VariModelabel *CWU_label;$/;"	m	class:Main_Widget
+DEFSPEC	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^#define DEFSPEC /;"	d
+DIGL	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		{ LSB, USB, DSB, CWL, CWU, FMN, AM, DIGU, SPEC, DIGL, SAM, DRM }; $/;"	e	enum:Main_Widget::modes
+DIGU	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		{ LSB, USB, DSB, CWL, CWU, FMN, AM, DIGU, SPEC, DIGL, SAM, DRM }; $/;"	e	enum:Main_Widget::modes
+DRM	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		{ LSB, USB, DSB, CWL, CWU, FMN, AM, DIGU, SPEC, DIGL, SAM, DRM }; $/;"	e	enum:Main_Widget::modes
+DSB	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		{ LSB, USB, DSB, CWL, CWU, FMN, AM, DIGU, SPEC, DIGL, SAM, DRM }; $/;"	e	enum:Main_Widget::modes
+DSB_filter_h	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		int DSB_filter_l, DSB_filter_h;$/;"	m	class:Main_Widget
+DSB_filter_l	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		int DSB_filter_l, DSB_filter_h;$/;"	m	class:Main_Widget
+DSB_label	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		VariModelabel *DSB_label;$/;"	m	class:Main_Widget
+EXPONENTIAL_WINDOW	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		    EXPONENTIAL_WINDOW,$/;"	e	enum:Main_Widget::_windowtype
+FFT_FILE	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^#define FFT_FILE /;"	d
+FILTER_H	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		enum kb_state { RX_F, TX_F, FILTER_L, FILTER_H };$/;"	e	enum:Main_Widget::kb_state
+FILTER_L	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		enum kb_state { RX_F, TX_F, FILTER_L, FILTER_H };$/;"	e	enum:Main_Widget::kb_state
+FMN	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		{ LSB, USB, DSB, CWL, CWU, FMN, AM, DIGU, SPEC, DIGL, SAM, DRM }; $/;"	e	enum:Main_Widget::modes
+FMN_filter_h	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		int FMN_filter_l, FMN_filter_h;$/;"	m	class:Main_Widget
+FMN_filter_l	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		int FMN_filter_l, FMN_filter_h;$/;"	m	class:Main_Widget
+FMN_label	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		VariModelabel *FMN_label;$/;"	m	class:Main_Widget
+HAMLIBWRAPPER_H	/home/frohro/Projects/sdr-shell-v2b/src/hamlibwrapper.h	/^#define HAMLIBWRAPPER_H$/;"	d
+HAMMING_WINDOW	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		    HAMMING_WINDOW,$/;"	e	enum:Main_Widget::_windowtype
+HANNING_WINDOW	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		    HANNING_WINDOW,$/;"	e	enum:Main_Widget::_windowtype
+LSB	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		{ LSB, USB, DSB, CWL, CWU, FMN, AM, DIGU, SPEC, DIGL, SAM, DRM }; $/;"	e	enum:Main_Widget::modes
+LSB_filter_h	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		int LSB_filter_l, LSB_filter_h;$/;"	m	class:Main_Widget
+LSB_filter_l	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		int LSB_filter_l, LSB_filter_h;$/;"	m	class:Main_Widget
+LSB_label	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		VariModelabel *LSB_label;$/;"	m	class:Main_Widget
+MAXRX	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^#define MAXRX /;"	d
+MEMORYCELL_H	/home/frohro/Projects/sdr-shell-v2b/src/memorycell.h	/^#define MEMORYCELL_H$/;"	d
+MOONPROPAGATOR_H	/home/frohro/Projects/sdr-shell-v2b/src/moonpropagator.h	/^#define MOONPROPAGATOR_H$/;"	d
+MTR_FILE	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^#define MTR_FILE /;"	d
+MUTE_label	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		Varilabel *MUTE_label;$/;"	m	class:Main_Widget
+MUTE_state	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		int MUTE_state;$/;"	m	class:Main_Widget
+M_label	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		QLabel *M_label;$/;"	m	class:Main_Widget
+Main_Widget	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.cpp	/^Main_Widget::Main_Widget ( QWidget *parent, const char *name )$/;"	f	class:Main_Widget
+Main_Widget	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		Main_Widget ( QWidget *parent = 0, const char *name = 0 );$/;"	p	class:Main_Widget
+Main_Widget	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^class Main_Widget : public QWidget$/;"	c
+MemoryCell	/home/frohro/Projects/sdr-shell-v2b/src/memorycell.cpp	/^MemoryCell::MemoryCell(QWidget *parent, const char *name) : QLabel(parent, name)$/;"	f	class:MemoryCell
+MemoryCell	/home/frohro/Projects/sdr-shell-v2b/src/memorycell.h	/^        MemoryCell(QWidget *parent = 0, const char *name = 0);$/;"	p	class:MemoryCell
+MemoryCell	/home/frohro/Projects/sdr-shell-v2b/src/memorycell.h	/^class MemoryCell : public QLabel$/;"	c
+MoonPropagator	/home/frohro/Projects/sdr-shell-v2b/src/moonpropagator.cpp	/^MoonPropagator::MoonPropagator()$/;"	f	class:MoonPropagator
+MoonPropagator	/home/frohro/Projects/sdr-shell-v2b/src/moonpropagator.h	/^   MoonPropagator();$/;"	p	class:MoonPropagator
+MoonPropagator	/home/frohro/Projects/sdr-shell-v2b/src/moonpropagator.h	/^class MoonPropagator$/;"	c
+NB_label	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		Varilabel *NB_label;$/;"	m	class:Main_Widget
+NB_state	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		int NB_state;$/;"	m	class:Main_Widget
+NR_label	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		Varilabel *NR_label;$/;"	m	class:Main_Widget
+NR_state	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		int NR_state;$/;"	m	class:Main_Widget
+NUM_MODES	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^#define NUM_MODES /;"	d
+NUTTALL_WINDOW	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		    NUTTALL_WINDOW,$/;"	e	enum:Main_Widget::_windowtype
+PARZEN_WINDOW	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		    PARZEN_WINDOW,$/;"	e	enum:Main_Widget::_windowtype
+POST_FILT	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		enum spec_type { SEMI_RAW, PRE_FILT, POST_FILT };$/;"	e	enum:Main_Widget::spec_type
+PRE_FILT	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		enum spec_type { SEMI_RAW, PRE_FILT, POST_FILT };$/;"	e	enum:Main_Widget::spec_type
+PassBandScale	/home/frohro/Projects/sdr-shell-v2b/src/pbscale.cpp	/^PassBandScale::PassBandScale(QWidget *parent, const char *name, WFlags f ) $/;"	f	class:PassBandScale
+PassBandScale	/home/frohro/Projects/sdr-shell-v2b/src/pbscale.h	/^	PassBandScale(QWidget *parent = 0, const char *name = 0, WFlags f = 0 );$/;"	p	class:PassBandScale
+PassBandScale	/home/frohro/Projects/sdr-shell-v2b/src/pbscale.h	/^class PassBandScale : public QWidget$/;"	c
+QT_NO_COMPAT	/home/frohro/Projects/sdr-shell-v2b/src/moc_hamlibwrapper.cpp	/^#undef QT_NO_COMPAT$/;"	d	file:
+QT_NO_COMPAT	/home/frohro/Projects/sdr-shell-v2b/src/moc_main_widget.cpp	/^#undef QT_NO_COMPAT$/;"	d	file:
+QT_NO_COMPAT	/home/frohro/Projects/sdr-shell-v2b/src/moc_memorycell.cpp	/^#undef QT_NO_COMPAT$/;"	d	file:
+QT_NO_COMPAT	/home/frohro/Projects/sdr-shell-v2b/src/moc_pbscale.cpp	/^#undef QT_NO_COMPAT$/;"	d	file:
+QT_NO_COMPAT	/home/frohro/Projects/sdr-shell-v2b/src/moc_spectrogram.cpp	/^#undef QT_NO_COMPAT$/;"	d	file:
+QT_NO_COMPAT	/home/frohro/Projects/sdr-shell-v2b/src/moc_spectrum.cpp	/^#undef QT_NO_COMPAT$/;"	d	file:
+QT_NO_COMPAT	/home/frohro/Projects/sdr-shell-v2b/src/moc_varilabel.cpp	/^#undef QT_NO_COMPAT$/;"	d	file:
+QT_NO_COMPAT	/home/frohro/Projects/sdr-shell-v2b/src/moc_worldmap.cpp	/^#undef QT_NO_COMPAT$/;"	d	file:
+RECTANGULAR_WINDOW	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		    RECTANGULAR_WINDOW,$/;"	e	enum:Main_Widget::_windowtype
+RIEMANN_WINDOW	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		    RIEMANN_WINDOW,$/;"	e	enum:Main_Widget::_windowtype
+RIGCONFIG_H	/home/frohro/Projects/sdr-shell-v2b/src/rigconfig.h	/^#define RIGCONFIG_H$/;"	d
+RXMETERPTS	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^#define RXMETERPTS /;"	d
+RX_F	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		enum kb_state { RX_F, TX_F, FILTER_L, FILTER_H };$/;"	e	enum:Main_Widget::kb_state
+S1	/home/frohro/Projects/sdr-shell-v2b/src/constants.h	/^#define S1 /;"	d
+SAM	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		{ LSB, USB, DSB, CWL, CWU, FMN, AM, DIGU, SPEC, DIGL, SAM, DRM }; $/;"	e	enum:Main_Widget::modes
+SAM_filter_h	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		int SAM_filter_l, SAM_filter_h;$/;"	m	class:Main_Widget
+SAM_filter_l	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		int SAM_filter_l, SAM_filter_h;$/;"	m	class:Main_Widget
+SAM_label	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		VariModelabel *SAM_label;$/;"	m	class:Main_Widget
+SDXCVR_MAINWIDGET_H	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^#define SDXCVR_MAINWIDGET_H$/;"	d
+SDXCVR_PBSCALE_H	/home/frohro/Projects/sdr-shell-v2b/src/pbscale.h	/^#define SDXCVR_PBSCALE_H$/;"	d
+SDXCVR_SPECTROGRAM_H	/home/frohro/Projects/sdr-shell-v2b/src/spectrogram.h	/^#define SDXCVR_SPECTROGRAM_H$/;"	d
+SDXCVR_SPECTRUM_H	/home/frohro/Projects/sdr-shell-v2b/src/spectrum.h	/^#define SDXCVR_SPECTRUM_H$/;"	d
+SEMI_RAW	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		enum spec_type { SEMI_RAW, PRE_FILT, POST_FILT };$/;"	e	enum:Main_Widget::spec_type
+SPEC	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		{ LSB, USB, DSB, CWL, CWU, FMN, AM, DIGU, SPEC, DIGL, SAM, DRM }; $/;"	e	enum:Main_Widget::modes
+SPECTRUM_HISTORY_SIZE	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^#define SPECTRUM_HISTORY_SIZE /;"	d
+SPEC_label	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		Varilabel *SPEC_label;$/;"	m	class:Main_Widget
+SPEC_state	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		int SPEC_state;$/;"	m	class:Main_Widget
+SUNPROPAGATOR_H	/home/frohro/Projects/sdr-shell-v2b/src/sunpropagator.h	/^#define SUNPROPAGATOR_H$/;"	d
+Spacer_label	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		QLabel *Spacer_label;$/;"	m	class:Main_Widget
+Spectrogram	/home/frohro/Projects/sdr-shell-v2b/src/spectrogram.cpp	/^Spectrogram::Spectrogram(QWidget *parent, const char *name) : QWidget(parent, name)$/;"	f	class:Spectrogram
+Spectrogram	/home/frohro/Projects/sdr-shell-v2b/src/spectrogram.h	/^        Spectrogram(QWidget *parent = 0, const char *name = 0);$/;"	p	class:Spectrogram
+Spectrogram	/home/frohro/Projects/sdr-shell-v2b/src/spectrogram.h	/^class Spectrogram : public QWidget$/;"	c
+Spectrum	/home/frohro/Projects/sdr-shell-v2b/src/spectrum.cpp	/^Spectrum::Spectrum( QWidget *parent, const char *name, WFlags f ) $/;"	f	class:Spectrum
+Spectrum	/home/frohro/Projects/sdr-shell-v2b/src/spectrum.h	/^        Spectrum(QWidget *parent = 0, const char *name = 0, WFlags f = 0 );$/;"	p	class:Spectrum
+Spectrum	/home/frohro/Projects/sdr-shell-v2b/src/spectrum.h	/^class Spectrum : public QWidget$/;"	c
+SunPropagator	/home/frohro/Projects/sdr-shell-v2b/src/sunpropagator.cpp	/^SunPropagator::SunPropagator()$/;"	f	class:SunPropagator
+SunPropagator	/home/frohro/Projects/sdr-shell-v2b/src/sunpropagator.h	/^   SunPropagator();$/;"	p	class:SunPropagator
+SunPropagator	/home/frohro/Projects/sdr-shell-v2b/src/sunpropagator.h	/^class SunPropagator$/;"	c
+TP	/home/frohro/Projects/sdr-shell-v2b/src/constants.h	/^#define TP /;"	d
+TRXWIDGET_H	/home/frohro/Projects/sdr-shell-v2b/src/trxwidget.h	/^#define TRXWIDGET_H$/;"	d
+TXMETERPTS	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^#define TXMETERPTS /;"	d
+TX_F	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		enum kb_state { RX_F, TX_F, FILTER_L, FILTER_H };$/;"	e	enum:Main_Widget::kb_state
+USB	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		{ LSB, USB, DSB, CWL, CWU, FMN, AM, DIGU, SPEC, DIGL, SAM, DRM }; $/;"	e	enum:Main_Widget::modes
+USB_filter_h	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		int USB_filter_l, USB_filter_h;$/;"	m	class:Main_Widget
+USB_filter_l	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		int USB_filter_l, USB_filter_h;$/;"	m	class:Main_Widget
+USB_label	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		VariModelabel *USB_label;$/;"	m	class:Main_Widget
+VARILABEL_H	/home/frohro/Projects/sdr-shell-v2b/src/varilabel.h	/^#define VARILABEL_H$/;"	d
+VariModelabel	/home/frohro/Projects/sdr-shell-v2b/src/varilabel.cpp	/^VariModelabel::VariModelabel(QWidget *parent, const char *name) : Varilabel (parent, name)$/;"	f	class:VariModelabel
+VariModelabel	/home/frohro/Projects/sdr-shell-v2b/src/varilabel.h	/^		VariModelabel(QWidget *parent = 0, const char *name = 0);$/;"	p	class:VariModelabel
+VariModelabel	/home/frohro/Projects/sdr-shell-v2b/src/varilabel.h	/^class VariModelabel : public Varilabel$/;"	c
+Varilabel	/home/frohro/Projects/sdr-shell-v2b/src/varilabel.cpp	/^Varilabel::Varilabel(QWidget *parent, const char *name) : QLabel(parent, name)$/;"	f	class:Varilabel
+Varilabel	/home/frohro/Projects/sdr-shell-v2b/src/varilabel.h	/^        Varilabel(QWidget *parent = 0, const char *name = 0);$/;"	p	class:Varilabel
+Varilabel	/home/frohro/Projects/sdr-shell-v2b/src/varilabel.h	/^class Varilabel : public QLabel$/;"	c
+WELCH_WINDOW	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		    WELCH_WINDOW,$/;"	e	enum:Main_Widget::_windowtype
+WORLDMAP_H	/home/frohro/Projects/sdr-shell-v2b/src/worldmap.h	/^#define WORLDMAP_H$/;"	d
+Windowtype	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^	} Windowtype;$/;"	t	class:Main_Widget	typeref:enum:Main_Widget::_windowtype
+WorldMap	/home/frohro/Projects/sdr-shell-v2b/src/worldmap.cpp	/^WorldMap::WorldMap(QWidget *parent, const char *name) : QFrame(parent, name)$/;"	f	class:WorldMap
+WorldMap	/home/frohro/Projects/sdr-shell-v2b/src/worldmap.h	/^        WorldMap(QWidget *parent = 0, const char *name = 0);$/;"	p	class:WorldMap
+WorldMap	/home/frohro/Projects/sdr-shell-v2b/src/worldmap.h	/^class WorldMap : public QFrame$/;"	c
+_windowtype	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		typedef enum _windowtype {$/;"	g	class:Main_Widget
+addRigToList	/home/frohro/Projects/sdr-shell-v2b/src/rigconfig.cpp	/^int rigConfig::addRigToList(const struct rig_caps* caps, void* data){$/;"	f	class:rigConfig
+addRigToList	/home/frohro/Projects/sdr-shell-v2b/src/rigconfig.h	/^  static int addRigToList(const struct rig_caps* caps, void* data);$/;"	p	class:rigConfig
+addRotToList	/home/frohro/Projects/sdr-shell-v2b/src/rigconfig.cpp	/^int rigConfig::addRotToList(const struct rot_caps* caps, void* data) {$/;"	f	class:rigConfig
+addRotToList	/home/frohro/Projects/sdr-shell-v2b/src/rigconfig.h	/^  static int addRotToList(const struct rot_caps* caps, void* data);$/;"	p	class:rigConfig
+af1_label	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		QLabel *af1_label;$/;"	m	class:Main_Widget
+af2_label	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		QLabel *af2_label;$/;"	m	class:Main_Widget
+af3_label	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		QLabel *af3_label;$/;"	m	class:Main_Widget
+af4_label	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		QLabel *af4_label;$/;"	m	class:Main_Widget
+af5_label	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		QLabel *af5_label;$/;"	m	class:Main_Widget
+af6_label	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		QLabel *af6_label;$/;"	m	class:Main_Widget
+af7_label	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		QLabel *af7_label;$/;"	m	class:Main_Widget
+af8_label	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		QLabel *af8_label;$/;"	m	class:Main_Widget
+agcType	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		int agcType;$/;"	m	class:Main_Widget
+agc_f_xpm	/home/frohro/Projects/sdr-shell-v2b/src/agc.h	/^static char *agc_f_xpm[]={$/;"	v
+agc_l_xpm	/home/frohro/Projects/sdr-shell-v2b/src/agc.h	/^static char *agc_l_xpm[]={$/;"	v
+agc_m_xpm	/home/frohro/Projects/sdr-shell-v2b/src/agc.h	/^static char *agc_m_xpm[]={$/;"	v
+agc_s_xpm	/home/frohro/Projects/sdr-shell-v2b/src/agc.h	/^static char *agc_s_xpm[]={$/;"	v
+am_xpm	/home/frohro/Projects/sdr-shell-v2b/src/modes.h	/^static char *am_xpm[]={$/;"	v
+anf_xpm	/home/frohro/Projects/sdr-shell-v2b/src/switches.h	/^static char *anf_xpm[]={$/;"	v
+arccos	/home/frohro/Projects/sdr-shell-v2b/src/worldmap.cpp	/^double WorldMap::arccos( double x, double y )$/;"	f	class:WorldMap
+arccos	/home/frohro/Projects/sdr-shell-v2b/src/worldmap.h	/^        double arccos( double, double );$/;"	p	class:WorldMap
+az	/home/frohro/Projects/sdr-shell-v2b/src/moonpropagator.h	/^          lh, gm, de, se, gs, dc, el, az, mm, yr, ro, mr;$/;"	m	class:MoonPropagator
+az	/home/frohro/Projects/sdr-shell-v2b/src/sunpropagator.h	/^          lh, gm, de, se, gs, dc, el[2], az[2], lat[2],$/;"	m	class:SunPropagator
+bin_xpm	/home/frohro/Projects/sdr-shell-v2b/src/switches.h	/^static char *bin_xpm[]={$/;"	v
+c	/home/frohro/Projects/sdr-shell-v2b/src/sunpropagator.h	/^   double c, ms, t1, t2, t3, ew, e, n, si, co, ra, gh,$/;"	m	class:SunPropagator
+calculateSunFootprint	/home/frohro/Projects/sdr-shell-v2b/src/worldmap.cpp	/^void WorldMap::calculateSunFootprint()$/;"	f	class:WorldMap
+calculateSunFootprint	/home/frohro/Projects/sdr-shell-v2b/src/worldmap.h	/^        void calculateSunFootprint();$/;"	p	class:WorldMap
+calibrateMetr	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.cpp	/^void Main_Widget::calibrateMetr ( int value )$/;"	f	class:Main_Widget
+calibrateMetr	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		void calibrateMetr ( int );$/;"	p	class:Main_Widget
+calibrateSpec	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.cpp	/^void Main_Widget::calibrateSpec ( int value )$/;"	f	class:Main_Widget
+calibrateSpec	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		void calibrateSpec ( int );$/;"	p	class:Main_Widget
+callsignLabel	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		QLabel *callsignLabel;$/;"	m	class:Main_Widget
+cfgCallInput	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		QLineEdit *cfgCallInput, *cfgLOFreqInput, *cfgIFreqInput, *cfgHamlibRigInput, *cfgHamlibSpeedInput, *cfgHamlibPortInput;$/;"	m	class:Main_Widget
+cfgFrame	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		QFrame *cfgFrame;$/;"	m	class:Main_Widget
+cfgHamlibPortInput	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		QLineEdit *cfgCallInput, *cfgLOFreqInput, *cfgIFreqInput, *cfgHamlibRigInput, *cfgHamlibSpeedInput, *cfgHamlibPortInput;$/;"	m	class:Main_Widget
+cfgHamlibRigInput	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		QLineEdit *cfgCallInput, *cfgLOFreqInput, *cfgIFreqInput, *cfgHamlibRigInput, *cfgHamlibSpeedInput, *cfgHamlibPortInput;$/;"	m	class:Main_Widget
+cfgHamlibSpeedInput	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		QLineEdit *cfgCallInput, *cfgLOFreqInput, *cfgIFreqInput, *cfgHamlibRigInput, *cfgHamlibSpeedInput, *cfgHamlibPortInput;$/;"	m	class:Main_Widget
+cfgIFreqInput	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		QLineEdit *cfgCallInput, *cfgLOFreqInput, *cfgIFreqInput, *cfgHamlibRigInput, *cfgHamlibSpeedInput, *cfgHamlibPortInput;$/;"	m	class:Main_Widget
+cfgIQGainInput	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		QSpinBox *cfgIQPhaseInput, *cfgIQGainInput;$/;"	m	class:Main_Widget
+cfgIQPhaseInput	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		QSpinBox *cfgIQPhaseInput, *cfgIQGainInput;$/;"	m	class:Main_Widget
+cfgLOFreqInput	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		QLineEdit *cfgCallInput, *cfgLOFreqInput, *cfgIFreqInput, *cfgHamlibRigInput, *cfgHamlibSpeedInput, *cfgHamlibPortInput;$/;"	m	class:Main_Widget
+cfgPortLabel	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		QLabel *cfgPortLabel;$/;"	m	class:Main_Widget
+cfgRigLabel	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		QLabel *cfgRigLabel;$/;"	m	class:Main_Widget
+cfgSpeedLabel	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		QLabel *cfgSpeedLabel;$/;"	m	class:Main_Widget
+changeRigMode	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		void changeRigMode (rmode_t, pbwidth_t );$/;"	p	class:Main_Widget
+changeRigMode	/home/frohro/Projects/sdr-shell-v2b/src/moc_main_widget.cpp	/^void Main_Widget::changeRigMode( rmode_t t0, pbwidth_t t1 )$/;"	f	class:Main_Widget
+className	/home/frohro/Projects/sdr-shell-v2b/src/moc_hamlibwrapper.cpp	/^const char *hamlibWrapper::className() const$/;"	f	class:hamlibWrapper
+className	/home/frohro/Projects/sdr-shell-v2b/src/moc_main_widget.cpp	/^const char *Main_Widget::className() const$/;"	f	class:Main_Widget
+className	/home/frohro/Projects/sdr-shell-v2b/src/moc_memorycell.cpp	/^const char *MemoryCell::className() const$/;"	f	class:MemoryCell
+className	/home/frohro/Projects/sdr-shell-v2b/src/moc_pbscale.cpp	/^const char *PassBandScale::className() const$/;"	f	class:PassBandScale
+className	/home/frohro/Projects/sdr-shell-v2b/src/moc_spectrogram.cpp	/^const char *Spectrogram::className() const$/;"	f	class:Spectrogram
+className	/home/frohro/Projects/sdr-shell-v2b/src/moc_spectrum.cpp	/^const char *Spectrum::className() const$/;"	f	class:Spectrum
+className	/home/frohro/Projects/sdr-shell-v2b/src/moc_varilabel.cpp	/^const char *VariModelabel::className() const$/;"	f	class:VariModelabel
+className	/home/frohro/Projects/sdr-shell-v2b/src/moc_varilabel.cpp	/^const char *Varilabel::className() const$/;"	f	class:Varilabel
+className	/home/frohro/Projects/sdr-shell-v2b/src/moc_worldmap.cpp	/^const char *WorldMap::className() const$/;"	f	class:WorldMap
+closeEvent	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.cpp	/^void Main_Widget::closeEvent ( QCloseEvent * )$/;"	f	class:Main_Widget
+closeEvent	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		void closeEvent ( QCloseEvent * );$/;"	p	class:Main_Widget
+cmdFile	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		FILE *cmdFile;$/;"	m	class:Main_Widget
+cmdFrame	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		QFrame *cmdFrame;$/;"	m	class:Main_Widget
+cmdLabel	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		QLabel *cmdLabel;$/;"	m	class:Main_Widget
+cmdStream	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		QTextStream cmdStream;$/;"	m	class:Main_Widget
+co	/home/frohro/Projects/sdr-shell-v2b/src/moonpropagator.h	/^   double t1, t2, t3, ew, en, e, n, si, co, ra, gh,$/;"	m	class:MoonPropagator
+co	/home/frohro/Projects/sdr-shell-v2b/src/sunpropagator.h	/^   double c, ms, t1, t2, t3, ew, e, n, si, co, ra, gh,$/;"	m	class:SunPropagator
+compute	/home/frohro/Projects/sdr-shell-v2b/src/worldmap.cpp	/^void WorldMap::compute()$/;"	f	class:WorldMap
+compute	/home/frohro/Projects/sdr-shell-v2b/src/worldmap.h	/^        void compute();$/;"	p	class:WorldMap
+configTable	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		QTable *configTable;$/;"	m	class:Main_Widget
+ctlFrame	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		QFrame *ctlFrame;$/;"	m	class:Main_Widget
+ctlFrame2	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		QFrame *ctlFrame2;$/;"	m	class:Main_Widget
+currenttransponder	/home/frohro/Projects/sdr-shell-v2b/src/trxwidget.h	/^  transponder* currenttransponder;$/;"	m	class:trxWidget
+cwl_xpm	/home/frohro/Projects/sdr-shell-v2b/src/modes.h	/^static char *cwl_xpm[]={$/;"	v
+cwu_xpm	/home/frohro/Projects/sdr-shell-v2b/src/modes.h	/^static char *cwu_xpm[]={$/;"	v
+daynum	/home/frohro/Projects/sdr-shell-v2b/src/moonpropagator.h	/^   double daynum;$/;"	m	class:MoonPropagator
+daynum	/home/frohro/Projects/sdr-shell-v2b/src/sunpropagator.h	/^   double daynum;$/;"	m	class:SunPropagator
+dc	/home/frohro/Projects/sdr-shell-v2b/src/moonpropagator.h	/^          lh, gm, de, se, gs, dc, el, az, mm, yr, ro, mr;$/;"	m	class:MoonPropagator
+dc	/home/frohro/Projects/sdr-shell-v2b/src/sunpropagator.h	/^          lh, gm, de, se, gs, dc, el[2], az[2], lat[2],$/;"	m	class:SunPropagator
+de	/home/frohro/Projects/sdr-shell-v2b/src/moonpropagator.h	/^          lh, gm, de, se, gs, dc, el, az, mm, yr, ro, mr;$/;"	m	class:MoonPropagator
+de	/home/frohro/Projects/sdr-shell-v2b/src/sunpropagator.h	/^          lh, gm, de, se, gs, dc, el[2], az[2], lat[2],$/;"	m	class:SunPropagator
+deg2rad	/home/frohro/Projects/sdr-shell-v2b/src/constants.h	/^#define deg2rad /;"	d
+display	/home/frohro/Projects/sdr-shell-v2b/src/memorycell.h	/^        void display( MemoryCell * );$/;"	p	class:MemoryCell
+display	/home/frohro/Projects/sdr-shell-v2b/src/moc_memorycell.cpp	/^void MemoryCell::display( MemoryCell* t0 )$/;"	f	class:MemoryCell
+displayMem	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.cpp	/^void Main_Widget::displayMem ( MemoryCell *m )$/;"	f	class:Main_Widget
+displayMem	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		void displayMem ( MemoryCell * );$/;"	p	class:Main_Widget
+displayNCO	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.cpp	/^void Main_Widget::displayNCO ( int x )$/;"	f	class:Main_Widget
+displayNCO	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		void displayNCO ( int );$/;"	p	class:Main_Widget
+dottedFrequency	/home/frohro/Projects/sdr-shell-v2b/src/trxwidget.cpp	/^QString trxWidget::dottedFrequency(double freq){$/;"	f	class:trxWidget
+dottedFrequency	/home/frohro/Projects/sdr-shell-v2b/src/trxwidget.h	/^  QString dottedFrequency(double freq);$/;"	p	class:trxWidget
+downlinkfrequency	/home/frohro/Projects/sdr-shell-v2b/src/trxwidget.h	/^  double uplinkfrequency, downlinkfrequency;$/;"	m	class:trxWidget
+drawMap	/home/frohro/Projects/sdr-shell-v2b/src/worldmap.cpp	/^void WorldMap::drawMap()$/;"	f	class:WorldMap
+drawMap	/home/frohro/Projects/sdr-shell-v2b/src/worldmap.h	/^        void drawMap();$/;"	p	class:WorldMap
+drawPassBandScale	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.cpp	/^void Main_Widget::drawPassBandScale()$/;"	f	class:Main_Widget
+drawPassBandScale	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		void drawPassBandScale();$/;"	p	class:Main_Widget
+drawSpectrogram	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.cpp	/^void Main_Widget::drawSpectrogram()$/;"	f	class:Main_Widget
+drawSpectrogram	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		void drawSpectrogram();$/;"	p	class:Main_Widget
+drawSpectrogram_2	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		void drawSpectrogram_2();$/;"	p	class:Main_Widget
+drawSpectrumScale	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		void drawSpectrumScale();$/;"	p	class:Main_Widget
+drawSpectrumScale_2	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		void drawSpectrumScale_2();$/;"	p	class:Main_Widget
+dsb_xpm	/home/frohro/Projects/sdr-shell-v2b/src/modes.h	/^static char *dsb_xpm[]={$/;"	v
+e	/home/frohro/Projects/sdr-shell-v2b/src/moonpropagator.h	/^   double t1, t2, t3, ew, en, e, n, si, co, ra, gh,$/;"	m	class:MoonPropagator
+e	/home/frohro/Projects/sdr-shell-v2b/src/sunpropagator.h	/^   double c, ms, t1, t2, t3, ew, e, n, si, co, ra, gh,$/;"	m	class:SunPropagator
+el	/home/frohro/Projects/sdr-shell-v2b/src/moonpropagator.h	/^          lh, gm, de, se, gs, dc, el, az, mm, yr, ro, mr;$/;"	m	class:MoonPropagator
+el	/home/frohro/Projects/sdr-shell-v2b/src/sunpropagator.h	/^          lh, gm, de, se, gs, dc, el[2], az[2], lat[2],$/;"	m	class:SunPropagator
+en	/home/frohro/Projects/sdr-shell-v2b/src/moonpropagator.h	/^   double t1, t2, t3, ew, en, e, n, si, co, ra, gh,$/;"	m	class:MoonPropagator
+enterEvent	/home/frohro/Projects/sdr-shell-v2b/src/memorycell.cpp	/^void MemoryCell::enterEvent( QEvent * )$/;"	f	class:MemoryCell
+enterEvent	/home/frohro/Projects/sdr-shell-v2b/src/memorycell.h	/^        void enterEvent ( QEvent * );$/;"	p	class:MemoryCell
+ew	/home/frohro/Projects/sdr-shell-v2b/src/moonpropagator.h	/^   double t1, t2, t3, ew, en, e, n, si, co, ra, gh,$/;"	m	class:MoonPropagator
+ew	/home/frohro/Projects/sdr-shell-v2b/src/sunpropagator.h	/^   double c, ms, t1, t2, t3, ew, e, n, si, co, ra, gh,$/;"	m	class:SunPropagator
+f1_cell	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		MemoryCell *f1_cell;$/;"	m	class:Main_Widget
+f2_cell	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		MemoryCell *f2_cell;$/;"	m	class:Main_Widget
+f3_cell	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		MemoryCell *f3_cell;$/;"	m	class:Main_Widget
+f4_cell	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		MemoryCell *f4_cell;$/;"	m	class:Main_Widget
+f5_cell	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		MemoryCell *f5_cell;$/;"	m	class:Main_Widget
+f6_cell	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		MemoryCell *f6_cell;$/;"	m	class:Main_Widget
+f7_cell	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		MemoryCell *f7_cell;$/;"	m	class:Main_Widget
+f8_cell	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		MemoryCell *f8_cell;$/;"	m	class:Main_Widget
+f_at_mousepointer	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.cpp	/^void Main_Widget::f_at_mousepointer ( int x )$/;"	f	class:Main_Widget
+f_at_mousepointer	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		void f_at_mousepointer ( int );$/;"	p	class:Main_Widget
+f_label	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		QLabel *f_label;$/;"	m	class:Main_Widget
+fftFile	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		FILE *fftFile;$/;"	m	class:Main_Widget
+fftWindow	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		int fftWindow;$/;"	m	class:Main_Widget
+filterFrame	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		QFrame *filterFrame;$/;"	m	class:Main_Widget
+filterLine	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		int filterLine;$/;"	m	class:Main_Widget
+filter_h	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		int *filter_l, *filter_h, filter_w;$/;"	m	class:Main_Widget
+filter_h	/home/frohro/Projects/sdr-shell-v2b/src/memorycell.h	/^        int filter_h;$/;"	m	class:MemoryCell
+filter_l	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		int *filter_l, *filter_h, filter_w;$/;"	m	class:Main_Widget
+filter_l	/home/frohro/Projects/sdr-shell-v2b/src/memorycell.h	/^        int filter_l;$/;"	m	class:MemoryCell
+filter_w	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		int *filter_l, *filter_h, filter_w;$/;"	m	class:Main_Widget
+finish	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.cpp	/^void Main_Widget::finish()$/;"	f	class:Main_Widget
+finish	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		void finish();$/;"	p	class:Main_Widget
+fixAngle	/home/frohro/Projects/sdr-shell-v2b/src/moonpropagator.cpp	/^double MoonPropagator::fixAngle( double x )$/;"	f	class:MoonPropagator
+fixAngle	/home/frohro/Projects/sdr-shell-v2b/src/moonpropagator.h	/^   double fixAngle( double x );$/;"	p	class:MoonPropagator
+fixAngle	/home/frohro/Projects/sdr-shell-v2b/src/sunpropagator.h	/^   double fixAngle( double x );$/;"	p	class:SunPropagator
+fmn_xpm	/home/frohro/Projects/sdr-shell-v2b/src/modes.h	/^static char *fmn_xpm[]={$/;"	v
+focusInEvent	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.cpp	/^void Main_Widget::focusInEvent ( QFocusEvent * )$/;"	f	class:Main_Widget
+focusInEvent	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		void focusInEvent ( QFocusEvent * );$/;"	p	class:Main_Widget
+focusOutEvent	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.cpp	/^void Main_Widget::focusOutEvent ( QFocusEvent * )$/;"	f	class:Main_Widget
+focusOutEvent	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		void focusOutEvent ( QFocusEvent * );$/;"	p	class:Main_Widget
+font	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		QFont *font;$/;"	m	class:Main_Widget
+font1	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		QFont *font1;$/;"	m	class:Main_Widget
+font1Metrics	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		QFontMetrics *font1Metrics;$/;"	m	class:Main_Widget
+font1PointSize	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		int font1PointSize;$/;"	m	class:Main_Widget
+freq	/home/frohro/Projects/sdr-shell-v2b/src/hamlibwrapper.h	/^		double freq, getfreq;$/;"	m	class:hamlibWrapper
+frequency	/home/frohro/Projects/sdr-shell-v2b/src/memorycell.h	/^        long long int frequency;$/;"	m	class:MemoryCell
+getAz	/home/frohro/Projects/sdr-shell-v2b/src/moonpropagator.cpp	/^double MoonPropagator::getAz()$/;"	f	class:MoonPropagator
+getAz	/home/frohro/Projects/sdr-shell-v2b/src/moonpropagator.h	/^   double getAz();$/;"	p	class:MoonPropagator
+getAz	/home/frohro/Projects/sdr-shell-v2b/src/sunpropagator.cpp	/^double SunPropagator::getAz()$/;"	f	class:SunPropagator
+getAz	/home/frohro/Projects/sdr-shell-v2b/src/sunpropagator.h	/^   double getAz();$/;"	p	class:SunPropagator
+getDownlinkFrequency	/home/frohro/Projects/sdr-shell-v2b/src/trxwidget.cpp	/^double trxWidget::getDownlinkFrequency() {$/;"	f	class:trxWidget
+getDownlinkFrequency	/home/frohro/Projects/sdr-shell-v2b/src/trxwidget.h	/^  double getDownlinkFrequency();$/;"	p	class:trxWidget
+getEl	/home/frohro/Projects/sdr-shell-v2b/src/moonpropagator.cpp	/^double MoonPropagator::getEl()$/;"	f	class:MoonPropagator
+getEl	/home/frohro/Projects/sdr-shell-v2b/src/moonpropagator.h	/^   double getEl();$/;"	p	class:MoonPropagator
+getEl	/home/frohro/Projects/sdr-shell-v2b/src/sunpropagator.cpp	/^double SunPropagator::getEl()$/;"	f	class:SunPropagator
+getEl	/home/frohro/Projects/sdr-shell-v2b/src/sunpropagator.h	/^   double getEl();$/;"	p	class:SunPropagator
+getFilter_h	/home/frohro/Projects/sdr-shell-v2b/src/memorycell.cpp	/^int MemoryCell::getFilter_h()$/;"	f	class:MemoryCell
+getFilter_h	/home/frohro/Projects/sdr-shell-v2b/src/memorycell.h	/^        int getFilter_h(); $/;"	p	class:MemoryCell
+getFilter_l	/home/frohro/Projects/sdr-shell-v2b/src/memorycell.cpp	/^int MemoryCell::getFilter_l()$/;"	f	class:MemoryCell
+getFilter_l	/home/frohro/Projects/sdr-shell-v2b/src/memorycell.h	/^        int getFilter_l();$/;"	p	class:MemoryCell
+getFrequency	/home/frohro/Projects/sdr-shell-v2b/src/memorycell.cpp	/^long long int MemoryCell::getFrequency()$/;"	f	class:MemoryCell
+getFrequency	/home/frohro/Projects/sdr-shell-v2b/src/memorycell.h	/^        long long int getFrequency();        $/;"	p	class:MemoryCell
+getHardwareFrequency	/home/frohro/Projects/sdr-shell-v2b/src/hamlibwrapper.cpp	/^freq_t hamlibWrapper::getHardwareFrequency()$/;"	f	class:hamlibWrapper
+getHardwareFrequency	/home/frohro/Projects/sdr-shell-v2b/src/hamlibwrapper.h	/^		freq_t getHardwareFrequency();$/;"	p	class:hamlibWrapper
+getID	/home/frohro/Projects/sdr-shell-v2b/src/memorycell.cpp	/^int MemoryCell::getID()$/;"	f	class:MemoryCell
+getID	/home/frohro/Projects/sdr-shell-v2b/src/memorycell.h	/^        int getID();$/;"	p	class:MemoryCell
+getLat	/home/frohro/Projects/sdr-shell-v2b/src/moonpropagator.cpp	/^double MoonPropagator::getLat()$/;"	f	class:MoonPropagator
+getLat	/home/frohro/Projects/sdr-shell-v2b/src/moonpropagator.h	/^   double getLat();$/;"	p	class:MoonPropagator
+getLat	/home/frohro/Projects/sdr-shell-v2b/src/sunpropagator.cpp	/^double SunPropagator::getLat()$/;"	f	class:SunPropagator
+getLat	/home/frohro/Projects/sdr-shell-v2b/src/sunpropagator.h	/^   double getLat();$/;"	p	class:SunPropagator
+getLon	/home/frohro/Projects/sdr-shell-v2b/src/moonpropagator.cpp	/^double MoonPropagator::getLon()$/;"	f	class:MoonPropagator
+getLon	/home/frohro/Projects/sdr-shell-v2b/src/moonpropagator.h	/^   double getLon();$/;"	p	class:MoonPropagator
+getLon	/home/frohro/Projects/sdr-shell-v2b/src/sunpropagator.cpp	/^double SunPropagator::getLon()$/;"	f	class:SunPropagator
+getLon	/home/frohro/Projects/sdr-shell-v2b/src/sunpropagator.h	/^   double getLon();$/;"	p	class:SunPropagator
+getMemo	/home/frohro/Projects/sdr-shell-v2b/src/memorycell.h	/^        int getMemo();$/;"	p	class:MemoryCell
+getMode	/home/frohro/Projects/sdr-shell-v2b/src/memorycell.cpp	/^int MemoryCell::getMode()$/;"	f	class:MemoryCell
+getMode	/home/frohro/Projects/sdr-shell-v2b/src/memorycell.h	/^        int getMode();$/;"	p	class:MemoryCell
+getMode	/home/frohro/Projects/sdr-shell-v2b/src/trxwidget.cpp	/^QString trxWidget::getMode() {$/;"	f	class:trxWidget
+getMode	/home/frohro/Projects/sdr-shell-v2b/src/trxwidget.h	/^  QString getMode();$/;"	p	class:trxWidget
+getSatellite	/home/frohro/Projects/sdr-shell-v2b/src/trxwidget.cpp	/^QString trxWidget::getSatellite() {$/;"	f	class:trxWidget
+getSatellite	/home/frohro/Projects/sdr-shell-v2b/src/trxwidget.h	/^  QString getSatellite();$/;"	p	class:trxWidget
+getUplinkFrequency	/home/frohro/Projects/sdr-shell-v2b/src/trxwidget.cpp	/^double trxWidget::getUplinkFrequency() {$/;"	f	class:trxWidget
+getUplinkFrequency	/home/frohro/Projects/sdr-shell-v2b/src/trxwidget.h	/^  double getUplinkFrequency();$/;"	p	class:trxWidget
+getfreq	/home/frohro/Projects/sdr-shell-v2b/src/hamlibwrapper.h	/^		double freq, getfreq;$/;"	m	class:hamlibWrapper
+gh	/home/frohro/Projects/sdr-shell-v2b/src/moonpropagator.h	/^   double t1, t2, t3, ew, en, e, n, si, co, ra, gh,$/;"	m	class:MoonPropagator
+gh	/home/frohro/Projects/sdr-shell-v2b/src/sunpropagator.h	/^   double c, ms, t1, t2, t3, ew, e, n, si, co, ra, gh,$/;"	m	class:SunPropagator
+gm	/home/frohro/Projects/sdr-shell-v2b/src/moonpropagator.h	/^          lh, gm, de, se, gs, dc, el, az, mm, yr, ro, mr;$/;"	m	class:MoonPropagator
+gm	/home/frohro/Projects/sdr-shell-v2b/src/sunpropagator.h	/^          lh, gm, de, se, gs, dc, el[2], az[2], lat[2],$/;"	m	class:SunPropagator
+gs	/home/frohro/Projects/sdr-shell-v2b/src/moonpropagator.h	/^          lh, gm, de, se, gs, dc, el, az, mm, yr, ro, mr;$/;"	m	class:MoonPropagator
+gs	/home/frohro/Projects/sdr-shell-v2b/src/sunpropagator.h	/^          lh, gm, de, se, gs, dc, el[2], az[2], lat[2],$/;"	m	class:SunPropagator
+hamlibWrapper	/home/frohro/Projects/sdr-shell-v2b/src/hamlibwrapper.cpp	/^hamlibWrapper::hamlibWrapper ( QWidget *parent, const char *name ) : QObject ( parent, name )$/;"	f	class:hamlibWrapper
+hamlibWrapper	/home/frohro/Projects/sdr-shell-v2b/src/hamlibwrapper.h	/^		hamlibWrapper ( QWidget *parent=0, const char *name=0 );$/;"	p	class:hamlibWrapper
+hamlibWrapper	/home/frohro/Projects/sdr-shell-v2b/src/hamlibwrapper.h	/^class hamlibWrapper : public QObject, QThread$/;"	c
+hardwareParameters	/home/frohro/Projects/sdr-shell-v2b/src/rigconfig.h	/^  s_hardware* hardwareParameters;$/;"	m	class:rigConfig
+helptext	/home/frohro/Projects/sdr-shell-v2b/src/text.h	/^char *helptext = $/;"	v
+horizon_angle	/home/frohro/Projects/sdr-shell-v2b/src/sunpropagator.h	/^          lon[2], horizon_angle, yr, ssplat, ssplon;           $/;"	m	class:SunPropagator
+id	/home/frohro/Projects/sdr-shell-v2b/src/memorycell.h	/^        int id;$/;"	m	class:MemoryCell
+init	/home/frohro/Projects/sdr-shell-v2b/src/hamlibwrapper.cpp	/^int hamlibWrapper::init ( rig_model_t rig, const char* port, int speed )$/;"	f	class:hamlibWrapper
+init	/home/frohro/Projects/sdr-shell-v2b/src/hamlibwrapper.h	/^		int init ( rig_model_t, const char* port, int speed );$/;"	p	class:hamlibWrapper
+initConstants	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.cpp	/^void Main_Widget::initConstants()$/;"	f	class:Main_Widget
+initConstants	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		void initConstants();$/;"	p	class:Main_Widget
+iqGain	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		int iqGain, iqPhase;$/;"	m	class:Main_Widget
+iqGainLabel	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		QLabel *iqGainLabel, *iqPhaseLabel;$/;"	m	class:Main_Widget
+iqPhase	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		int iqGain, iqPhase;$/;"	m	class:Main_Widget
+iqPhaseLabel	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		QLabel *iqGainLabel, *iqPhaseLabel;$/;"	m	class:Main_Widget
+kb_state	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		enum kb_state { RX_F, TX_F, FILTER_L, FILTER_H };$/;"	g	class:Main_Widget
+keyPressEvent	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.cpp	/^void Main_Widget::keyPressEvent ( QKeyEvent * e )$/;"	f	class:Main_Widget
+keyPressEvent	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		void keyPressEvent ( QKeyEvent * );$/;"	p	class:Main_Widget
+label	/home/frohro/Projects/sdr-shell-v2b/src/varilabel.h	/^		rmode_t label;$/;"	m	class:VariModelabel
+label	/home/frohro/Projects/sdr-shell-v2b/src/varilabel.h	/^        int label;$/;"	m	class:Varilabel
+lastmsg	/home/frohro/Projects/sdr-shell-v2b/src/trxwidget.h	/^  QString lastmsg;$/;"	m	class:trxWidget
+lat	/home/frohro/Projects/sdr-shell-v2b/src/sunpropagator.h	/^          lh, gm, de, se, gs, dc, el[2], az[2], lat[2],$/;"	m	class:SunPropagator
+lcd	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		QLCDNumber *lcd;$/;"	m	class:Main_Widget
+lh	/home/frohro/Projects/sdr-shell-v2b/src/moonpropagator.h	/^          lh, gm, de, se, gs, dc, el, az, mm, yr, ro, mr;$/;"	m	class:MoonPropagator
+lh	/home/frohro/Projects/sdr-shell-v2b/src/sunpropagator.h	/^          lh, gm, de, se, gs, dc, el[2], az[2], lat[2],$/;"	m	class:SunPropagator
+loadMemoryCells	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.cpp	/^void Main_Widget::loadMemoryCells()$/;"	f	class:Main_Widget
+loadMemoryCells	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		void loadMemoryCells();$/;"	p	class:Main_Widget
+loadSettings	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.cpp	/^void Main_Widget::loadSettings()$/;"	f	class:Main_Widget
+loadSettings	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		void loadSettings();$/;"	p	class:Main_Widget
+loadavg	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		float loadavg;$/;"	m	class:Main_Widget
+loadavg_stream	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		FILE *loadavg_stream;$/;"	m	class:Main_Widget
+logoFrame	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		QFrame *logoFrame;$/;"	m	class:Main_Widget
+logoLabel	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		QLabel *logoLabel;$/;"	m	class:Main_Widget
+lon	/home/frohro/Projects/sdr-shell-v2b/src/sunpropagator.h	/^          lon[2], horizon_angle, yr, ssplat, ssplon;           $/;"	m	class:SunPropagator
+lsb_xpm	/home/frohro/Projects/sdr-shell-v2b/src/modes.h	/^static char *lsb_xpm[]={$/;"	v
+main	/home/frohro/Projects/sdr-shell-v2b/src/main.cpp	/^int main (int argc, char **argv)$/;"	f
+map	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		QFrame *map;$/;"	m	class:Main_Widget
+map	/home/frohro/Projects/sdr-shell-v2b/src/worldmap.h	/^        QWidget *map;$/;"	m	class:WorldMap
+map_flag	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		int map_flag;$/;"	m	class:Main_Widget
+memo	/home/frohro/Projects/sdr-shell-v2b/src/memorycell.h	/^        QString memo;$/;"	m	class:MemoryCell
+metaObj	/home/frohro/Projects/sdr-shell-v2b/src/moc_hamlibwrapper.cpp	/^QMetaObject *hamlibWrapper::metaObj = 0;$/;"	m	class:hamlibWrapper	file:
+metaObj	/home/frohro/Projects/sdr-shell-v2b/src/moc_main_widget.cpp	/^QMetaObject *Main_Widget::metaObj = 0;$/;"	m	class:Main_Widget	file:
+metaObj	/home/frohro/Projects/sdr-shell-v2b/src/moc_memorycell.cpp	/^QMetaObject *MemoryCell::metaObj = 0;$/;"	m	class:MemoryCell	file:
+metaObj	/home/frohro/Projects/sdr-shell-v2b/src/moc_pbscale.cpp	/^QMetaObject *PassBandScale::metaObj = 0;$/;"	m	class:PassBandScale	file:
+metaObj	/home/frohro/Projects/sdr-shell-v2b/src/moc_spectrogram.cpp	/^QMetaObject *Spectrogram::metaObj = 0;$/;"	m	class:Spectrogram	file:
+metaObj	/home/frohro/Projects/sdr-shell-v2b/src/moc_spectrum.cpp	/^QMetaObject *Spectrum::metaObj = 0;$/;"	m	class:Spectrum	file:
+metaObj	/home/frohro/Projects/sdr-shell-v2b/src/moc_varilabel.cpp	/^QMetaObject *VariModelabel::metaObj = 0;$/;"	m	class:VariModelabel	file:
+metaObj	/home/frohro/Projects/sdr-shell-v2b/src/moc_varilabel.cpp	/^QMetaObject *Varilabel::metaObj = 0;$/;"	m	class:Varilabel	file:
+metaObj	/home/frohro/Projects/sdr-shell-v2b/src/moc_worldmap.cpp	/^QMetaObject *WorldMap::metaObj = 0;$/;"	m	class:WorldMap	file:
+metrCal	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		float metrCal;$/;"	m	class:Main_Widget
+metrCalSpinBox	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		QSpinBox *specCalSpinBox, *metrCalSpinBox;$/;"	m	class:Main_Widget
+mm	/home/frohro/Projects/sdr-shell-v2b/src/moonpropagator.h	/^          lh, gm, de, se, gs, dc, el, az, mm, yr, ro, mr;$/;"	m	class:MoonPropagator
+mode	/home/frohro/Projects/sdr-shell-v2b/src/hamlibwrapper.h	/^		rmode_t mode;$/;"	m	class:hamlibWrapper
+mode	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		rmode_t mode;$/;"	m	class:Main_Widget
+mode	/home/frohro/Projects/sdr-shell-v2b/src/memorycell.h	/^        int mode;$/;"	m	class:MemoryCell
+mode	/home/frohro/Projects/sdr-shell-v2b/src/trxwidget.h	/^  QString mode,satname;$/;"	m	class:trxWidget
+modes	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		enum modes$/;"	g	class:Main_Widget
+moon	/home/frohro/Projects/sdr-shell-v2b/src/worldmap.h	/^        MoonPropagator *moon;$/;"	m	class:WorldMap
+moonLabel	/home/frohro/Projects/sdr-shell-v2b/src/worldmap.h	/^        QLabel *moonLabel;$/;"	m	class:WorldMap
+moon_x	/home/frohro/Projects/sdr-shell-v2b/src/worldmap.h	/^        int sun_x, sun_y, moon_x, moon_y;$/;"	m	class:WorldMap
+moon_y	/home/frohro/Projects/sdr-shell-v2b/src/worldmap.h	/^        int sun_x, sun_y, moon_x, moon_y;$/;"	m	class:WorldMap
+mouseMoveEvent	/home/frohro/Projects/sdr-shell-v2b/src/pbscale.cpp	/^void PassBandScale::mouseMoveEvent( QMouseEvent *e )$/;"	f	class:PassBandScale
+mouseMoveEvent	/home/frohro/Projects/sdr-shell-v2b/src/pbscale.h	/^        void mouseMoveEvent( QMouseEvent * );$/;"	p	class:PassBandScale
+mouseMoveEvent	/home/frohro/Projects/sdr-shell-v2b/src/spectrogram.cpp	/^void Spectrogram::mouseMoveEvent( QMouseEvent *e )$/;"	f	class:Spectrogram
+mouseMoveEvent	/home/frohro/Projects/sdr-shell-v2b/src/spectrogram.h	/^        void mouseMoveEvent( QMouseEvent * );$/;"	p	class:Spectrogram
+mouseMoveEvent	/home/frohro/Projects/sdr-shell-v2b/src/spectrum.cpp	/^void Spectrum::mouseMoveEvent( QMouseEvent *e )$/;"	f	class:Spectrum
+mouseMoveEvent	/home/frohro/Projects/sdr-shell-v2b/src/spectrum.h	/^        void mouseMoveEvent( QMouseEvent * );$/;"	p	class:Spectrum
+mouseMoveEvent	/home/frohro/Projects/sdr-shell-v2b/src/varilabel.cpp	/^void Varilabel::mouseMoveEvent( QMouseEvent *e )$/;"	f	class:Varilabel
+mouseMoveEvent	/home/frohro/Projects/sdr-shell-v2b/src/varilabel.h	/^        void mouseMoveEvent ( QMouseEvent * );$/;"	p	class:Varilabel
+mouseMoving	/home/frohro/Projects/sdr-shell-v2b/src/spectrogram.h	/^        int mouseMoving;$/;"	m	class:Spectrogram
+mouseMoving	/home/frohro/Projects/sdr-shell-v2b/src/spectrum.h	/^        int mouseMoving;$/;"	m	class:Spectrum
+mousePressEvent	/home/frohro/Projects/sdr-shell-v2b/src/pbscale.cpp	/^void PassBandScale::mousePressEvent( QMouseEvent *e )$/;"	f	class:PassBandScale
+mousePressEvent	/home/frohro/Projects/sdr-shell-v2b/src/pbscale.h	/^        void mousePressEvent( QMouseEvent * );$/;"	p	class:PassBandScale
+mouseRelease	/home/frohro/Projects/sdr-shell-v2b/src/moc_varilabel.cpp	/^void VariModelabel::mouseRelease( rmode_t t0, bool t1 )$/;"	f	class:VariModelabel
+mouseRelease	/home/frohro/Projects/sdr-shell-v2b/src/moc_varilabel.cpp	/^void Varilabel::mouseRelease( int t0 )$/;"	f	class:Varilabel
+mouseRelease	/home/frohro/Projects/sdr-shell-v2b/src/varilabel.h	/^		void mouseRelease( rmode_t, bool );$/;"	p	class:VariModelabel
+mouseRelease	/home/frohro/Projects/sdr-shell-v2b/src/varilabel.h	/^        void mouseRelease( int );$/;"	p	class:Varilabel
+mouseReleaseEvent	/home/frohro/Projects/sdr-shell-v2b/src/memorycell.cpp	/^void MemoryCell::mouseReleaseEvent ( QMouseEvent *e )$/;"	f	class:MemoryCell
+mouseReleaseEvent	/home/frohro/Projects/sdr-shell-v2b/src/memorycell.h	/^        void mouseReleaseEvent ( QMouseEvent * );$/;"	p	class:MemoryCell
+mouseReleaseEvent	/home/frohro/Projects/sdr-shell-v2b/src/spectrogram.cpp	/^void Spectrogram::mouseReleaseEvent( QMouseEvent *e )$/;"	f	class:Spectrogram
+mouseReleaseEvent	/home/frohro/Projects/sdr-shell-v2b/src/spectrogram.h	/^        void mouseReleaseEvent( QMouseEvent * );$/;"	p	class:Spectrogram
+mouseReleaseEvent	/home/frohro/Projects/sdr-shell-v2b/src/spectrum.cpp	/^void Spectrum::mouseReleaseEvent( QMouseEvent *e )$/;"	f	class:Spectrum
+mouseReleaseEvent	/home/frohro/Projects/sdr-shell-v2b/src/spectrum.h	/^        void mouseReleaseEvent( QMouseEvent * );$/;"	p	class:Spectrum
+mouseReleaseEvent	/home/frohro/Projects/sdr-shell-v2b/src/varilabel.cpp	/^void VariModelabel::mouseReleaseEvent ( QMouseEvent * )$/;"	f	class:VariModelabel
+mouseReleaseEvent	/home/frohro/Projects/sdr-shell-v2b/src/varilabel.cpp	/^void Varilabel::mouseReleaseEvent ( QMouseEvent * )$/;"	f	class:Varilabel
+mouseReleaseEvent	/home/frohro/Projects/sdr-shell-v2b/src/varilabel.h	/^		void mouseReleaseEvent ( QMouseEvent *);$/;"	p	class:VariModelabel
+mouseReleaseEvent	/home/frohro/Projects/sdr-shell-v2b/src/varilabel.h	/^        void mouseReleaseEvent ( QMouseEvent * );$/;"	p	class:Varilabel
+movement	/home/frohro/Projects/sdr-shell-v2b/src/moc_pbscale.cpp	/^void PassBandScale::movement( int t0 )$/;"	f	class:PassBandScale
+movement	/home/frohro/Projects/sdr-shell-v2b/src/moc_spectrogram.cpp	/^void Spectrogram::movement( int t0 )$/;"	f	class:Spectrogram
+movement	/home/frohro/Projects/sdr-shell-v2b/src/moc_spectrum.cpp	/^void Spectrum::movement( int t0 )$/;"	f	class:Spectrum
+movement	/home/frohro/Projects/sdr-shell-v2b/src/pbscale.h	/^		void movement( int );$/;"	p	class:PassBandScale
+movement	/home/frohro/Projects/sdr-shell-v2b/src/spectrogram.h	/^	void movement( int );$/;"	p	class:Spectrogram
+movement	/home/frohro/Projects/sdr-shell-v2b/src/spectrum.h	/^		void movement( int );$/;"	p	class:Spectrum
+mr	/home/frohro/Projects/sdr-shell-v2b/src/moonpropagator.h	/^          lh, gm, de, se, gs, dc, el, az, mm, yr, ro, mr;$/;"	m	class:MoonPropagator
+ms	/home/frohro/Projects/sdr-shell-v2b/src/sunpropagator.h	/^   double c, ms, t1, t2, t3, ew, e, n, si, co, ra, gh,$/;"	m	class:SunPropagator
+msgbuf	/home/frohro/Projects/sdr-shell-v2b/src/trxwidget.h	/^  msgtype msgbuf;$/;"	m	class:trxWidget
+msgid	/home/frohro/Projects/sdr-shell-v2b/src/trxwidget.h	/^  int msgid;$/;"	m	class:trxWidget
+msgtype	/home/frohro/Projects/sdr-shell-v2b/src/trxwidget.h	/^} msgtype;$/;"	t	typeref:struct:__anon1
+mtext	/home/frohro/Projects/sdr-shell-v2b/src/trxwidget.h	/^  char mtext[1024];             \/* mtext holds the message *\/$/;"	m	struct:__anon1
+mtrFile	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		FILE *mtrFile;$/;"	m	class:Main_Widget
+mtype	/home/frohro/Projects/sdr-shell-v2b/src/trxwidget.h	/^  long mtype;                   \/* mtype should always be 88 *\/$/;"	m	struct:__anon1
+mute_xpm	/home/frohro/Projects/sdr-shell-v2b/src/switches.h	/^static char *mute_xpm[]={$/;"	v
+mutex	/home/frohro/Projects/sdr-shell-v2b/src/hamlibwrapper.h	/^		QMutex mutex;$/;"	m	class:hamlibWrapper
+my_lat	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		double my_lon, my_lat;$/;"	m	class:Main_Widget
+my_lat	/home/frohro/Projects/sdr-shell-v2b/src/worldmap.h	/^        double my_lon, my_lat;$/;"	m	class:WorldMap
+my_lon	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		double my_lon, my_lat;$/;"	m	class:Main_Widget
+my_lon	/home/frohro/Projects/sdr-shell-v2b/src/worldmap.h	/^        double my_lon, my_lat;$/;"	m	class:WorldMap
+n	/home/frohro/Projects/sdr-shell-v2b/src/moonpropagator.h	/^   double t1, t2, t3, ew, en, e, n, si, co, ra, gh,$/;"	m	class:MoonPropagator
+n	/home/frohro/Projects/sdr-shell-v2b/src/sunpropagator.h	/^   double c, ms, t1, t2, t3, ew, e, n, si, co, ra, gh,$/;"	m	class:SunPropagator
+nb_xpm	/home/frohro/Projects/sdr-shell-v2b/src/switches.h	/^static char *nb_xpm[]={$/;"	v
+newCorrection	/home/frohro/Projects/sdr-shell-v2b/src/trxwidget.cpp	/^void trxWidget::newCorrection(int c){$/;"	f	class:trxWidget
+newCorrection	/home/frohro/Projects/sdr-shell-v2b/src/trxwidget.h	/^  void newCorrection(int c);$/;"	p	class:trxWidget
+newDevices	/home/frohro/Projects/sdr-shell-v2b/src/rigconfig.h	/^  void newDevices();$/;"	p	class:rigConfig
+newFreq	/home/frohro/Projects/sdr-shell-v2b/src/hamlibwrapper.h	/^		void newFreq ( double );$/;"	p	class:hamlibWrapper
+newFreq	/home/frohro/Projects/sdr-shell-v2b/src/moc_hamlibwrapper.cpp	/^void hamlibWrapper::newFreq( double t0 )$/;"	f	class:hamlibWrapper
+newMode	/home/frohro/Projects/sdr-shell-v2b/src/hamlibwrapper.h	/^		rmode_t newMode;$/;"	m	class:hamlibWrapper
+newTransponder	/home/frohro/Projects/sdr-shell-v2b/src/trxwidget.cpp	/^void trxWidget::newTransponder(int id){$/;"	f	class:trxWidget
+newTransponder	/home/frohro/Projects/sdr-shell-v2b/src/trxwidget.h	/^  void newTransponder(int id);$/;"	p	class:trxWidget
+newWidth	/home/frohro/Projects/sdr-shell-v2b/src/hamlibwrapper.h	/^		pbwidth_t newWidth;$/;"	m	class:hamlibWrapper
+nowTransmit	/home/frohro/Projects/sdr-shell-v2b/src/hamlibwrapper.h	/^		void nowTransmit ( int );$/;"	p	class:hamlibWrapper
+nowTransmit	/home/frohro/Projects/sdr-shell-v2b/src/moc_hamlibwrapper.cpp	/^void hamlibWrapper::nowTransmit( int t0 )$/;"	f	class:hamlibWrapper
+nr_xpm	/home/frohro/Projects/sdr-shell-v2b/src/switches.h	/^static char *nr_xpm[]={$/;"	v
+open	/home/frohro/Projects/sdr-shell-v2b/src/rigctrl.cpp	/^int rigctrl::open(s_hardware* hardware){$/;"	f	class:rigctrl
+oscope	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		float oscope[DEFSPEC];$/;"	m	class:Main_Widget
+ourHamlibWrapper	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		hamlibWrapper *ourHamlibWrapper;$/;"	m	class:Main_Widget
+paintEvent	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.cpp	/^void Main_Widget::paintEvent ( QPaintEvent * )$/;"	f	class:Main_Widget
+paintEvent	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		void paintEvent ( QPaintEvent * );$/;"	p	class:Main_Widget
+pbscale	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		PassBandScale *pbscale;$/;"	m	class:Main_Widget
+plot	/home/frohro/Projects/sdr-shell-v2b/src/moc_spectrogram.cpp	/^void Spectrogram::plot( int t0 )$/;"	f	class:Spectrogram
+plot	/home/frohro/Projects/sdr-shell-v2b/src/spectrogram.h	/^        void plot( int );$/;"	p	class:Spectrogram
+plot	/home/frohro/Projects/sdr-shell-v2b/src/worldmap.cpp	/^void WorldMap::plot()$/;"	f	class:WorldMap
+plot	/home/frohro/Projects/sdr-shell-v2b/src/worldmap.h	/^        void plot();$/;"	p	class:WorldMap
+plotFlag	/home/frohro/Projects/sdr-shell-v2b/src/worldmap.h	/^        int plotFlag;$/;"	m	class:WorldMap
+plotSpectrum	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.cpp	/^void Main_Widget::plotSpectrum ( int y )$/;"	f	class:Main_Widget
+plotSpectrum	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		void plotSpectrum ( int );$/;"	p	class:Main_Widget
+polyphaseFFT	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		int polyphaseFFT;$/;"	m	class:Main_Widget
+port	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		const char* port;  \/\/hamlib parameters.  $/;"	m	class:Main_Widget
+portString	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		QString portString;$/;"	m	class:Main_Widget
+process_key	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.cpp	/^void Main_Widget::process_key ( int key )$/;"	f	class:Main_Widget
+process_key	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		void process_key ( int );$/;"	p	class:Main_Widget
+processorLoad	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.cpp	/^void Main_Widget::processorLoad()$/;"	f	class:Main_Widget
+processorLoad	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		void processorLoad();$/;"	p	class:Main_Widget
+propagate	/home/frohro/Projects/sdr-shell-v2b/src/moonpropagator.cpp	/^void MoonPropagator::propagate( double Daynum )$/;"	f	class:MoonPropagator
+propagate	/home/frohro/Projects/sdr-shell-v2b/src/moonpropagator.h	/^   void propagate( double daynum );$/;"	p	class:MoonPropagator
+propagate	/home/frohro/Projects/sdr-shell-v2b/src/sunpropagator.cpp	/^void SunPropagator::propagate( double Daynum )$/;"	f	class:SunPropagator
+propagate	/home/frohro/Projects/sdr-shell-v2b/src/sunpropagator.h	/^   void propagate( double Daynum );$/;"	p	class:SunPropagator
+pulse	/home/frohro/Projects/sdr-shell-v2b/src/moc_varilabel.cpp	/^void Varilabel::pulse( int t0 )$/;"	f	class:Varilabel
+pulse	/home/frohro/Projects/sdr-shell-v2b/src/varilabel.h	/^        void pulse( int );$/;"	p	class:Varilabel
+qt_cast	/home/frohro/Projects/sdr-shell-v2b/src/moc_hamlibwrapper.cpp	/^void* hamlibWrapper::qt_cast( const char* clname )$/;"	f	class:hamlibWrapper
+qt_cast	/home/frohro/Projects/sdr-shell-v2b/src/moc_main_widget.cpp	/^void* Main_Widget::qt_cast( const char* clname )$/;"	f	class:Main_Widget
+qt_cast	/home/frohro/Projects/sdr-shell-v2b/src/moc_memorycell.cpp	/^void* MemoryCell::qt_cast( const char* clname )$/;"	f	class:MemoryCell
+qt_cast	/home/frohro/Projects/sdr-shell-v2b/src/moc_pbscale.cpp	/^void* PassBandScale::qt_cast( const char* clname )$/;"	f	class:PassBandScale
+qt_cast	/home/frohro/Projects/sdr-shell-v2b/src/moc_spectrogram.cpp	/^void* Spectrogram::qt_cast( const char* clname )$/;"	f	class:Spectrogram
+qt_cast	/home/frohro/Projects/sdr-shell-v2b/src/moc_spectrum.cpp	/^void* Spectrum::qt_cast( const char* clname )$/;"	f	class:Spectrum
+qt_cast	/home/frohro/Projects/sdr-shell-v2b/src/moc_varilabel.cpp	/^void* VariModelabel::qt_cast( const char* clname )$/;"	f	class:VariModelabel
+qt_cast	/home/frohro/Projects/sdr-shell-v2b/src/moc_varilabel.cpp	/^void* Varilabel::qt_cast( const char* clname )$/;"	f	class:Varilabel
+qt_cast	/home/frohro/Projects/sdr-shell-v2b/src/moc_worldmap.cpp	/^void* WorldMap::qt_cast( const char* clname )$/;"	f	class:WorldMap
+qt_emit	/home/frohro/Projects/sdr-shell-v2b/src/moc_hamlibwrapper.cpp	/^bool hamlibWrapper::qt_emit( int _id, QUObject* _o )$/;"	f	class:hamlibWrapper
+qt_emit	/home/frohro/Projects/sdr-shell-v2b/src/moc_main_widget.cpp	/^bool Main_Widget::qt_emit( int _id, QUObject* _o )$/;"	f	class:Main_Widget
+qt_emit	/home/frohro/Projects/sdr-shell-v2b/src/moc_memorycell.cpp	/^bool MemoryCell::qt_emit( int _id, QUObject* _o )$/;"	f	class:MemoryCell
+qt_emit	/home/frohro/Projects/sdr-shell-v2b/src/moc_pbscale.cpp	/^bool PassBandScale::qt_emit( int _id, QUObject* _o )$/;"	f	class:PassBandScale
+qt_emit	/home/frohro/Projects/sdr-shell-v2b/src/moc_spectrogram.cpp	/^bool Spectrogram::qt_emit( int _id, QUObject* _o )$/;"	f	class:Spectrogram
+qt_emit	/home/frohro/Projects/sdr-shell-v2b/src/moc_spectrum.cpp	/^bool Spectrum::qt_emit( int _id, QUObject* _o )$/;"	f	class:Spectrum
+qt_emit	/home/frohro/Projects/sdr-shell-v2b/src/moc_varilabel.cpp	/^bool VariModelabel::qt_emit( int _id, QUObject* _o )$/;"	f	class:VariModelabel
+qt_emit	/home/frohro/Projects/sdr-shell-v2b/src/moc_varilabel.cpp	/^bool Varilabel::qt_emit( int _id, QUObject* _o )$/;"	f	class:Varilabel
+qt_emit	/home/frohro/Projects/sdr-shell-v2b/src/moc_worldmap.cpp	/^bool WorldMap::qt_emit( int _id, QUObject* _o )$/;"	f	class:WorldMap
+qt_invoke	/home/frohro/Projects/sdr-shell-v2b/src/moc_hamlibwrapper.cpp	/^bool hamlibWrapper::qt_invoke( int _id, QUObject* _o )$/;"	f	class:hamlibWrapper
+qt_invoke	/home/frohro/Projects/sdr-shell-v2b/src/moc_main_widget.cpp	/^bool Main_Widget::qt_invoke( int _id, QUObject* _o )$/;"	f	class:Main_Widget
+qt_invoke	/home/frohro/Projects/sdr-shell-v2b/src/moc_memorycell.cpp	/^bool MemoryCell::qt_invoke( int _id, QUObject* _o )$/;"	f	class:MemoryCell
+qt_invoke	/home/frohro/Projects/sdr-shell-v2b/src/moc_pbscale.cpp	/^bool PassBandScale::qt_invoke( int _id, QUObject* _o )$/;"	f	class:PassBandScale
+qt_invoke	/home/frohro/Projects/sdr-shell-v2b/src/moc_spectrogram.cpp	/^bool Spectrogram::qt_invoke( int _id, QUObject* _o )$/;"	f	class:Spectrogram
+qt_invoke	/home/frohro/Projects/sdr-shell-v2b/src/moc_spectrum.cpp	/^bool Spectrum::qt_invoke( int _id, QUObject* _o )$/;"	f	class:Spectrum
+qt_invoke	/home/frohro/Projects/sdr-shell-v2b/src/moc_varilabel.cpp	/^bool VariModelabel::qt_invoke( int _id, QUObject* _o )$/;"	f	class:VariModelabel
+qt_invoke	/home/frohro/Projects/sdr-shell-v2b/src/moc_varilabel.cpp	/^bool Varilabel::qt_invoke( int _id, QUObject* _o )$/;"	f	class:Varilabel
+qt_invoke	/home/frohro/Projects/sdr-shell-v2b/src/moc_worldmap.cpp	/^bool WorldMap::qt_invoke( int _id, QUObject* _o )$/;"	f	class:WorldMap
+qt_property	/home/frohro/Projects/sdr-shell-v2b/src/moc_hamlibwrapper.cpp	/^bool hamlibWrapper::qt_property( int id, int f, QVariant* v)$/;"	f	class:hamlibWrapper
+qt_property	/home/frohro/Projects/sdr-shell-v2b/src/moc_main_widget.cpp	/^bool Main_Widget::qt_property( int id, int f, QVariant* v)$/;"	f	class:Main_Widget
+qt_property	/home/frohro/Projects/sdr-shell-v2b/src/moc_memorycell.cpp	/^bool MemoryCell::qt_property( int id, int f, QVariant* v)$/;"	f	class:MemoryCell
+qt_property	/home/frohro/Projects/sdr-shell-v2b/src/moc_pbscale.cpp	/^bool PassBandScale::qt_property( int id, int f, QVariant* v)$/;"	f	class:PassBandScale
+qt_property	/home/frohro/Projects/sdr-shell-v2b/src/moc_spectrogram.cpp	/^bool Spectrogram::qt_property( int id, int f, QVariant* v)$/;"	f	class:Spectrogram
+qt_property	/home/frohro/Projects/sdr-shell-v2b/src/moc_spectrum.cpp	/^bool Spectrum::qt_property( int id, int f, QVariant* v)$/;"	f	class:Spectrum
+qt_property	/home/frohro/Projects/sdr-shell-v2b/src/moc_varilabel.cpp	/^bool VariModelabel::qt_property( int id, int f, QVariant* v)$/;"	f	class:VariModelabel
+qt_property	/home/frohro/Projects/sdr-shell-v2b/src/moc_varilabel.cpp	/^bool Varilabel::qt_property( int id, int f, QVariant* v)$/;"	f	class:Varilabel
+qt_property	/home/frohro/Projects/sdr-shell-v2b/src/moc_worldmap.cpp	/^bool WorldMap::qt_property( int id, int f, QVariant* v)$/;"	f	class:WorldMap
+qt_static_property	/home/frohro/Projects/sdr-shell-v2b/src/moc_hamlibwrapper.cpp	/^bool hamlibWrapper::qt_static_property( QObject* , int , int , QVariant* ){ return FALSE; }$/;"	f	class:hamlibWrapper
+qt_static_property	/home/frohro/Projects/sdr-shell-v2b/src/moc_main_widget.cpp	/^bool Main_Widget::qt_static_property( QObject* , int , int , QVariant* ){ return FALSE; }$/;"	f	class:Main_Widget
+qt_static_property	/home/frohro/Projects/sdr-shell-v2b/src/moc_memorycell.cpp	/^bool MemoryCell::qt_static_property( QObject* , int , int , QVariant* ){ return FALSE; }$/;"	f	class:MemoryCell
+qt_static_property	/home/frohro/Projects/sdr-shell-v2b/src/moc_pbscale.cpp	/^bool PassBandScale::qt_static_property( QObject* , int , int , QVariant* ){ return FALSE; }$/;"	f	class:PassBandScale
+qt_static_property	/home/frohro/Projects/sdr-shell-v2b/src/moc_spectrogram.cpp	/^bool Spectrogram::qt_static_property( QObject* , int , int , QVariant* ){ return FALSE; }$/;"	f	class:Spectrogram
+qt_static_property	/home/frohro/Projects/sdr-shell-v2b/src/moc_spectrum.cpp	/^bool Spectrum::qt_static_property( QObject* , int , int , QVariant* ){ return FALSE; }$/;"	f	class:Spectrum
+qt_static_property	/home/frohro/Projects/sdr-shell-v2b/src/moc_varilabel.cpp	/^bool VariModelabel::qt_static_property( QObject* , int , int , QVariant* ){ return FALSE; }$/;"	f	class:VariModelabel
+qt_static_property	/home/frohro/Projects/sdr-shell-v2b/src/moc_varilabel.cpp	/^bool Varilabel::qt_static_property( QObject* , int , int , QVariant* ){ return FALSE; }$/;"	f	class:Varilabel
+qt_static_property	/home/frohro/Projects/sdr-shell-v2b/src/moc_worldmap.cpp	/^bool WorldMap::qt_static_property( QObject* , int , int , QVariant* ){ return FALSE; }$/;"	f	class:WorldMap
+qtrLabel	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		QLabel *qtrLabel;$/;"	m	class:Main_Widget
+quit_button	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		QPushButton *quit_button;$/;"	m	class:Main_Widget
+rRig	/home/frohro/Projects/sdr-shell-v2b/src/hamlibwrapper.h	/^		RIG* rRig;$/;"	m	class:hamlibWrapper
+ra	/home/frohro/Projects/sdr-shell-v2b/src/moonpropagator.h	/^   double t1, t2, t3, ew, en, e, n, si, co, ra, gh,$/;"	m	class:MoonPropagator
+ra	/home/frohro/Projects/sdr-shell-v2b/src/sunpropagator.h	/^   double c, ms, t1, t2, t3, ew, e, n, si, co, ra, gh,$/;"	m	class:SunPropagator
+read	/home/frohro/Projects/sdr-shell-v2b/src/memorycell.h	/^        void read( MemoryCell * );$/;"	p	class:MemoryCell
+read	/home/frohro/Projects/sdr-shell-v2b/src/moc_memorycell.cpp	/^void MemoryCell::read( MemoryCell* t0 )$/;"	f	class:MemoryCell
+readMem	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.cpp	/^void Main_Widget::readMem ( MemoryCell *m )$/;"	f	class:Main_Widget
+readMem	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		void readMem ( MemoryCell * );$/;"	p	class:Main_Widget
+readMeter	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.cpp	/^void Main_Widget::readMeter()$/;"	f	class:Main_Widget
+readMeter	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		void readMeter();$/;"	p	class:Main_Widget
+readSpectrum	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.cpp	/^void Main_Widget::readSpectrum()$/;"	f	class:Main_Widget
+readSpectrum	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		void readSpectrum();$/;"	p	class:Main_Widget
+rig	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		rig_model_t rig;$/;"	m	class:Main_Widget
+rigChangedMode	/home/frohro/Projects/sdr-shell-v2b/src/hamlibwrapper.h	/^		void rigChangedMode ( rmode_t, bool );$/;"	p	class:hamlibWrapper
+rigChangedMode	/home/frohro/Projects/sdr-shell-v2b/src/moc_hamlibwrapper.cpp	/^void hamlibWrapper::rigChangedMode( rmode_t t0, bool t1 )$/;"	f	class:hamlibWrapper
+rigConfig	/home/frohro/Projects/sdr-shell-v2b/src/rigconfig.cpp	/^rigConfig::rigConfig(QWidget *parent, const char *name, bool modal, WFlags fl) : rigConfigBase(parent,name,modal,fl) {$/;"	f	class:rigConfig
+rigConfig	/home/frohro/Projects/sdr-shell-v2b/src/rigconfig.h	/^	rigConfig(QWidget *parent=0, const char *name=0,bool modal=true, WFlags fl=WDestructiveClose);$/;"	p	class:rigConfig
+rigConfig	/home/frohro/Projects/sdr-shell-v2b/src/rigconfig.h	/^class rigConfig : public rigConfigBase  {$/;"	c
+rigString	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		QString rigString;$/;"	m	class:Main_Widget
+rigctrl	/home/frohro/Projects/sdr-shell-v2b/src/rigctrl.cpp	/^rigctrl::rigctrl(QObject *parent, const char *name ) : QObject(parent,name) {$/;"	f	class:rigctrl
+rigid2rigname	/home/frohro/Projects/sdr-shell-v2b/src/rigconfig.h	/^  QMap<rig_model_t, QString> rigid2rigname;$/;"	m	class:rigConfig
+rigname2rigid	/home/frohro/Projects/sdr-shell-v2b/src/rigconfig.h	/^  QMap<QString, rig_model_t> rigname2rigid;$/;"	m	class:rigConfig
+riseTime	/home/frohro/Projects/sdr-shell-v2b/src/moonpropagator.h	/^   double riseTime, setTime;$/;"	m	class:MoonPropagator
+riseTime	/home/frohro/Projects/sdr-shell-v2b/src/sunpropagator.h	/^   double riseTime, setTime;$/;"	m	class:SunPropagator
+ro	/home/frohro/Projects/sdr-shell-v2b/src/moonpropagator.h	/^          lh, gm, de, se, gs, dc, el, az, mm, yr, ro, mr;$/;"	m	class:MoonPropagator
+rotid2rotname	/home/frohro/Projects/sdr-shell-v2b/src/rigconfig.h	/^  QMap<rot_model_t, QString> rotid2rotname;$/;"	m	class:rigConfig
+rotname2rotid	/home/frohro/Projects/sdr-shell-v2b/src/rigconfig.h	/^  QMap<QString, rot_model_t> rotname2rotid;$/;"	m	class:rigConfig
+run	/home/frohro/Projects/sdr-shell-v2b/src/hamlibwrapper.cpp	/^void hamlibWrapper::run()$/;"	f	class:hamlibWrapper
+run	/home/frohro/Projects/sdr-shell-v2b/src/hamlibwrapper.h	/^		void run();$/;"	p	class:hamlibWrapper
+rxPix	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		QPixmap *rxPix, *txPix;$/;"	m	class:Main_Widget
+rx_cmd	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.cpp	/^void Main_Widget::rx_cmd ( int key ) \/\/ Leave for IF shift now.$/;"	f	class:Main_Widget
+rx_cmd	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		void rx_cmd ( int );$/;"	p	class:Main_Widget
+rx_delta_f	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		int rx_delta_f, tuneStep;$/;"	m	class:Main_Widget
+rx_f	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		unsigned long long int rx_f,rx_if;$/;"	m	class:Main_Widget
+rx_f_string	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		QString rx_f_string,rx_if_string;$/;"	m	class:Main_Widget
+rx_if	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		unsigned long long int rx_f,rx_if;$/;"	m	class:Main_Widget
+rx_if_string	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		QString rx_f_string,rx_if_string;$/;"	m	class:Main_Widget
+s_dbm	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		int s_dbm[34];$/;"	m	class:Main_Widget
+sam_xpm	/home/frohro/Projects/sdr-shell-v2b/src/modes.h	/^static char *sam_xpm[]={$/;"	v
+sample_rate	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		int sample_rate;$/;"	m	class:Main_Widget
+sat	/home/frohro/Projects/sdr-shell-v2b/src/trxwidget.h	/^  satellite* sat;$/;"	m	class:trxWidget
+satname	/home/frohro/Projects/sdr-shell-v2b/src/trxwidget.h	/^  QString mode,satname;$/;"	m	class:trxWidget
+saveSettings	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.cpp	/^void Main_Widget::saveSettings()$/;"	f	class:Main_Widget
+saveSettings	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		void saveSettings();$/;"	p	class:Main_Widget
+scroll_view	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		QScrollView *scroll_view;$/;"	m	class:Main_Widget
+se	/home/frohro/Projects/sdr-shell-v2b/src/moonpropagator.h	/^          lh, gm, de, se, gs, dc, el, az, mm, yr, ro, mr;$/;"	m	class:MoonPropagator
+se	/home/frohro/Projects/sdr-shell-v2b/src/sunpropagator.h	/^          lh, gm, de, se, gs, dc, el[2], az[2], lat[2],$/;"	m	class:SunPropagator
+sendToXlog	/home/frohro/Projects/sdr-shell-v2b/src/trxwidget.cpp	/^void trxWidget::sendToXlog(){$/;"	f	class:trxWidget
+sendToXlog	/home/frohro/Projects/sdr-shell-v2b/src/trxwidget.h	/^  void sendToXlog();$/;"	p	class:trxWidget
+setAGC	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.cpp	/^void Main_Widget::setAGC ( int type )$/;"	f	class:Main_Widget
+setAGC	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		void setAGC ( int );$/;"	p	class:Main_Widget
+setCA_label	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.cpp	/^void Main_Widget::setCA_label()$/;"	f	class:Main_Widget
+setCA_label	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		void setCA_label();$/;"	p	class:Main_Widget
+setCfg	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.cpp	/^void Main_Widget::setCfg ( int )$/;"	f	class:Main_Widget
+setCfg	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		void setCfg ( int );$/;"	p	class:Main_Widget
+setCorrection	/home/frohro/Projects/sdr-shell-v2b/src/rigctrl.cpp	/^void rigctrl::setCorrection(int corr){$/;"	f	class:rigctrl
+setDefaultRxFrequency	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.cpp	/^void Main_Widget::setDefaultRxFrequency ( )$/;"	f	class:Main_Widget
+setDefaultRxFrequency	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		void setDefaultRxFrequency();$/;"	p	class:Main_Widget
+setDevice	/home/frohro/Projects/sdr-shell-v2b/src/trxwidget.cpp	/^void trxWidget::setDevice(rigctrl* dev){$/;"	f	class:trxWidget
+setDevice	/home/frohro/Projects/sdr-shell-v2b/src/trxwidget.h	/^  void setDevice(rigctrl* dev);$/;"	p	class:trxWidget
+setDirection	/home/frohro/Projects/sdr-shell-v2b/src/rigctrl.cpp	/^void rigctrl::setDirection(float el, float az){$/;"	f	class:rigctrl
+setFFTWindow	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.cpp	/^void Main_Widget::setFFTWindow ( int window )$/;"	f	class:Main_Widget
+setFFTWindow	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		void setFFTWindow ( int );$/;"	p	class:Main_Widget
+setFilter	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.cpp	/^void Main_Widget::setFilter()$/;"	f	class:Main_Widget
+setFilter	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		void setFilter();$/;"	p	class:Main_Widget
+setFilter	/home/frohro/Projects/sdr-shell-v2b/src/memorycell.cpp	/^void MemoryCell::setFilter( int l, int h )$/;"	f	class:MemoryCell
+setFilter	/home/frohro/Projects/sdr-shell-v2b/src/memorycell.h	/^        void setFilter( int, int );$/;"	p	class:MemoryCell
+setFilter_h	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.cpp	/^void Main_Widget::setFilter_h ( int n )$/;"	f	class:Main_Widget
+setFilter_h	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		void setFilter_h ( int );$/;"	p	class:Main_Widget
+setFilter_l	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.cpp	/^void Main_Widget::setFilter_l ( int n )$/;"	f	class:Main_Widget
+setFilter_l	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		void setFilter_l ( int );$/;"	p	class:Main_Widget
+setFreqs	/home/frohro/Projects/sdr-shell-v2b/src/rigctrl.cpp	/^void rigctrl::setFreqs(bool now){$/;"	f	class:rigctrl
+setFrequency	/home/frohro/Projects/sdr-shell-v2b/src/memorycell.cpp	/^void MemoryCell::setFrequency( long long int f )$/;"	f	class:MemoryCell
+setFrequency	/home/frohro/Projects/sdr-shell-v2b/src/memorycell.h	/^        void setFrequency( long long int );$/;"	p	class:MemoryCell
+setID	/home/frohro/Projects/sdr-shell-v2b/src/memorycell.cpp	/^void MemoryCell::setID( int i )$/;"	f	class:MemoryCell
+setID	/home/frohro/Projects/sdr-shell-v2b/src/memorycell.h	/^        void setID( int );$/;"	p	class:MemoryCell
+setIF	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.cpp	/^void Main_Widget::setIF (bool value)$/;"	f	class:Main_Widget
+setIF	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		void setIF ( bool );$/;"	p	class:Main_Widget
+setIQGain	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.cpp	/^void Main_Widget::setIQGain()$/;"	f	class:Main_Widget
+setIQGain	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		void setIQGain();$/;"	p	class:Main_Widget
+setIQPhase	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.cpp	/^void Main_Widget::setIQPhase()$/;"	f	class:Main_Widget
+setIQPhase	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		void setIQPhase();$/;"	p	class:Main_Widget
+setLabel	/home/frohro/Projects/sdr-shell-v2b/src/varilabel.cpp	/^void VariModelabel::setLabel( rmode_t l )$/;"	f	class:VariModelabel
+setLabel	/home/frohro/Projects/sdr-shell-v2b/src/varilabel.cpp	/^void Varilabel::setLabel( int l )$/;"	f	class:Varilabel
+setLabel	/home/frohro/Projects/sdr-shell-v2b/src/varilabel.h	/^		void setLabel( rmode_t );$/;"	p	class:VariModelabel
+setLabel	/home/frohro/Projects/sdr-shell-v2b/src/varilabel.h	/^    	void setLabel( int );$/;"	p	class:Varilabel
+setLowerFilterScale	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.cpp	/^void Main_Widget::setLowerFilterScale ( int x )$/;"	f	class:Main_Widget
+setLowerFilterScale	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		void setLowerFilterScale ( int );$/;"	p	class:Main_Widget
+setMemo	/home/frohro/Projects/sdr-shell-v2b/src/memorycell.h	/^        void setMemo( QString );$/;"	p	class:MemoryCell
+setMode	/home/frohro/Projects/sdr-shell-v2b/src/hamlibwrapper.cpp	/^void hamlibWrapper::setMode ( rmode_t new_mode, pbwidth_t new_width ) $/;"	f	class:hamlibWrapper
+setMode	/home/frohro/Projects/sdr-shell-v2b/src/hamlibwrapper.h	/^		void setMode ( rmode_t, pbwidth_t );$/;"	p	class:hamlibWrapper
+setMode	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.cpp	/^void Main_Widget::setMode ( rmode_t m, bool displayOnly )$/;"	f	class:Main_Widget
+setMode	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		void setMode ( rmode_t, bool );$/;"	p	class:Main_Widget
+setMode	/home/frohro/Projects/sdr-shell-v2b/src/memorycell.cpp	/^void MemoryCell::setMode( rmode_t m )$/;"	f	class:MemoryCell
+setMode	/home/frohro/Projects/sdr-shell-v2b/src/memorycell.h	/^        void setMode( rmode_t );$/;"	p	class:MemoryCell
+setObserver	/home/frohro/Projects/sdr-shell-v2b/src/moonpropagator.cpp	/^void MoonPropagator::setObserver( double lat, double lon )$/;"	f	class:MoonPropagator
+setObserver	/home/frohro/Projects/sdr-shell-v2b/src/moonpropagator.h	/^   void setObserver( double, double );$/;"	p	class:MoonPropagator
+setObserver	/home/frohro/Projects/sdr-shell-v2b/src/sunpropagator.cpp	/^void SunPropagator::setObserver( double lat, double lon )$/;"	f	class:SunPropagator
+setObserver	/home/frohro/Projects/sdr-shell-v2b/src/sunpropagator.h	/^   void setObserver( double, double );$/;"	p	class:SunPropagator
+setObserver	/home/frohro/Projects/sdr-shell-v2b/src/worldmap.cpp	/^void WorldMap::setObserver( double lat, double lon )$/;"	f	class:WorldMap
+setObserver	/home/frohro/Projects/sdr-shell-v2b/src/worldmap.h	/^        void setObserver( double, double );$/;"	p	class:WorldMap
+setOurRxFrequency	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.cpp	/^void Main_Widget::setOurRxFrequency( double frequency)$/;"	f	class:Main_Widget
+setOurRxFrequency	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		void setOurRxFrequency(double);$/;"	p	class:Main_Widget
+setPause	/home/frohro/Projects/sdr-shell-v2b/src/hamlibwrapper.cpp	/^void hamlibWrapper::setPause ( bool p )$/;"	f	class:hamlibWrapper
+setPause	/home/frohro/Projects/sdr-shell-v2b/src/hamlibwrapper.h	/^		void setPause ( bool p );$/;"	p	class:hamlibWrapper
+setPolyFFT	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.cpp	/^void Main_Widget::setPolyFFT ( int state )$/;"	f	class:Main_Widget
+setPolyFFT	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		void setPolyFFT ( int );$/;"	p	class:Main_Widget
+setRig	/home/frohro/Projects/sdr-shell-v2b/src/rigconfig.cpp	/^void rigConfig::setRig(s_hardware* r)$/;"	f	class:rigConfig
+setRig	/home/frohro/Projects/sdr-shell-v2b/src/rigconfig.h	/^  void setRig(s_hardware* r);$/;"	p	class:rigConfig
+setRxFrequency	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.cpp	/^void Main_Widget::setRxFrequency()$/;"	f	class:Main_Widget
+setRxFrequency	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		void setRxFrequency();$/;"	p	class:Main_Widget
+setSatellite	/home/frohro/Projects/sdr-shell-v2b/src/rigctrl.cpp	/^void rigctrl::setSatellite(satellite* s){$/;"	f	class:rigctrl
+setSatellite	/home/frohro/Projects/sdr-shell-v2b/src/trxwidget.cpp	/^void trxWidget::setSatellite(satellite* s) {$/;"	f	class:trxWidget
+setSatellite	/home/frohro/Projects/sdr-shell-v2b/src/trxwidget.h	/^  void setSatellite(satellite* s);$/;"	p	class:trxWidget
+setScrollBarColors	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		void setScrollBarColors ( QScrollBar * );$/;"	p	class:Main_Widget
+setSpectrumType	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.cpp	/^void Main_Widget::setSpectrumType ( int type )$/;"	f	class:Main_Widget
+setSpectrumType	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		void setSpectrumType ( int );$/;"	p	class:Main_Widget
+setTheme	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.cpp	/^void Main_Widget::setTheme ( int t )$/;"	f	class:Main_Widget
+setTheme	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		void setTheme ( int );$/;"	p	class:Main_Widget
+setTime	/home/frohro/Projects/sdr-shell-v2b/src/moonpropagator.h	/^   double riseTime, setTime;$/;"	m	class:MoonPropagator
+setTime	/home/frohro/Projects/sdr-shell-v2b/src/sunpropagator.h	/^   double riseTime, setTime;$/;"	m	class:SunPropagator
+setTransponder	/home/frohro/Projects/sdr-shell-v2b/src/rigctrl.cpp	/^void rigctrl::setTransponder(transponder* t){$/;"	f	class:rigctrl
+setTuneStep	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.cpp	/^void Main_Widget::setTuneStep ( int step )$/;"	f	class:Main_Widget
+setTuneStep	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		void setTuneStep ( int );$/;"	p	class:Main_Widget
+setUpperFilterScale	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.cpp	/^void Main_Widget::setUpperFilterScale ( int x )$/;"	f	class:Main_Widget
+setUpperFilterScale	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		void setUpperFilterScale ( int );$/;"	p	class:Main_Widget
+set_ANF	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.cpp	/^void Main_Widget::set_ANF ( int state )$/;"	f	class:Main_Widget
+set_ANF	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		void set_ANF ( int );$/;"	p	class:Main_Widget
+set_BIN	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.cpp	/^void Main_Widget::set_BIN ( int state )$/;"	f	class:Main_Widget
+set_BIN	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		void set_BIN ( int );$/;"	p	class:Main_Widget
+set_MUTE	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.cpp	/^void Main_Widget::set_MUTE ( int state )$/;"	f	class:Main_Widget
+set_MUTE	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		void set_MUTE ( int );$/;"	p	class:Main_Widget
+set_NB	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.cpp	/^void Main_Widget::set_NB ( int state )$/;"	f	class:Main_Widget
+set_NB	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		void set_NB ( int );$/;"	p	class:Main_Widget
+set_NR	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.cpp	/^void Main_Widget::set_NR ( int state )$/;"	f	class:Main_Widget
+set_NR	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		void set_NR ( int );$/;"	p	class:Main_Widget
+set_SPEC	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.cpp	/^void Main_Widget::set_SPEC ( int state )$/;"	f	class:Main_Widget
+set_SPEC	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		void set_SPEC ( int );$/;"	p	class:Main_Widget
+set_lower_pb	/home/frohro/Projects/sdr-shell-v2b/src/moc_pbscale.cpp	/^void PassBandScale::set_lower_pb( int t0 )$/;"	f	class:PassBandScale
+set_lower_pb	/home/frohro/Projects/sdr-shell-v2b/src/pbscale.h	/^		void set_lower_pb( int );$/;"	p	class:PassBandScale
+set_upper_pb	/home/frohro/Projects/sdr-shell-v2b/src/moc_pbscale.cpp	/^void PassBandScale::set_upper_pb( int t0 )$/;"	f	class:PassBandScale
+set_upper_pb	/home/frohro/Projects/sdr-shell-v2b/src/pbscale.h	/^		void set_upper_pb( int );$/;"	p	class:PassBandScale
+setmodes	/home/frohro/Projects/sdr-shell-v2b/src/hamlibwrapper.h	/^		bool setmodes;$/;"	m	class:hamlibWrapper
+shouldexit	/home/frohro/Projects/sdr-shell-v2b/src/hamlibwrapper.h	/^		bool shouldexit;$/;"	m	class:hamlibWrapper
+si	/home/frohro/Projects/sdr-shell-v2b/src/moonpropagator.h	/^   double t1, t2, t3, ew, en, e, n, si, co, ra, gh,$/;"	m	class:MoonPropagator
+si	/home/frohro/Projects/sdr-shell-v2b/src/sunpropagator.h	/^   double c, ms, t1, t2, t3, ew, e, n, si, co, ra, gh,$/;"	m	class:SunPropagator
+signalBargraph	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		QFrame *signalBargraph[34];$/;"	m	class:Main_Widget
+signalColor	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		QColor *signalColor[34];$/;"	m	class:Main_Widget
+signalFrame	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		QFrame *signalFrame;$/;"	m	class:Main_Widget
+signal_S	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		QLabel *signal_S;$/;"	m	class:Main_Widget
+signal_dBm	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		QLabel *signal_dBm;$/;"	m	class:Main_Widget
+slotCancel	/home/frohro/Projects/sdr-shell-v2b/src/rigconfig.cpp	/^void rigConfig::slotCancel(){$/;"	f	class:rigConfig
+slotCancel	/home/frohro/Projects/sdr-shell-v2b/src/rigconfig.h	/^  void slotCancel();$/;"	p	class:rigConfig
+slotNewDownlinkFrequency	/home/frohro/Projects/sdr-shell-v2b/src/trxwidget.cpp	/^void trxWidget::slotNewDownlinkFrequency(double freq){$/;"	f	class:trxWidget
+slotNewDownlinkFrequency	/home/frohro/Projects/sdr-shell-v2b/src/trxwidget.h	/^  void slotNewDownlinkFrequency(double freq);$/;"	p	class:trxWidget
+slotNewHardwareDownlinkFrequency	/home/frohro/Projects/sdr-shell-v2b/src/trxwidget.cpp	/^void trxWidget::slotNewHardwareDownlinkFrequency(double freq) {$/;"	f	class:trxWidget
+slotNewHardwareDownlinkFrequency	/home/frohro/Projects/sdr-shell-v2b/src/trxwidget.h	/^  void slotNewHardwareDownlinkFrequency(double freq);$/;"	p	class:trxWidget
+slotNewHardwareUplinkFrequency	/home/frohro/Projects/sdr-shell-v2b/src/trxwidget.cpp	/^void trxWidget::slotNewHardwareUplinkFrequency(double freq) {$/;"	f	class:trxWidget
+slotNewHardwareUplinkFrequency	/home/frohro/Projects/sdr-shell-v2b/src/trxwidget.h	/^  void slotNewHardwareUplinkFrequency(double freq);$/;"	p	class:trxWidget
+slotNewUplinkFrequency	/home/frohro/Projects/sdr-shell-v2b/src/trxwidget.cpp	/^void trxWidget::slotNewUplinkFrequency(double freq){$/;"	f	class:trxWidget
+slotNewUplinkFrequency	/home/frohro/Projects/sdr-shell-v2b/src/trxwidget.h	/^  void slotNewUplinkFrequency(double freq);$/;"	p	class:trxWidget
+slotOk	/home/frohro/Projects/sdr-shell-v2b/src/rigconfig.cpp	/^void rigConfig::slotOk(){$/;"	f	class:rigConfig
+slotOk	/home/frohro/Projects/sdr-shell-v2b/src/rigconfig.h	/^  void slotOk();$/;"	p	class:rigConfig
+slotSetPause	/home/frohro/Projects/sdr-shell-v2b/src/rigctrl.cpp	/^void rigctrl::slotSetPause(bool p){$/;"	f	class:rigctrl
+slotTimeout	/home/frohro/Projects/sdr-shell-v2b/src/rigctrl.cpp	/^void rigctrl::slotTimeout(){$/;"	f	class:rigctrl
+specApertureHigh	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		float specApertureLow, specApertureHigh;$/;"	m	class:Main_Widget
+specApertureLow	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		float specApertureLow, specApertureHigh;$/;"	m	class:Main_Widget
+specCal	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		float specCal;$/;"	m	class:Main_Widget
+specCalSpinBox	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		QSpinBox *specCalSpinBox, *metrCalSpinBox;$/;"	m	class:Main_Widget
+spec_b	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		int spec_r[120], spec_g[120], spec_b[120];$/;"	m	class:Main_Widget
+spec_g	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		int spec_r[120], spec_g[120], spec_b[120];$/;"	m	class:Main_Widget
+spec_r	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		int spec_r[120], spec_g[120], spec_b[120];$/;"	m	class:Main_Widget
+spec_type	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		enum spec_type { SEMI_RAW, PRE_FILT, POST_FILT };$/;"	g	class:Main_Widget
+spec_xpm	/home/frohro/Projects/sdr-shell-v2b/src/switches.h	/^static char *spec_xpm[]={$/;"	v
+spectrogram	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		Spectrogram *spectrogram;$/;"	m	class:Main_Widget
+spectrogramClicked	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.cpp	/^void Main_Widget::spectrogramClicked ( int x )$/;"	f	class:Main_Widget
+spectrogramClicked	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		void spectrogramClicked ( int );$/;"	p	class:Main_Widget
+spectrogramFrame	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		QFrame *spectrogramFrame;$/;"	m	class:Main_Widget
+spectrum	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		float spectrum[DEFSPEC];$/;"	m	class:Main_Widget
+spectrumFrame	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		Spectrum *spectrumFrame;$/;"	m	class:Main_Widget
+spectrumPix	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		QPixmap *spectrumPix;$/;"	m	class:Main_Widget
+spectrumScale	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		QFrame *spectrumScale;$/;"	m	class:Main_Widget
+spectrumType	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		int spectrumType;$/;"	m	class:Main_Widget
+spectrum_head	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		int spectrum_head;$/;"	m	class:Main_Widget
+spectrum_history	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		int spectrum_history[SPECTRUM_HISTORY_SIZE][DEFSPEC];$/;"	m	class:Main_Widget
+speed	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		int speed;$/;"	m	class:Main_Widget
+speedString	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		QString speedString;$/;"	m	class:Main_Widget
+ssplat	/home/frohro/Projects/sdr-shell-v2b/src/sunpropagator.h	/^          lon[2], horizon_angle, yr, ssplat, ssplon;           $/;"	m	class:SunPropagator
+ssplon	/home/frohro/Projects/sdr-shell-v2b/src/sunpropagator.h	/^          lon[2], horizon_angle, yr, ssplat, ssplon;           $/;"	m	class:SunPropagator
+staticMetaObject	/home/frohro/Projects/sdr-shell-v2b/src/moc_hamlibwrapper.cpp	/^QMetaObject* hamlibWrapper::staticMetaObject()$/;"	f	class:hamlibWrapper
+staticMetaObject	/home/frohro/Projects/sdr-shell-v2b/src/moc_main_widget.cpp	/^QMetaObject* Main_Widget::staticMetaObject()$/;"	f	class:Main_Widget
+staticMetaObject	/home/frohro/Projects/sdr-shell-v2b/src/moc_memorycell.cpp	/^QMetaObject* MemoryCell::staticMetaObject()$/;"	f	class:MemoryCell
+staticMetaObject	/home/frohro/Projects/sdr-shell-v2b/src/moc_pbscale.cpp	/^QMetaObject* PassBandScale::staticMetaObject()$/;"	f	class:PassBandScale
+staticMetaObject	/home/frohro/Projects/sdr-shell-v2b/src/moc_spectrogram.cpp	/^QMetaObject* Spectrogram::staticMetaObject()$/;"	f	class:Spectrogram
+staticMetaObject	/home/frohro/Projects/sdr-shell-v2b/src/moc_spectrum.cpp	/^QMetaObject* Spectrum::staticMetaObject()$/;"	f	class:Spectrum
+staticMetaObject	/home/frohro/Projects/sdr-shell-v2b/src/moc_varilabel.cpp	/^QMetaObject* VariModelabel::staticMetaObject()$/;"	f	class:VariModelabel
+staticMetaObject	/home/frohro/Projects/sdr-shell-v2b/src/moc_varilabel.cpp	/^QMetaObject* Varilabel::staticMetaObject()$/;"	f	class:Varilabel
+staticMetaObject	/home/frohro/Projects/sdr-shell-v2b/src/moc_worldmap.cpp	/^QMetaObject* WorldMap::staticMetaObject()$/;"	f	class:WorldMap
+stationCallsign	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		QString stationCallsign;$/;"	m	class:Main_Widget
+stationQTH	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		QString stationQTH;$/;"	m	class:Main_Widget
+step_1000Hz_frame	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		QFrame *step_1000Hz_frame;$/;"	m	class:Main_Widget
+step_100Hz_frame	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		QFrame *step_100Hz_frame;$/;"	m	class:Main_Widget
+step_10Hz_frame	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		QFrame *step_10Hz_frame;$/;"	m	class:Main_Widget
+step_1Hz_frame	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		QFrame *step_1Hz_frame;$/;"	m	class:Main_Widget
+stnlat	/home/frohro/Projects/sdr-shell-v2b/src/moonpropagator.h	/^   double stnlat, stnlon;$/;"	m	class:MoonPropagator
+stnlat	/home/frohro/Projects/sdr-shell-v2b/src/sunpropagator.h	/^   double stnlat, stnlon;$/;"	m	class:SunPropagator
+stnlon	/home/frohro/Projects/sdr-shell-v2b/src/moonpropagator.h	/^   double stnlat, stnlon;$/;"	m	class:MoonPropagator
+stnlon	/home/frohro/Projects/sdr-shell-v2b/src/sunpropagator.h	/^   double stnlat, stnlon;$/;"	m	class:SunPropagator
+strings	/home/frohro/Projects/sdr-shell-v2b/src/rigconfig.h	/^  QStringList strings;$/;"	m	class:rigConfig
+sun	/home/frohro/Projects/sdr-shell-v2b/src/worldmap.h	/^        SunPropagator *sun;$/;"	m	class:WorldMap
+sunLabel	/home/frohro/Projects/sdr-shell-v2b/src/worldmap.h	/^        QLabel *sunLabel;$/;"	m	class:WorldMap
+sunPoints	/home/frohro/Projects/sdr-shell-v2b/src/worldmap.h	/^        QPointArray *sunPoints;$/;"	m	class:WorldMap
+sun_x	/home/frohro/Projects/sdr-shell-v2b/src/worldmap.h	/^        int sun_x, sun_y, moon_x, moon_y;$/;"	m	class:WorldMap
+sun_y	/home/frohro/Projects/sdr-shell-v2b/src/worldmap.h	/^        int sun_x, sun_y, moon_x, moon_y;$/;"	m	class:WorldMap
+t1	/home/frohro/Projects/sdr-shell-v2b/src/moonpropagator.h	/^   double t1, t2, t3, ew, en, e, n, si, co, ra, gh,$/;"	m	class:MoonPropagator
+t1	/home/frohro/Projects/sdr-shell-v2b/src/sunpropagator.h	/^   double c, ms, t1, t2, t3, ew, e, n, si, co, ra, gh,$/;"	m	class:SunPropagator
+t2	/home/frohro/Projects/sdr-shell-v2b/src/moonpropagator.h	/^   double t1, t2, t3, ew, en, e, n, si, co, ra, gh,$/;"	m	class:MoonPropagator
+t2	/home/frohro/Projects/sdr-shell-v2b/src/sunpropagator.h	/^   double c, ms, t1, t2, t3, ew, e, n, si, co, ra, gh,$/;"	m	class:SunPropagator
+t3	/home/frohro/Projects/sdr-shell-v2b/src/moonpropagator.h	/^   double t1, t2, t3, ew, en, e, n, si, co, ra, gh,$/;"	m	class:MoonPropagator
+t3	/home/frohro/Projects/sdr-shell-v2b/src/sunpropagator.h	/^   double c, ms, t1, t2, t3, ew, e, n, si, co, ra, gh,$/;"	m	class:SunPropagator
+textFrame	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		QTextEdit *textFrame;$/;"	m	class:Main_Widget
+theme	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		int theme;$/;"	m	class:Main_Widget
+tm_ptr	/home/frohro/Projects/sdr-shell-v2b/src/worldmap.h	/^        struct tm *tm_ptr;$/;"	m	class:WorldMap	typeref:struct:WorldMap::tm
+toggle_ANF	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.cpp	/^void Main_Widget::toggle_ANF ( int )$/;"	f	class:Main_Widget
+toggle_ANF	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		void toggle_ANF ( int );$/;"	p	class:Main_Widget
+toggle_BIN	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.cpp	/^void Main_Widget::toggle_BIN ( int )$/;"	f	class:Main_Widget
+toggle_BIN	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		void toggle_BIN ( int );$/;"	p	class:Main_Widget
+toggle_MUTE	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.cpp	/^void Main_Widget::toggle_MUTE ( int )$/;"	f	class:Main_Widget
+toggle_MUTE	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		void toggle_MUTE ( int );$/;"	p	class:Main_Widget
+toggle_NB	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.cpp	/^void Main_Widget::toggle_NB ( int )$/;"	f	class:Main_Widget
+toggle_NB	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		void toggle_NB ( int );$/;"	p	class:Main_Widget
+toggle_NR	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.cpp	/^void Main_Widget::toggle_NR ( int )$/;"	f	class:Main_Widget
+toggle_NR	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		void toggle_NR ( int );$/;"	p	class:Main_Widget
+toggle_SPEC	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.cpp	/^void Main_Widget::toggle_SPEC ( int )$/;"	f	class:Main_Widget
+toggle_SPEC	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		void toggle_SPEC ( int );$/;"	p	class:Main_Widget
+tr	/home/frohro/Projects/sdr-shell-v2b/src/moc_hamlibwrapper.cpp	/^QString hamlibWrapper::tr( const char *s, const char *c )$/;"	f	class:hamlibWrapper
+tr	/home/frohro/Projects/sdr-shell-v2b/src/moc_main_widget.cpp	/^QString Main_Widget::tr( const char *s, const char *c )$/;"	f	class:Main_Widget
+tr	/home/frohro/Projects/sdr-shell-v2b/src/moc_memorycell.cpp	/^QString MemoryCell::tr( const char *s, const char *c )$/;"	f	class:MemoryCell
+tr	/home/frohro/Projects/sdr-shell-v2b/src/moc_pbscale.cpp	/^QString PassBandScale::tr( const char *s, const char *c )$/;"	f	class:PassBandScale
+tr	/home/frohro/Projects/sdr-shell-v2b/src/moc_spectrogram.cpp	/^QString Spectrogram::tr( const char *s, const char *c )$/;"	f	class:Spectrogram
+tr	/home/frohro/Projects/sdr-shell-v2b/src/moc_spectrum.cpp	/^QString Spectrum::tr( const char *s, const char *c )$/;"	f	class:Spectrum
+tr	/home/frohro/Projects/sdr-shell-v2b/src/moc_varilabel.cpp	/^QString VariModelabel::tr( const char *s, const char *c )$/;"	f	class:VariModelabel
+tr	/home/frohro/Projects/sdr-shell-v2b/src/moc_varilabel.cpp	/^QString Varilabel::tr( const char *s, const char *c )$/;"	f	class:Varilabel
+tr	/home/frohro/Projects/sdr-shell-v2b/src/moc_worldmap.cpp	/^QString WorldMap::tr( const char *s, const char *c )$/;"	f	class:WorldMap
+trUtf8	/home/frohro/Projects/sdr-shell-v2b/src/moc_hamlibwrapper.cpp	/^QString hamlibWrapper::trUtf8( const char *s, const char *c )$/;"	f	class:hamlibWrapper
+trUtf8	/home/frohro/Projects/sdr-shell-v2b/src/moc_main_widget.cpp	/^QString Main_Widget::trUtf8( const char *s, const char *c )$/;"	f	class:Main_Widget
+trUtf8	/home/frohro/Projects/sdr-shell-v2b/src/moc_memorycell.cpp	/^QString MemoryCell::trUtf8( const char *s, const char *c )$/;"	f	class:MemoryCell
+trUtf8	/home/frohro/Projects/sdr-shell-v2b/src/moc_pbscale.cpp	/^QString PassBandScale::trUtf8( const char *s, const char *c )$/;"	f	class:PassBandScale
+trUtf8	/home/frohro/Projects/sdr-shell-v2b/src/moc_spectrogram.cpp	/^QString Spectrogram::trUtf8( const char *s, const char *c )$/;"	f	class:Spectrogram
+trUtf8	/home/frohro/Projects/sdr-shell-v2b/src/moc_spectrum.cpp	/^QString Spectrum::trUtf8( const char *s, const char *c )$/;"	f	class:Spectrum
+trUtf8	/home/frohro/Projects/sdr-shell-v2b/src/moc_varilabel.cpp	/^QString VariModelabel::trUtf8( const char *s, const char *c )$/;"	f	class:VariModelabel
+trUtf8	/home/frohro/Projects/sdr-shell-v2b/src/moc_varilabel.cpp	/^QString Varilabel::trUtf8( const char *s, const char *c )$/;"	f	class:Varilabel
+trUtf8	/home/frohro/Projects/sdr-shell-v2b/src/moc_worldmap.cpp	/^QString WorldMap::trUtf8( const char *s, const char *c )$/;"	f	class:WorldMap
+transmit	/home/frohro/Projects/sdr-shell-v2b/src/hamlibwrapper.h	/^		ptt_t transmit;$/;"	m	class:hamlibWrapper
+trxFrame	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		QFrame *trxFrame;$/;"	m	class:Main_Widget
+trxWidget	/home/frohro/Projects/sdr-shell-v2b/src/trxwidget.cpp	/^trxWidget::trxWidget(QWidget *parent, const char *name ) : trxWidgetBase(parent,name), DCOPObject("DCOPInterface") {$/;"	f	class:trxWidget
+trxWidget	/home/frohro/Projects/sdr-shell-v2b/src/trxwidget.h	/^	trxWidget(QWidget *parent=0, const char *name=0);$/;"	p	class:trxWidget
+trxWidget	/home/frohro/Projects/sdr-shell-v2b/src/trxwidget.h	/^class trxWidget : public trxWidgetBase, virtual public DCOPInterface {$/;"	c
+trxctrl	/home/frohro/Projects/sdr-shell-v2b/src/trxwidget.h	/^  rigctrl* trxctrl;$/;"	m	class:trxWidget
+tune	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.cpp	/^void Main_Widget::tune ( int x )$/;"	f	class:Main_Widget
+tune	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		void tune ( int );$/;"	p	class:Main_Widget
+tune	/home/frohro/Projects/sdr-shell-v2b/src/moc_spectrum.cpp	/^void Spectrum::tune( int t0 )$/;"	f	class:Spectrum
+tune	/home/frohro/Projects/sdr-shell-v2b/src/spectrum.h	/^		void tune( int );$/;"	p	class:Spectrum
+tune1	/home/frohro/Projects/sdr-shell-v2b/src/moc_spectrogram.cpp	/^void Spectrogram::tune1( int t0 )$/;"	f	class:Spectrogram
+tune1	/home/frohro/Projects/sdr-shell-v2b/src/spectrogram.h	/^        void tune1( int );$/;"	p	class:Spectrogram
+tune2	/home/frohro/Projects/sdr-shell-v2b/src/moc_spectrogram.cpp	/^void Spectrogram::tune2( int t0 )$/;"	f	class:Spectrogram
+tune2	/home/frohro/Projects/sdr-shell-v2b/src/spectrogram.h	/^        void tune2( int );$/;"	p	class:Spectrogram
+tuneStep	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		int rx_delta_f, tuneStep;$/;"	m	class:Main_Widget
+txPix	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		QPixmap *rxPix, *txPix;$/;"	m	class:Main_Widget
+updateCallsign	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.cpp	/^void Main_Widget::updateCallsign()$/;"	f	class:Main_Widget
+updateCallsign	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		void updateCallsign();$/;"	p	class:Main_Widget
+updateHamlib	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.cpp	/^void Main_Widget::updateHamlib()$/;"	f	class:Main_Widget
+updateHamlib	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		void updateHamlib();$/;"	p	class:Main_Widget
+updateIFreq	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.cpp	/^void Main_Widget::updateIFreq()$/;"	f	class:Main_Widget
+updateIFreq	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		void updateIFreq();$/;"	p	class:Main_Widget
+updateIQGain	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.cpp	/^void Main_Widget::updateIQGain ( int gain )$/;"	f	class:Main_Widget
+updateIQGain	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		void updateIQGain ( int );$/;"	p	class:Main_Widget
+updateIQPhase	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.cpp	/^void Main_Widget::updateIQPhase ( int phase )$/;"	f	class:Main_Widget
+updateIQPhase	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		void updateIQPhase ( int );$/;"	p	class:Main_Widget
+updateLOFreq	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.cpp	/^void Main_Widget::updateLOFreq()$/;"	f	class:Main_Widget
+updateLOFreq	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		void updateLOFreq();$/;"	p	class:Main_Widget
+updateLayout	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.cpp	/^void Main_Widget::updateLayout()$/;"	f	class:Main_Widget
+updateLayout	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		void updateLayout();$/;"	p	class:Main_Widget
+updateTransponderList	/home/frohro/Projects/sdr-shell-v2b/src/trxwidget.cpp	/^void trxWidget::updateTransponderList() {$/;"	f	class:trxWidget
+updateTransponderList	/home/frohro/Projects/sdr-shell-v2b/src/trxwidget.h	/^  void updateTransponderList();$/;"	p	class:trxWidget
+uplinkfrequency	/home/frohro/Projects/sdr-shell-v2b/src/trxwidget.h	/^  double uplinkfrequency, downlinkfrequency;$/;"	m	class:trxWidget
+usb_xpm	/home/frohro/Projects/sdr-shell-v2b/src/modes.h	/^static char *usb_xpm[]={$/;"	v
+useIF	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		bool useIF;$/;"	m	class:Main_Widget
+vfo	/home/frohro/Projects/sdr-shell-v2b/src/hamlibwrapper.h	/^		vfo_t vfo;$/;"	m	class:hamlibWrapper
+width	/home/frohro/Projects/sdr-shell-v2b/src/hamlibwrapper.h	/^		pbwidth_t width;$/;"	m	class:hamlibWrapper
+world_pix	/home/frohro/Projects/sdr-shell-v2b/src/worldmap.h	/^        QPixmap *world_pix;$/;"	m	class:WorldMap
+worldmap	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		WorldMap *worldmap;$/;"	m	class:Main_Widget
+write	/home/frohro/Projects/sdr-shell-v2b/src/memorycell.h	/^        void write( MemoryCell * );$/;"	p	class:MemoryCell
+write	/home/frohro/Projects/sdr-shell-v2b/src/moc_memorycell.cpp	/^void MemoryCell::write( MemoryCell* t0 )$/;"	f	class:MemoryCell
+writeMem	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.cpp	/^void Main_Widget::writeMem ( MemoryCell *m )$/;"	f	class:Main_Widget
+writeMem	/home/frohro/Projects/sdr-shell-v2b/src/main_widget.h	/^		void writeMem ( MemoryCell * );$/;"	p	class:Main_Widget
+x0	/home/frohro/Projects/sdr-shell-v2b/src/pbscale.h	/^        int x0;$/;"	m	class:PassBandScale
+y	/home/frohro/Projects/sdr-shell-v2b/src/moc_varilabel.cpp	/^void Varilabel::y( int t0 )$/;"	f	class:Varilabel
+y	/home/frohro/Projects/sdr-shell-v2b/src/varilabel.h	/^        void y( int );$/;"	p	class:Varilabel
+yr	/home/frohro/Projects/sdr-shell-v2b/src/moonpropagator.h	/^          lh, gm, de, se, gs, dc, el, az, mm, yr, ro, mr;$/;"	m	class:MoonPropagator
+yr	/home/frohro/Projects/sdr-shell-v2b/src/sunpropagator.h	/^          lon[2], horizon_angle, yr, ssplat, ssplon;           $/;"	m	class:SunPropagator
+~MoonPropagator	/home/frohro/Projects/sdr-shell-v2b/src/moonpropagator.cpp	/^MoonPropagator::~MoonPropagator()$/;"	f	class:MoonPropagator
+~MoonPropagator	/home/frohro/Projects/sdr-shell-v2b/src/moonpropagator.h	/^   ~MoonPropagator();$/;"	p	class:MoonPropagator
+~SunPropagator	/home/frohro/Projects/sdr-shell-v2b/src/sunpropagator.cpp	/^SunPropagator::~SunPropagator()$/;"	f	class:SunPropagator
+~SunPropagator	/home/frohro/Projects/sdr-shell-v2b/src/sunpropagator.h	/^   ~SunPropagator();$/;"	p	class:SunPropagator
+~hamlibWrapper	/home/frohro/Projects/sdr-shell-v2b/src/hamlibwrapper.cpp	/^hamlibWrapper::~hamlibWrapper()$/;"	f	class:hamlibWrapper
+~hamlibWrapper	/home/frohro/Projects/sdr-shell-v2b/src/hamlibwrapper.h	/^		~hamlibWrapper();$/;"	p	class:hamlibWrapper
+~rigConfig	/home/frohro/Projects/sdr-shell-v2b/src/rigconfig.cpp	/^rigConfig::~rigConfig(){$/;"	f	class:rigConfig
+~rigConfig	/home/frohro/Projects/sdr-shell-v2b/src/rigconfig.h	/^	~rigConfig();$/;"	p	class:rigConfig
+~rigctrl	/home/frohro/Projects/sdr-shell-v2b/src/rigctrl.cpp	/^rigctrl::~rigctrl(){$/;"	f	class:rigctrl
+~trxWidget	/home/frohro/Projects/sdr-shell-v2b/src/trxwidget.cpp	/^trxWidget::~trxWidget(){$/;"	f	class:trxWidget
+~trxWidget	/home/frohro/Projects/sdr-shell-v2b/src/trxwidget.h	/^	~trxWidget();$/;"	p	class:trxWidget

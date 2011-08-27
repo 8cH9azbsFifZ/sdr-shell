@@ -1,0 +1,31 @@
+1)  Set setMute to not mute initially.  This should keep people from debugging something silly I hope.
+2)  Added hamlibWrapper.
+3)  Added an IF Configuration Panel.
+
+5)  We added DSB mode to rig.h.  Needs to be submitted to Nate.
+6)  We fixed timeout issues with kenwood rigs.  Submit to Nate.
+7)  We fixed RIT and XIT in ts850.c
+1)  Fix Xit and Rit for TS-850s in ts850.c.  Done.
+2)  Add a widget to enable/disable hamlib use. Done.
+3)  Fix hamlibwrapper.  Done.
+4)  Fix ts850.c so that the filters are set correctly for your rig.  Done.
+5)  We added DSB mode to rig.h.  Needs to be submitted to Nate.  Done.
+6)  We fixed timeout issues with kenwood rigs.  Submit to Nate.  Done.
+
+8)  Made rig and vfo track.  
+10) Finish getting slope tuning offsets going. Done.
+11) Fix CW_Pitch so it is automatic using hamlib. Done.
+
+
+To do:
+
+
+
+
+7)  Determine if other kenwood rigs should be fixed with timout issues.
+8)  Rigctl's w command doesn't return anything with the long timeout.
+9)  Make rig and memory track.
+
+
+12) Get a copy to Edson. Reply to Edson.
+13)  Update controls to Dttsp, to allow levels to be adjusted.
