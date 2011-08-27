@@ -4,11 +4,10 @@
 NAME=SDR-SHELL
 export SDR_DEFRATE=48000
 export JACK_BUFFER=1024
+AUDIO_DEV=hw:1
 
-# start jackd (firewire fa-66)
 echo "starting jackd ..."
-#DELTA-44
-pasuspender -- /usr/bin/jackd -dalsa -dhw:0 -r$SDR_DEFRATE -p${JACK_BUFFER} -n3&
+/usr/bin/jackd -dalsa -d$AUDIO_DEV -r$SDR_DEFRATE -p${JACK_BUFFER} -n3&
 
 sleep 5
 
