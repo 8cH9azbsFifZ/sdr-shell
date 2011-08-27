@@ -5,10 +5,11 @@ clear
 # http://sdr-shell.googlecode.com/svn/tags/PMSDR-1.0/sdr-shell.sh
 set -x
 export SDR_DEFRATE=96000 #48000 
-DEV_CAPTURE=hw:1
+export SDR_DEFRATE=48000 
+DEV_CAPTURE=hw:0
 DEV_PLAYBACK=hw:0
-#export SDR_NAME=sdr
-export SDR_NAME=sdr-tx # double entry?
+export SDR_NAME=sdr
+#export SDR_NAME=sdr-tx # double entry?
 
 ## communication over ports
 #export SDR_PARMPORT=19005 # sdr-core eats this
