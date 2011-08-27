@@ -24,10 +24,12 @@ for f in $SDR_PARMPATH $SDR_METERPATH $SDR_SPECPATH; do test -e $f || mkfifo $f;
 
 
 ## Start jackd
+echo "Starting jackd"
 /usr/bin/jackd -R -P66 -p128 -t2000 -dalsa -r$SDR_DEFRATE -D -C$DEV_CAPTURE -P$DEV_PLAYBACK -s -p 2048&
 # start in (R)ealtime with (P)rio 66, (p)ortmax 128, (t)imeout 2000 alsa with parameters...
 JPID="$!"
-sleep 2
+sleep 5
+echo "Started jackd"
 
 ## Realtime
 #rmmod capability
@@ -35,28 +37,28 @@ sleep 2
 #modprobe realcap any=1 allcaps=1
 
 ## Start DttSP
+echo "Starting DttSP"
 sdr-core --spectrum --metering&
 #/usr/local/bin/sdr-core --spectrum --metering --client-name=${NAME}_RX --buffsize=${JACK_BUFFER} --ringmult=4 --command-port=19001 --spectrum-port=19002 --meter-port=19003
 PIDS="$PIDS $!"
-
-sleep 1
+sleep 3
+echo "Started DttSP"
 
 # connect jack
+echo "Connecting jack"
 jack_connect $SDR_NAME:ol alsa_pcm:playback_1 || exit 1
 jack_connect $SDR_NAME:or alsa_pcm:playback_2 || exit 1
 jack_connect alsa_pcm:capture_1 $SDR_NAME:il || exit 1       
 jack_connect alsa_pcm:capture_2 $SDR_NAME:ir || exit 1    
 jack_lsp -c || exit 1
-
-
-sdr-core -s -m -v &
-#/usr/local/bin/sdr-core --spectrum --metering --client-name=${NAME}_RX --buffsize=${JACK_BUFFER} --ringmult=4 --command-port=19001 --spectrum-port=19002 --meter-port=19003&
-
 PIDS="$PIDS $!"
 sleep 1
+echo "Connected jack"
 
-echo $PIDS
+echo "The folliwing pids have been used: $PIDS"
 
+# Start SDR shell
+echo "Starting SDR shell"
 #export SDR_MODE=$PWD/hook-mode
 #export SDR_BAND=$PWD/hook-band
 ./sdr-shell
