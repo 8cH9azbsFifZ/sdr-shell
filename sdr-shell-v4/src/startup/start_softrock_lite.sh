@@ -7,7 +7,7 @@ set -x
 export SDR_DEFRATE=96000 #48000 
 DEV_CAPTURE=hw:1
 DEV_PLAYBACK=hw:0
-export SDR_NAME=sdr
+#export SDR_NAME=sdr
 export SDR_NAME=sdr-tx # double entry?
 
 ## communication over ports
@@ -25,17 +25,7 @@ for f in $SDR_PARMPATH $SDR_METERPATH $SDR_SPECPATH; do test -e $f || mkfifo $f;
 
 ## Start jackd
 /usr/bin/jackd -R -P66 -p128 -t2000 -dalsa -r$SDR_DEFRATE -D -C$DEV_CAPTURE -P$DEV_PLAYBACK -s -p 2048&
-# R - realtime
-# P - realtime priority
-# p - portmax (default 256)
-# t - timeout(ms) - default 500
-# d - driver
-# r - alsa option: sample rate
-# D - alsa option: duplex
-# C - alsa option: capture if
-# P - alsa option: playback if
-# s - alsa option: softmode
-# p - period: default 1024
+# start in (R)ealtime with (P)rio 66, (p)ortmax 128, (t)imeout 2000 alsa with parameters...
 JPID="$!"
 sleep 2
 
