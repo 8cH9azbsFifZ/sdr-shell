@@ -42,8 +42,7 @@ Ubuntu 10.10 / Debian squeeze
 	sudo apt-get install libusb++-dev libncurses5-dev
 
    Packages needed to build sdr-shell:
-	sudo apt-get install qt4-qmake libqt4-dev 
-	sudo apt-get install libhamlib++-dev pkg-config 
+	sudo apt-get install qt4-qmake libqt4-dev libhamlib++-dev pkg-config 
 
 (2) Run 'qmake-qt4' to build the Makefile, then 'make' to build sdr-shell.
 

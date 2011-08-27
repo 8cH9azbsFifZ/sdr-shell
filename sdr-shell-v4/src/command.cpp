@@ -11,8 +11,9 @@ Command::Command(QWidget *parent) : QLabel(parent)
 
 void Command::setCmd(DttSPcmd *rx, DttSPcmd *tx)
 {
-	if(rxCmd != NULL) rxCmd = rx;
-	else fprintf(stderr, "RX not enabled.\n");
+	rxCmd = rx;
+	#if(rxCmd != NULL) rxCmd = rx;
+	#else fprintf(stderr, "RX not enabled.\n");
 	if(txCmd != NULL) txCmd = tx;
 	else fprintf(stderr, "TX not enabled.\n");
 }
