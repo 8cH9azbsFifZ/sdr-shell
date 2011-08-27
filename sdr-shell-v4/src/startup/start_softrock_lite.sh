@@ -42,10 +42,10 @@ PIDS="$PIDS $!"
 sleep 1
 
 # connect jack
-jack_connect sdr:ol alsa_pcm:playback_1 || exit 1
-jack_connect sdr:or alsa_pcm:playback_2 || exit 1
-jack_connect alsa_pcm:capture_1 sdr:il || exit 1       
-jack_connect alsa_pcm:capture_2 sdr:ir || exit 1    
+jack_connect $SDR_NAME:ol alsa_pcm:playback_1 || exit 1
+jack_connect $SDR_NAME:or alsa_pcm:playback_2 || exit 1
+jack_connect alsa_pcm:capture_1 $SDR_NAME:il || exit 1       
+jack_connect alsa_pcm:capture_2 $SDR_NAME:ir || exit 1    
 jack_lsp -c || exit 1
 
 
@@ -54,25 +54,6 @@ sdr-core -s -m -v &
 
 PIDS="$PIDS $!"
 sleep 1
-
-#tx stuff
-#jack_lsp
-#jack_connect sdr-tx:ol alsa_pcm:playback_3
-#jack_connect sdr-tx:or alsa_pcm:playback_4
-case $1 in
-metronome )
-	jack_metro -b 60 &
-	PIDS="$PIDS $!"
-	sleep 1
-	jack_connect metro:60_bpm sdr-tx:il        
-	jack_connect metro:60_bpm sdr-tx:ir
-;;
-* )
-#tc stuff
-#	jack_connect alsa_pcm:capture_3 sdr-tx:il
-#	jack_connect alsa_pcm:capture_4 sdr-tx:ir
-;;
-esac
 
 echo $PIDS
 
