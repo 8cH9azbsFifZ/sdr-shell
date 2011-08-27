@@ -20,7 +20,7 @@ export SDR_NAME=sdr-tx # double entry?
 export SDR_PARMPATH=/dev/shm/SDRcommands
 export SDR_METERPATH=/dev/shm/SDRmeter
 export SDR_SPECPATH=/dev/shm/SDRspectrum
-for f in $SDR_PARMPATH $SDR_METERPATH $SDR_SPECPATH; do test -e /dev/shm/$f || mkfifo /dev/shm/$f; done;
+for f in $SDR_PARMPATH $SDR_METERPATH $SDR_SPECPATH; do test -e $f || mkfifo $f; done;
 
 
 ## Start jackd
