@@ -1,5 +1,4 @@
 #!/bin/bash
-
 # define name used in the RMI registry
 NAME=SDR-SHELL
 export SDR_DEFRATE=48000
