@@ -44,7 +44,7 @@ sleep 2
 #modprobe realcap any=1 allcaps=1
 
 ## Start DttSP
-sdr-core --sprectrum --metering&
+sdr-core --spectrum --metering&
 #/usr/local/bin/sdr-core --spectrum --metering --client-name=${NAME}_RX --buffsize=${JACK_BUFFER} --ringmult=4 --command-port=19001 --spectrum-port=19002 --meter-port=19003
 PIDS="$PIDS $!"
 
@@ -97,3 +97,6 @@ sleep 2
 kill $JPID
 wait
 
+
+killall sdr-core
+killall jackd
