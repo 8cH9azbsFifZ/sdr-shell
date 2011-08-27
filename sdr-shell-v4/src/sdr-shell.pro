@@ -43,6 +43,7 @@ SOURCES += main.cpp \
 DISTFILES += test \
     KL7NA_Notes
 
+# for cw
 #DEFINES += PTT_POLL
 #DEFINES += FREQ_POLL
 
