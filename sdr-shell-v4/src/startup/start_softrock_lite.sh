@@ -9,7 +9,8 @@ DEV_CAPTURE=hw:1
 DEV_PLAYBACK=hw:0
 export SDR_NAME=sdr
 export SDR_NAME=sdr-tx # double entry?
-# communication over ports
+
+## communication over ports
 #export SDR_PARMPORT=19005 # sdr-core eats this
 #export SDR_SPECPORT=19006  # sdr-core eats this
 #export SDR_METERPORT=19007  # sdr-core eats this
@@ -51,11 +52,11 @@ PIDS="$PIDS $!"
 sleep 1
 
 # connect jack
-jack_connect sdr:ol alsa_pcm:playback_1 
-jack_connect sdr:or alsa_pcm:playback_2
-jack_connect alsa_pcm:capture_1 sdr:il        
-jack_connect alsa_pcm:capture_2 sdr:ir     
-jack_lsp -c
+jack_connect sdr:ol alsa_pcm:playback_1 || exit 1
+jack_connect sdr:or alsa_pcm:playback_2 || exit 1
+jack_connect alsa_pcm:capture_1 sdr:il || exit 1       
+jack_connect alsa_pcm:capture_2 sdr:ir || exit 1    
+jack_lsp -c || exit 1
 
 
 sdr-core -s -m -v &
