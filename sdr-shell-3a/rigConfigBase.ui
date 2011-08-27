@@ -1,0 +1,574 @@
+<!DOCTYPE UI><UI version="3.2" stdsetdef="1">
+<class>rigConfigBase</class>
+<widget class="QDialog">
+    <property name="name">
+        <cstring>rigConfigBase</cstring>
+    </property>
+    <property name="geometry">
+        <rect>
+            <x>0</x>
+            <y>0</y>
+            <width>559</width>
+            <height>333</height>
+        </rect>
+    </property>
+    <property name="caption">
+        <string>Device Configuration</string>
+    </property>
+    <property name="sizeGripEnabled">
+        <bool>false</bool>
+    </property>
+    <vbox>
+        <property name="name">
+            <cstring>unnamed</cstring>
+        </property>
+        <property name="margin">
+            <number>11</number>
+        </property>
+        <property name="spacing">
+            <number>6</number>
+        </property>
+        <widget class="QGroupBox">
+            <property name="name">
+                <cstring>GroupBox1</cstring>
+            </property>
+            <property name="title">
+                <string>Rotor</string>
+            </property>
+            <vbox>
+                <property name="name">
+                    <cstring>unnamed</cstring>
+                </property>
+                <property name="margin">
+                    <number>11</number>
+                </property>
+                <property name="spacing">
+                    <number>6</number>
+                </property>
+                <widget class="QLayoutWidget">
+                    <property name="name">
+                        <cstring>Layout11</cstring>
+                    </property>
+                    <hbox>
+                        <property name="name">
+                            <cstring>unnamed</cstring>
+                        </property>
+                        <property name="margin">
+                            <number>0</number>
+                        </property>
+                        <property name="spacing">
+                            <number>6</number>
+                        </property>
+                        <widget class="QLabel">
+                            <property name="name">
+                                <cstring>TextLabel1</cstring>
+                            </property>
+                            <property name="text">
+                                <string>Interface:</string>
+                            </property>
+                        </widget>
+                        <widget class="QComboBox">
+                            <property name="name">
+                                <cstring>rotorInterface</cstring>
+                            </property>
+                            <property name="editable">
+                                <bool>false</bool>
+                            </property>
+                        </widget>
+                        <widget class="QLabel">
+                            <property name="name">
+                                <cstring>TextLabel1_4</cstring>
+                            </property>
+                            <property name="text">
+                                <string>Port:</string>
+                            </property>
+                        </widget>
+                        <widget class="QComboBox">
+                            <item>
+                                <property name="text">
+                                    <string>/dev/parport0</string>
+                                </property>
+                            </item>
+                            <item>
+                                <property name="text">
+                                    <string>/dev/parport1</string>
+                                </property>
+                            </item>
+                            <item>
+                                <property name="text">
+                                    <string>/dev/ttyS0</string>
+                                </property>
+                            </item>
+                            <item>
+                                <property name="text">
+                                    <string>/dev/ttyS1</string>
+                                </property>
+                            </item>
+                            <property name="name">
+                                <cstring>rotorPort</cstring>
+                            </property>
+                            <property name="editable">
+                                <bool>true</bool>
+                            </property>
+                        </widget>
+                        <widget class="QLabel">
+                            <property name="name">
+                                <cstring>TextLabel2_3</cstring>
+                            </property>
+                            <property name="text">
+                                <string>Interface Speed:</string>
+                            </property>
+                        </widget>
+                        <widget class="QComboBox">
+                            <item>
+                                <property name="text">
+                                    <string>300</string>
+                                </property>
+                            </item>
+                            <item>
+                                <property name="text">
+                                    <string>1200</string>
+                                </property>
+                            </item>
+                            <item>
+                                <property name="text">
+                                    <string>2400</string>
+                                </property>
+                            </item>
+                            <item>
+                                <property name="text">
+                                    <string>4800</string>
+                                </property>
+                            </item>
+                            <item>
+                                <property name="text">
+                                    <string>9600</string>
+                                </property>
+                            </item>
+                            <item>
+                                <property name="text">
+                                    <string>19200</string>
+                                </property>
+                            </item>
+                            <property name="name">
+                                <cstring>rotorSpeed</cstring>
+                            </property>
+                            <property name="editable">
+                                <bool>true</bool>
+                            </property>
+                        </widget>
+                        <spacer>
+                            <property name="name">
+                                <cstring>Spacer9</cstring>
+                            </property>
+                            <property name="orientation">
+                                <enum>Horizontal</enum>
+                            </property>
+                            <property name="sizeType">
+                                <enum>Expanding</enum>
+                            </property>
+                            <property name="sizeHint">
+                                <size>
+                                    <width>30</width>
+                                    <height>0</height>
+                                </size>
+                            </property>
+                        </spacer>
+                    </hbox>
+                </widget>
+                <widget class="QLayoutWidget">
+                    <property name="name">
+                        <cstring>Layout5</cstring>
+                    </property>
+                    <grid>
+                        <property name="name">
+                            <cstring>unnamed</cstring>
+                        </property>
+                        <property name="margin">
+                            <number>0</number>
+                        </property>
+                        <property name="spacing">
+                            <number>6</number>
+                        </property>
+                        <widget class="QLabel" row="1" column="0">
+                            <property name="name">
+                                <cstring>TextLabel2</cstring>
+                            </property>
+                            <property name="text">
+                                <string>Elevation Correction:</string>
+                            </property>
+                        </widget>
+                        <widget class="QLineEdit" row="0" column="1">
+                            <property name="name">
+                                <cstring>azimuthCorrectionEdit</cstring>
+                            </property>
+                            <property name="sizePolicy">
+                                <sizepolicy>
+                                    <hsizetype>5</hsizetype>
+                                    <vsizetype>0</vsizetype>
+                                    <horstretch>0</horstretch>
+                                    <verstretch>0</verstretch>
+                                </sizepolicy>
+                            </property>
+                            <property name="maximumSize">
+                                <size>
+                                    <width>50</width>
+                                    <height>32767</height>
+                                </size>
+                            </property>
+                        </widget>
+                        <widget class="QCheckBox" row="0" column="2">
+                            <property name="name">
+                                <cstring>rotorCheckBox</cstring>
+                            </property>
+                            <property name="text">
+                                <string>450° Rotor</string>
+                            </property>
+                        </widget>
+                        <spacer row="1" column="2">
+                            <property name="name">
+                                <cstring>Spacer5</cstring>
+                            </property>
+                            <property name="orientation">
+                                <enum>Horizontal</enum>
+                            </property>
+                            <property name="sizeType">
+                                <enum>Expanding</enum>
+                            </property>
+                            <property name="sizeHint">
+                                <size>
+                                    <width>157</width>
+                                    <height>0</height>
+                                </size>
+                            </property>
+                        </spacer>
+                        <widget class="QLineEdit" row="1" column="1">
+                            <property name="name">
+                                <cstring>elevationCorrectionEdit</cstring>
+                            </property>
+                            <property name="sizePolicy">
+                                <sizepolicy>
+                                    <hsizetype>5</hsizetype>
+                                    <vsizetype>0</vsizetype>
+                                    <horstretch>0</horstretch>
+                                    <verstretch>0</verstretch>
+                                </sizepolicy>
+                            </property>
+                            <property name="maximumSize">
+                                <size>
+                                    <width>50</width>
+                                    <height>32767</height>
+                                </size>
+                            </property>
+                        </widget>
+                        <widget class="QLabel" row="0" column="0">
+                            <property name="name">
+                                <cstring>TextLabel1_3</cstring>
+                            </property>
+                            <property name="text">
+                                <string>Azimuth Correction:</string>
+                            </property>
+                        </widget>
+                    </grid>
+                </widget>
+            </vbox>
+        </widget>
+        <widget class="QGroupBox">
+            <property name="name">
+                <cstring>GroupBox3</cstring>
+            </property>
+            <property name="title">
+                <string>Uplink</string>
+            </property>
+            <hbox>
+                <property name="name">
+                    <cstring>unnamed</cstring>
+                </property>
+                <property name="margin">
+                    <number>11</number>
+                </property>
+                <property name="spacing">
+                    <number>6</number>
+                </property>
+                <widget class="QLabel">
+                    <property name="name">
+                        <cstring>TextLabel1_2</cstring>
+                    </property>
+                    <property name="text">
+                        <string>Transceiver:</string>
+                    </property>
+                </widget>
+                <widget class="QComboBox">
+                    <property name="name">
+                        <cstring>utrxEdit</cstring>
+                    </property>
+                    <property name="insertionPolicy">
+                        <enum>AtTop</enum>
+                    </property>
+                </widget>
+                <widget class="QLabel">
+                    <property name="name">
+                        <cstring>TextLabel2_2</cstring>
+                    </property>
+                    <property name="text">
+                        <string>Port:</string>
+                    </property>
+                </widget>
+                <widget class="QComboBox">
+                    <item>
+                        <property name="text">
+                            <string>/dev/ttyS0</string>
+                        </property>
+                    </item>
+                    <item>
+                        <property name="text">
+                            <string>/dev/ttyS1</string>
+                        </property>
+                    </item>
+                    <item>
+                        <property name="text">
+                            <string>/dev/ttyS2</string>
+                        </property>
+                    </item>
+                    <item>
+                        <property name="text">
+                            <string>/dev/ttyS3</string>
+                        </property>
+                    </item>
+                    <property name="name">
+                        <cstring>uportEdit</cstring>
+                    </property>
+                    <property name="editable">
+                        <bool>true</bool>
+                    </property>
+                </widget>
+                <widget class="QLabel">
+                    <property name="name">
+                        <cstring>TextLabel3_2</cstring>
+                    </property>
+                    <property name="text">
+                        <string>Speed:</string>
+                    </property>
+                </widget>
+                <widget class="QComboBox">
+                    <item>
+                        <property name="text">
+                            <string>9600</string>
+                        </property>
+                    </item>
+                    <item>
+                        <property name="text">
+                            <string>19200</string>
+                        </property>
+                    </item>
+                    <item>
+                        <property name="text">
+                            <string>38400</string>
+                        </property>
+                    </item>
+                    <item>
+                        <property name="text">
+                            <string>57600</string>
+                        </property>
+                    </item>
+                    <item>
+                        <property name="text">
+                            <string>115200</string>
+                        </property>
+                    </item>
+                    <property name="name">
+                        <cstring>uspeedEdit</cstring>
+                    </property>
+                    <property name="editable">
+                        <bool>true</bool>
+                    </property>
+                </widget>
+            </hbox>
+        </widget>
+        <widget class="QCheckBox">
+            <property name="name">
+                <cstring>downlinkCheckBox</cstring>
+            </property>
+            <property name="text">
+                <string>Seperate downlink receiver</string>
+            </property>
+        </widget>
+        <widget class="QGroupBox">
+            <property name="name">
+                <cstring>downlinkGroupBox</cstring>
+            </property>
+            <property name="enabled">
+                <bool>false</bool>
+            </property>
+            <property name="title">
+                <string>Downlink</string>
+            </property>
+            <hbox>
+                <property name="name">
+                    <cstring>unnamed</cstring>
+                </property>
+                <property name="margin">
+                    <number>11</number>
+                </property>
+                <property name="spacing">
+                    <number>6</number>
+                </property>
+                <widget class="QLabel">
+                    <property name="name">
+                        <cstring>TextLabel1_2_2</cstring>
+                    </property>
+                    <property name="text">
+                        <string>Transceiver:</string>
+                    </property>
+                </widget>
+                <widget class="QComboBox">
+                    <property name="name">
+                        <cstring>dtrxEdit</cstring>
+                    </property>
+                </widget>
+                <widget class="QLabel">
+                    <property name="name">
+                        <cstring>TextLabel2_2_2</cstring>
+                    </property>
+                    <property name="text">
+                        <string>Port:</string>
+                    </property>
+                </widget>
+                <widget class="QComboBox">
+                    <item>
+                        <property name="text">
+                            <string>/dev/ttyS0</string>
+                        </property>
+                    </item>
+                    <item>
+                        <property name="text">
+                            <string>/dev/ttyS1</string>
+                        </property>
+                    </item>
+                    <item>
+                        <property name="text">
+                            <string>/dev/ttyS2</string>
+                        </property>
+                    </item>
+                    <item>
+                        <property name="text">
+                            <string>/dev/ttyS3</string>
+                        </property>
+                    </item>
+                    <property name="name">
+                        <cstring>dportEdit</cstring>
+                    </property>
+                    <property name="editable">
+                        <bool>true</bool>
+                    </property>
+                </widget>
+                <widget class="QLabel">
+                    <property name="name">
+                        <cstring>TextLabel3_2_2</cstring>
+                    </property>
+                    <property name="text">
+                        <string>Speed:</string>
+                    </property>
+                </widget>
+                <widget class="QComboBox">
+                    <item>
+                        <property name="text">
+                            <string>9600</string>
+                        </property>
+                    </item>
+                    <item>
+                        <property name="text">
+                            <string>19200</string>
+                        </property>
+                    </item>
+                    <item>
+                        <property name="text">
+                            <string>38400</string>
+                        </property>
+                    </item>
+                    <item>
+                        <property name="text">
+                            <string>57600</string>
+                        </property>
+                    </item>
+                    <item>
+                        <property name="text">
+                            <string>115200</string>
+                        </property>
+                    </item>
+                    <property name="name">
+                        <cstring>dspeedEdit</cstring>
+                    </property>
+                    <property name="editable">
+                        <bool>true</bool>
+                    </property>
+                </widget>
+            </hbox>
+        </widget>
+        <widget class="QLayoutWidget">
+            <property name="name">
+                <cstring>Layout1</cstring>
+            </property>
+            <hbox>
+                <property name="name">
+                    <cstring>unnamed</cstring>
+                </property>
+                <property name="margin">
+                    <number>0</number>
+                </property>
+                <property name="spacing">
+                    <number>6</number>
+                </property>
+                <spacer>
+                    <property name="name">
+                        <cstring>Spacer4</cstring>
+                    </property>
+                    <property name="orientation">
+                        <enum>Horizontal</enum>
+                    </property>
+                    <property name="sizeType">
+                        <enum>Expanding</enum>
+                    </property>
+                    <property name="sizeHint">
+                        <size>
+                            <width>20</width>
+                            <height>0</height>
+                        </size>
+                    </property>
+                </spacer>
+                <widget class="QPushButton">
+                    <property name="name">
+                        <cstring>buttonOk</cstring>
+                    </property>
+                    <property name="text">
+                        <string>&amp;Ok</string>
+                    </property>
+                    <property name="iconSet">
+                        <iconset>image0</iconset>
+                    </property>
+                </widget>
+                <widget class="QPushButton">
+                    <property name="name">
+                        <cstring>buttonCancel</cstring>
+                    </property>
+                    <property name="text">
+                        <string>&amp;Cancel</string>
+                    </property>
+                    <property name="iconSet">
+                        <iconset>image1</iconset>
+                    </property>
+                </widget>
+            </hbox>
+        </widget>
+    </vbox>
+</widget>
+<images>
+    <image name="image0">
+        <data format="XPM.GZ" length="429">789c6dd0bd0ac23010c0f13d4f71345b91ab915605f1111447411c924b8a0e55d03a88f8ee36b9c48fd64cf7ff7121902287ed66057921aead6e8f0474d017c8edad69eebbfdf22132350555c20c5436121902c1fa7c727eb6dd2cc7e1f824ce32a6e19c2b4ecd49134ee7b354e9aef449555d53155ef93d7268520f4c6ad3b78ea8679e2c9b345f84c1a4d62691c360964c40de6243c6b8150d9dc744d1c2265ffc98c7446f43eb12e19f3fc0ecb9102f1ec65d0e</data>
+    </image>
+    <image name="image1">
+        <data format="XPM.GZ" length="439">789c75d0c10a02211006e0bb4f31ecdc24dc8c8a207a84a263101d740aeab005b51d227af7c6d14a77e9670ffe1feab0d61a36eb25e85add5ad79e08e8e8aea0f7f7a6796c778ba7aaec14f89b80ad06aa3240b0ba9c0f618dbcc6a124548a759caa8f75666375b1d22856d34966c8290dd17144656ea0209e83c9bc1077a480624e289c63fd98509a44f835fc4dff6b5e525a4a32d3fd37ec9bec2e2c5d905bef0df2b77acdd51b4d8d56fc</data>
+    </image>
+</images>
+<layoutdefaults spacing="6" margin="11"/>
+</UI>

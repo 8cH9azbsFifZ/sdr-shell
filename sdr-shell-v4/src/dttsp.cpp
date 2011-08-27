@@ -77,7 +77,7 @@ DttSP :: DttSP (bool verbose, int port, int inbound):
           }
         } // else no, so sockaddr gets filled in at point of use, not bound by us
 
-                if(verbose) fprintf( stderr, "DttSP port %d\n", port);
+        if(verbose) fprintf( stderr, "DttSP port %d\n", port);
 
         // one size fits all
         size = DTTSP_PORT_CLIENT_BUFSIZE;
@@ -88,9 +88,9 @@ DttSP :: DttSP (bool verbose, int port, int inbound):
 DttSP :: DttSP (bool verbose, int port, int inbound, char *host):
         port(port)
 {
-    struct addrinfo		hints;
-    int					rc;
-    char				porttxt[32];
+    struct addrinfo	hints;
+    int			rc;
+    char		porttxt[32];
 
     if (inbound) {
         sethostent(0);
@@ -160,10 +160,10 @@ DttSP :: ~DttSP ()
 int DttSP :: send_command ( char *cmdstr ) 
 {
     fd_set fds;
-        struct timeval tv;
+    struct timeval tv;
 
-        char *saveptr;
-        char *token;
+    char *saveptr;
+    char *token;
 
     // are we pointing at the moon?
     if ((!pSa && !address) || sock == -1 || !cmdstr)

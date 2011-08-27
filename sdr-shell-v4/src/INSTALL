@@ -26,7 +26,7 @@ Fedora 14
 
 (4) Configure udev to set usbsoftrock permissions (see below)
 
-Ubuntu 10.10
+Ubuntu 10.10 / Debian squeeze
 
 (1) From a live CD installation of Ubuntu, Xubuntu or lubuntu, install
 
@@ -42,8 +42,7 @@ Ubuntu 10.10
 	sudo apt-get install libusb++-dev libncurses5-dev
 
    Packages needed to build sdr-shell:
-	sudo apt-get install qt4-qmake libqt4-dev 
-	sudo apt-get install libhamlib++-dev pkg-config 
+	sudo apt-get install qt4-qmake libqt4-dev libhamlib++-dev pkg-config 
 
 (2) Run 'qmake-qt4' to build the Makefile, then 'make' to build sdr-shell.
 
