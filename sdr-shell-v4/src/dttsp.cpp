@@ -211,7 +211,6 @@ int DttSP :: send_command ( char *cmdstr )
         pSa = NULL;
        	return -4;
     }
-    else { fprintf (stderr, "%s: workfs from select, enabling port\n", __FUNCTION__); }
     if (address == NULL) {
         if (recvfrom(sock, buff, size, flags, (struct sockaddr *) pSa, (socklen_t *)(&clen)) <= 0) {
             fprintf (stderr, "%s: error in recvfrom\n", __FUNCTION__);
