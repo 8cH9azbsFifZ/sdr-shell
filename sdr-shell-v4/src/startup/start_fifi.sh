@@ -12,16 +12,16 @@ export SDR_NAME=sdr
 #export SDR_NAME=sdr-tx # double entry?
 
 ## communication over ports
-#export SDR_PARMPORT=19005 # sdr-core eats this
-#export SDR_SPECPORT=19006  # sdr-core eats this
-#export SDR_METERPORT=19007  # sdr-core eats this
+export SDR_PARMPORT=19005 # sdr-core eats this
+export SDR_SPECPORT=19006  # sdr-core eats this
+export SDR_METERPORT=19007  # sdr-core eats this
 
 ## FIFOs
 # if communication over fifos
-export SDR_PARMPATH=/dev/shm/SDRcommands
-export SDR_METERPATH=/dev/shm/SDRmeter
-export SDR_SPECPATH=/dev/shm/SDRspectrum
-for f in $SDR_PARMPATH $SDR_METERPATH $SDR_SPECPATH; do test -e $f || mkfifo $f; done;
+#export SDR_PARMPATH=/dev/shm/SDRcommands
+#export SDR_METERPATH=/dev/shm/SDRmeter
+#export SDR_SPECPATH=/dev/shm/SDRspectrum
+#for f in $SDR_PARMPATH $SDR_METERPATH $SDR_SPECPATH; do test -e $f || mkfifo $f; done;
 
 ## Clean up
 killall -KILL sdr-core
@@ -43,7 +43,7 @@ echo "Started jackd"
 ## Start DttSP
 echo "Starting DttSP"
 sdr-core --spectrum --metering&
-#/usr/local/bin/sdr-core --spectrum --metering --client-name=${NAME}_RX --buffsize=${JACK_BUFFER} --ringmult=4 --command-port=19001 --spectrum-port=19002 --meter-port=19003
+#sdr-core --spectrum --metering R} --ringmult=4 --command-port=19001 --spectrum-port=19002 --meter-port=19003
 PIDS="$PIDS $!"
 sleep 3
 echo "Started DttSP"
@@ -63,17 +63,22 @@ echo "Connected jack"
 echo Starting si controller
 usbsoftrock -vvv -a -d &
 PIDS="$PIDS $!"
+sleep 5
 echo Starting si controller done
 
 echo "The following pids have been used: $PIDS"
+
+# Startx X
+#X :2 
+#export DISPLAY=:2
 
 # Start SDR shell
 echo "Starting SDR shell"
 #export SDR_MODE=$PWD/hook-mode
 #export SDR_BAND=$PWD/hook-band
-./sdr-shell
-#./sdr-shell --sample_rate=$SDR_DEFRATE --meter-port=$SDR_METERPORT \
-#--spectrum-port=$SDR_SPECPORT --rx-command-port=$SDR_PARMPORT
+#./sdr-shell
+./sdr-shell --sample_rate=$SDR_DEFRATE --meter-port=$SDR_METERPORT \
+--spectrum-port=$SDR_SPECPORT --rx-command-port=$SDR_PARMPORT
 
 
 # kill jack clients before killing jack himself.
