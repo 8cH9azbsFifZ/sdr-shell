@@ -10,16 +10,16 @@ DEV_PLAYBACK=hw:0
 export SDR_NAME=sdr
 export SDR_NAME=sdr-tx # double entry?
 # communication over ports
-export SDR_PARMPORT=19005 # sdr-core eats this
-export SDR_SPECPORT=19006  # sdr-core eats this
-export SDR_METERPORT=19007  # sdr-core eats this
+#export SDR_PARMPORT=19005 # sdr-core eats this
+#export SDR_SPECPORT=19006  # sdr-core eats this
+#export SDR_METERPORT=19007  # sdr-core eats this
 
 ## FIFOs
 # if communication over fifos
-#export SDR_PARMPATH=/dev/shm/SDRcommands
-#export SDR_METERPATH=/dev/shm/SDRmeter
-#export SDR_SPECPATH=/dev/shm/SDRspectrum
-# mkfifo /dev/shm/SDRcommands
+export SDR_PARMPATH=/dev/shm/SDRcommands
+export SDR_METERPATH=/dev/shm/SDRmeter
+export SDR_SPECPATH=/dev/shm/SDRspectrum
+for f in $SDR_PARMPATH $SDR_METERPATH $SDR_SPECPATH; do test -e /dev/shm/$f || mkfifo /dev/shm/$f; done;
 
 
 ## Start jackd
