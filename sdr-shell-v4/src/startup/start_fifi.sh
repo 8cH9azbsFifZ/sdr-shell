@@ -59,6 +59,12 @@ PIDS="$PIDS $!"
 sleep 1
 echo "Connected jack"
 
+# Start si controller
+echo Starting si controller
+usbsoftrock -vvv -a -d &
+PIDS="$PIDS $!"
+echo Starting si controller done
+
 echo "The following pids have been used: $PIDS"
 
 # Start SDR shell
