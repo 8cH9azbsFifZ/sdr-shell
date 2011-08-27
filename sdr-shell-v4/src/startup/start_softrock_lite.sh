@@ -17,9 +17,9 @@ export SDR_METERPORT=19007  # sdr-core eats this
 
 ## FIFOs
 # if communication over fifos
-#export SDR_PARMPATH=/dev/shm/SDRcommands
-#export SDR_METERPATH=/dev/shm/SDRmeter
-#export SDR_SPECPATH=/dev/shm/SDRspectrum
+export SDR_PARMPATH=/dev/shm/SDRcommands
+export SDR_METERPATH=/dev/shm/SDRmeter
+export SDR_SPECPATH=/dev/shm/SDRspectrum
 for f in $SDR_PARMPATH $SDR_METERPATH $SDR_SPECPATH; do test -e $f || mkfifo $f; done;
 
 
@@ -55,7 +55,7 @@ PIDS="$PIDS $!"
 sleep 1
 echo "Connected jack"
 
-echo "The folliwing pids have been used: $PIDS"
+echo "The following pids have been used: $PIDS"
 
 # Start SDR shell
 echo "Starting SDR shell"

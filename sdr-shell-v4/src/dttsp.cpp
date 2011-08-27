@@ -160,10 +160,10 @@ DttSP :: ~DttSP ()
 int DttSP :: send_command ( char *cmdstr ) 
 {
     fd_set fds;
-        struct timeval tv;
+    struct timeval tv;
 
-        char *saveptr;
-        char *token;
+    char *saveptr;
+    char *token;
 
     // are we pointing at the moon?
     if ((!pSa && !address) || sock == -1 || !cmdstr)
