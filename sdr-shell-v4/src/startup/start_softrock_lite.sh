@@ -5,8 +5,8 @@ clear
 # http://sdr-shell.googlecode.com/svn/tags/PMSDR-1.0/sdr-shell.sh
 set -x
 export SDR_DEFRATE=96000 #48000 
-export SDR_DEFRATE=48000 
-DEV_CAPTURE=hw:0
+#export SDR_DEFRATE=48000 
+DEV_CAPTURE=hw:1
 DEV_PLAYBACK=hw:0
 export SDR_NAME=sdr
 #export SDR_NAME=sdr-tx # double entry?
