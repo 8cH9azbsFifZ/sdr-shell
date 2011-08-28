@@ -58,6 +58,10 @@ real-time priorities, you may reconfigure it for real-time priorities with:
 
 (5) Configure udev to set usbsoftrock permissions (see below)
 
+(6) Build this package: 
+update-alternatives -config qmake 
+=> must be qmake-qt4
+
 All Linux Systems
 
 The following udev rules works well to allow the group softrock to use
