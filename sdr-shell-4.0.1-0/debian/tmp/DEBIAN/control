@@ -2,7 +2,7 @@ Package: sdr-shell
 Version: 4.0.1-0
 Architecture: i386
 Maintainer: Dr. Gerolf Ziegenhain <g@ziegenhain.com>
-Installed-Size: 28
+Installed-Size: 324
 Depends: libfftw3-3, mime-support, liblo7, libc6-i686, gawk, libjack-jackd2-0, jackd2, dttsp (>= 0.2)
 Recommends: usbsoftrock
 Section: hamradio
