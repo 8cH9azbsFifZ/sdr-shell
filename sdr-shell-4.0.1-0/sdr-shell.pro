@@ -50,6 +50,10 @@ DISTFILES += test \
 OTHER_FILES += \
     CHANGELOG
 
+# Installation
 target.path += /usr/bin
+startupfiles.path += /usr/share/doc/sdr-shell/startup/
+startupfiles.files += startup/*
 INSTALLS += target
+INSTALLS += startupfiles
 
