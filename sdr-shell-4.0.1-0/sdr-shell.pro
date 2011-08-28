@@ -49,3 +49,7 @@ DISTFILES += test \
 
 OTHER_FILES += \
     CHANGELOG
+
+target.path += /usr/bin
+INSTALLS += target
+
