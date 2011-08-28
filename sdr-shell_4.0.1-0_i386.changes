@@ -15,14 +15,14 @@ Changes:
  .
    * Initial release.
 Checksums-Sha1: 
- 15e531c79dd24165dff5a9c67a7bef118553c992 719 sdr-shell_4.0.1-0.dsc
- e8b8b0fff9073b3c6112328755a7d82db0d62fed 258343 sdr-shell_4.0.1-0.tar.gz
- 4429fdc0d244bf86d20227dad1ea44d85d756178 113588 sdr-shell_4.0.1-0_i386.deb
+ 661257cd3392b4a714de9615d027046a176da9af 719 sdr-shell_4.0.1-0.dsc
+ 4ae93ba28d51dff76ff8ed40ee845f97a693ac4f 258530 sdr-shell_4.0.1-0.tar.gz
+ b12bac2133b3a98032fee5c23f0cacbf6ae17596 118180 sdr-shell_4.0.1-0_i386.deb
 Checksums-Sha256: 
- bd9b33899d29cf5f5578aff6de0400a17d6941b46bd23b6db4f682da67a8faf0 719 sdr-shell_4.0.1-0.dsc
- d086155ff8209759e99141e6a4cd32c1299582c99b085b54c769397eb74ed19e 258343 sdr-shell_4.0.1-0.tar.gz
- 8e60d1b14c58ece6f9c42e765daa004df2413a342cc528108adcd0f16173a052 113588 sdr-shell_4.0.1-0_i386.deb
+ 2475ba46ab3483364d7eaf072e45038e453839b330f9f63d379693850087fb8f 719 sdr-shell_4.0.1-0.dsc
+ e9284251483d667409e4b3b45988a31f97a203a3f269ed6aa85d6bc6edcccdd9 258530 sdr-shell_4.0.1-0.tar.gz
+ d7a126f822c0c0aa9aab7243fef7699f809ae0c78b800094337f4c39b44f43aa 118180 sdr-shell_4.0.1-0_i386.deb
 Files: 
- 5c023b948f2f3c4f3a8943aca15fce96 719 hamradio extra sdr-shell_4.0.1-0.dsc
- 6dbe119e295b0dcafb6e2a7a9b06c068 258343 hamradio extra sdr-shell_4.0.1-0.tar.gz
- cd319a7dca1563ffaedd9a7218f17bb1 113588 hamradio extra sdr-shell_4.0.1-0_i386.deb
+ 8e84255ea8a8a8f259d4559f3ef14dde 719 hamradio extra sdr-shell_4.0.1-0.dsc
+ 4fa56cfc5be2000f8c147f5d5279cad0 258530 hamradio extra sdr-shell_4.0.1-0.tar.gz
+ 437a503ea35b329ff1090d4b88a76be9 118180 hamradio extra sdr-shell_4.0.1-0_i386.deb
