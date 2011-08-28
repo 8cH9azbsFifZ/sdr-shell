@@ -1,8 +1,5 @@
 #!/bin/sh
-# Start-Up for sdr-shell, dttsp, and usbsoftrock.  Oriented towards a Softrock
-# RXTX board.
 clear
-# http://sdr-shell.googlecode.com/svn/tags/PMSDR-1.0/sdr-shell.sh
 set -x
 export SDR_DEFRATE=96000 #48000 
 #export SDR_DEFRATE=48000 
