@@ -10,8 +10,8 @@ Vcs-Browser: https://github.com/8cH9azbsFifZ/sdr-shell
 Vcs-Git: git://github.com/8cH9azbsFifZ/sdr-shell.git
 Build-Depends: libfftw3-dev, debhelper (>= 7.0.50), libjack-jackd2-0, libjack-jackd2-dev, automake, libqt4-dev (>= 4:4.5)
 Checksums-Sha1: 
- 4ae93ba28d51dff76ff8ed40ee845f97a693ac4f 258530 sdr-shell_4.0.1-0.tar.gz
+ 951e3d4293926d603a0fc7e9c1269983a2628769 260185 sdr-shell_4.0.1-0.tar.gz
 Checksums-Sha256: 
- e9284251483d667409e4b3b45988a31f97a203a3f269ed6aa85d6bc6edcccdd9 258530 sdr-shell_4.0.1-0.tar.gz
+ 19fc0c7a5c6df835f3db7133a3a77b085b283240ec84cbdb74b334dcfd8259bd 260185 sdr-shell_4.0.1-0.tar.gz
 Files: 
- 4fa56cfc5be2000f8c147f5d5279cad0 258530 sdr-shell_4.0.1-0.tar.gz
+ 2dcef45c76de137ae79a96d159cde9ef 260185 sdr-shell_4.0.1-0.tar.gz

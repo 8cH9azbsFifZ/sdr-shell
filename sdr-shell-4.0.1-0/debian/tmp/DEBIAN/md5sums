@@ -3,6 +3,6 @@ e64461e2940a804c9c951bd1dc55b61b  usr/share/doc/sdr-shell/changelog.Debian.gz
 8f8367f57f194f052e7d60589b601c70  usr/share/doc/sdr-shell/startup/sdr-shell.sh.gz
 6d2c2b80a945c3f480a71520d45d5fa3  usr/share/doc/sdr-shell/startup/start-audigy.sh
 24c614a57b18ec77b5ce08020056aa92  usr/share/doc/sdr-shell/startup/start-delta44.sh
-a2c08410941dae00b9d1b65e7d5682cb  usr/share/doc/sdr-shell/startup/start_fifi.sh
+917d45d6621c1b076753c15df8d2bd6f  usr/share/doc/sdr-shell/startup/start_fifi.sh
 b3f8e6d4720a28aa983615ead122a0f2  usr/share/doc/sdr-shell/startup/start_rx
 d1e140e164ad39d84e6a96fec8ccd8eb  usr/share/doc/sdr-shell/startup/start_softrock_lite.sh
