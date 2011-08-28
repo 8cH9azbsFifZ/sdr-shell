@@ -10,7 +10,7 @@ Homepage: http://code.google.com/p/sdr-shell/
 
 Package: sdr-shell
 Architecture: any
-Depends: libfftw3-3, mime-support, liblo7, libc6-i686, gawk, libjack-jackd2-0, jackd2, dttsp (>= 0.2)
+Depends: libfftw3-3, mime-support, liblo7, libc6-i686, gawk, libjack-jackd2-0, jackd2, dttsp (>= 0.675)
 Recommends: usbsoftrock
 Description: SDR-Shell 
  SDR-Shell is a Qt GUI controller for sdr-core (DttSP), a Software Defined Radio. 
