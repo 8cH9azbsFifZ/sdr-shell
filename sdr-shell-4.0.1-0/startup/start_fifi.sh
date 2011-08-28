@@ -73,8 +73,8 @@ echo "The following pids have been used: $PIDS"
 echo "Starting SDR shell"
 #export SDR_MODE=$PWD/hook-mode
 #export SDR_BAND=$PWD/hook-band
-#./sdr-shell
-./sdr-shell --sample_rate=$SDR_DEFRATE --meter-port=$SDR_METERPORT \
+#sdr-shell
+sdr-shell --sample_rate=$SDR_DEFRATE --meter-port=$SDR_METERPORT \
 --spectrum-port=$SDR_SPECPORT --rx-command-port=$SDR_PARMPORT
 
 
