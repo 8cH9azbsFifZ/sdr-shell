@@ -1,5 +1,5 @@
-7bf97337dcad4df5ad2922f8e11e978a  usr/bin/sdr-shell
-050acb17809f6da490ff31f489d12459  usr/share/doc/sdr-shell/changelog.Debian.gz
+49f5a56dff7a20e4c025ea41f6af1997  usr/bin/sdr-shell
+4afa56c93110e697bdb2cffa1dff5477  usr/share/doc/sdr-shell/changelog.Debian.gz
 d32239bcb673463ab874e80d47fae504  usr/share/doc/sdr-shell/copyright
 8f8367f57f194f052e7d60589b601c70  usr/share/doc/sdr-shell/startup/sdr-shell.sh.gz
 6d2c2b80a945c3f480a71520d45d5fa3  usr/share/doc/sdr-shell/startup/start-audigy.sh
