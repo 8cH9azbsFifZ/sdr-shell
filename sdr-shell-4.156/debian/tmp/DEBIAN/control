@@ -1,0 +1,12 @@
+Package: sdr-shell
+Version: 4.156-0
+Architecture: i386
+Maintainer: Dr. Gerolf Ziegenhain <g@ziegenhain.com>
+Installed-Size: 388
+Depends: libfftw3-3, mime-support, liblo7, libc6-i686, gawk, libjack-jackd2-0, jackd2, dttsp (>= 0.675)
+Recommends: usbsoftrock
+Section: hamradio
+Priority: extra
+Homepage: http://code.google.com/p/sdr-shell/
+Description: SDR-Shell
+ SDR-Shell is a Qt GUI controller for sdr-core (DttSP), a Software Defined Radio.
