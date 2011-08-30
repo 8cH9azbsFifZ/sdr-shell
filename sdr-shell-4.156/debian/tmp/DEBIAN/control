@@ -8,5 +8,5 @@ Recommends: usbsoftrock
 Section: hamradio
 Priority: extra
 Homepage: http://code.google.com/p/sdr-shell/
-Description: SDR-Shell
- SDR-Shell is a Qt GUI controller for sdr-core (DttSP), a Software Defined Radio.
+Description: A Software Defined Radio
+ This is a Qt GUI controller for the sdr-core (DttSP),
