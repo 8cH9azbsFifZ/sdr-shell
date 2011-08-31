@@ -2,15 +2,5 @@
 
 dh_auto_configure --qmake=qmake-qt4
 
-ifeq ($(shell dpkg-vendor --derives-from Ubuntu && echo yes),yes)
-	SUBSTVARS = -Vdist:Depends="foo (>= 2)"
-else
-	SUBSTVARS = -Vdist:Depends="bar"
-endif
-
 %:
 	dh $@
-
-override_dh_gencontrol:
-#	dh_gencontrol -- $(SUBSTVARS)
-	#dpkg-gencontrol -psdr-shell -O
