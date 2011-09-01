@@ -1,5 +1,6 @@
 #!/usr/bin/make -f
+
 dh_auto_configure --qmake=qmake-qt4
 
 %:
-	dh  $@
+	dh $@

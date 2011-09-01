@@ -1,0 +1,2 @@
+shlibs:Depends=libfftw3-3, mime-support, liblo7, libc6-i686, libjack-jackd2-0
+misc:Depends=gawk, jackd2, dttsp (>= 0.675)
