@@ -49,8 +49,8 @@ echo "Started DttSP"
 echo "Connecting jack"
 jack_connect $SDR_NAME:ol alsa_pcm:playback_1 || exit 1
 jack_connect $SDR_NAME:or alsa_pcm:playback_2 || exit 1
-jack_connect alsa_pcm:capture_1 $SDR_NAME:il || exit 1       
-jack_connect alsa_pcm:capture_2 $SDR_NAME:ir || exit 1    
+jack_connect alsa_pcm:capture_1 $SDR_NAME:ir || exit 1       
+jack_connect alsa_pcm:capture_2 $SDR_NAME:il || exit 1    
 jack_lsp -c || exit 1
 PIDS="$PIDS $!"
 sleep 1
