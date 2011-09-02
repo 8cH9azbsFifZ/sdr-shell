@@ -1,12 +1,6 @@
 sdr-shell (4~svn156-0gz1) unstable; urgency=low
  
-  * Adjusted to official version number.
+  * Adjusted version numbers, debianized package.
 
  -- Dr. Gerolf Ziegenhain <g@ziegenhain.com>  Tue, 30 Aug 2011 22:56:52 +0100
-
-sdr-shell (4.0.1-0) unstable; urgency=low
- 
-  * Initial release.
-
- -- Dr. Gerolf Ziegenhain <g@ziegenhain.com>  Tue, 28 Aug 2011 01:45:52 +0100
 
