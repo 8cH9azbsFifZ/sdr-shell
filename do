@@ -1,6 +1,7 @@
 rm sdr*
 cd sdr-she*
 make clean
+rm debian/debhelper.log
 dpkg-buildpackage -k5ED67C93 
 cd ..
 dput debexpo *changes
