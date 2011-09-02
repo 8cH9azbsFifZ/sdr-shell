@@ -1,15 +1,8 @@
 #!/usr/bin/make -f
-
-#include /usr/share/cdbs/1/rules/debhelper.mk
-#include /usr/share/cdbs/1/class/qmake.mk
-
 QMAKE=qmake-qt4
 
-#qmake-qt4 sdr-shell.pro -o Makefile
-#DEB_QMAKE_ARGS = sdr-shell.pro
 override_dh_auto_configure:
 	qmake-qt4 sdr-shell.pro -o Makefile
-# --qmake=qmake-qt4
 
 %:
 	dh $@
