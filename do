@@ -7,6 +7,7 @@ cd ..
 cd sdr-she*
 make clean
 rm debian/debhelper.log
+cd ..
 
 #dput debexpo *changes
 git commit -a -m "new build"
