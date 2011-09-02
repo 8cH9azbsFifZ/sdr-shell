@@ -13,4 +13,4 @@ Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Recommends: usbsoftrock
 Description: A Software Defined Radio
- This is a Qt GUI controller for the sdr-core (DttSP),
+ Whithin this package a Qt GUI controller for the sdr-core (DttSP) is provided.
