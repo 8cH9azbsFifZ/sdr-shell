@@ -1,0 +1,95 @@
+ dpkg-buildpackage -rfakeroot -d -us -uc -S
+dpkg-buildpackage: warning: using a gain-root-command while being root
+dpkg-buildpackage: export CFLAGS from dpkg-buildflags (origin: vendor): -g -O2
+dpkg-buildpackage: export CPPFLAGS from dpkg-buildflags (origin: vendor): 
+dpkg-buildpackage: export CXXFLAGS from dpkg-buildflags (origin: vendor): -g -O2
+dpkg-buildpackage: export FFLAGS from dpkg-buildflags (origin: vendor): -g -O2
+dpkg-buildpackage: export LDFLAGS from dpkg-buildflags (origin: vendor): 
+dpkg-buildpackage: source package sdr-shell
+dpkg-buildpackage: source version 4~svn156-0gz1
+dpkg-buildpackage: source changed by Dr. Gerolf Ziegenhain <g@ziegenhain.com>
+ dpkg-source --before-build sdr-shell_4~svn156
+ fakeroot debian/rules clean
+dh clean
+   dh_testdir
+   dh_auto_clean
+   dh_clean
+ dpkg-source -b sdr-shell_4~svn156
+dpkg-source: info: using source format `3.0 (quilt)'
+dpkg-source: info: building sdr-shell using existing ./sdr-shell_4~svn156.orig.tar.gz
+dpkg-source: warning: ignoring deletion of file Makefile
+dpkg-source: warning: ignoring deletion of file sdr-shell
+dpkg-source: info: local changes stored in sdr-shell_4~svn156/debian/patches/debian-changes-4~svn156-0gz1, the modified files are:
+ sdr-shell_4~svn156/AUTHORS
+ sdr-shell_4~svn156/CHANGELOG
+ sdr-shell_4~svn156/COPYING
+ sdr-shell_4~svn156/IDEAS
+ sdr-shell_4~svn156/INSTALL
+ sdr-shell_4~svn156/Makefile.osx
+ sdr-shell_4~svn156/README
+ sdr-shell_4~svn156/agc.h
+ sdr-shell_4~svn156/command.cpp
+ sdr-shell_4~svn156/command.h
+ sdr-shell_4~svn156/dttsp.cpp
+ sdr-shell_4~svn156/dttsp.h
+ sdr-shell_4~svn156/freqlabel.cpp
+ sdr-shell_4~svn156/freqlabel.h
+ sdr-shell_4~svn156/hamlibwrapper.cpp
+ sdr-shell_4~svn156/hamlibwrapper.h
+ sdr-shell_4~svn156/hook-mode
+ sdr-shell_4~svn156/idbutton.cpp
+ sdr-shell_4~svn156/idbutton.h
+ sdr-shell_4~svn156/lcdfreq.cpp
+ sdr-shell_4~svn156/lcdfreq.h
+ sdr-shell_4~svn156/logo.xpm
+ sdr-shell_4~svn156/main.cpp
+ sdr-shell_4~svn156/main_widget.cpp
+ sdr-shell_4~svn156/main_widget.h
+ sdr-shell_4~svn156/memorycell.cpp
+ sdr-shell_4~svn156/memorycell.h
+ sdr-shell_4~svn156/meter1.xpm
+ sdr-shell_4~svn156/mhz.xpm
+ sdr-shell_4~svn156/modes.h
+ sdr-shell_4~svn156/pbscale.cpp
+ sdr-shell_4~svn156/pbscale.h
+ sdr-shell_4~svn156/rigctl.cpp
+ sdr-shell_4~svn156/rigctl.h
+ sdr-shell_4~svn156/sdr-shell.pro
+ sdr-shell_4~svn156/sdrshell.kdevelop
+ sdr-shell_4~svn156/spectrogram.cpp
+ sdr-shell_4~svn156/spectrogram.h
+ sdr-shell_4~svn156/spectrum.cpp
+ sdr-shell_4~svn156/spectrum.h
+ sdr-shell_4~svn156/startup/sdr-shell.sh
+ sdr-shell_4~svn156/startup/start-audigy.sh
+ sdr-shell_4~svn156/startup/start-delta44.sh
+ sdr-shell_4~svn156/startup/start_fifi.sh
+ sdr-shell_4~svn156/startup/start_rx
+ sdr-shell_4~svn156/startup/start_softrock_lite.sh
+ sdr-shell_4~svn156/switches.h
+ sdr-shell_4~svn156/text.h
+ sdr-shell_4~svn156/trxwidget.cpp
+ sdr-shell_4~svn156/trxwidget.h
+ sdr-shell_4~svn156/varilabel.cpp
+ sdr-shell_4~svn156/varilabel.h
+dpkg-source: info: building sdr-shell in sdr-shell_4~svn156-0gz1.debian.tar.gz
+dpkg-source: info: building sdr-shell in sdr-shell_4~svn156-0gz1.dsc
+ dpkg-genchanges -S >../sdr-shell_4~svn156-0gz1_source.changes
+dpkg-genchanges: including full source code in upload
+ dpkg-source --after-build sdr-shell_4~svn156
+dpkg-buildpackage: full upload (original source is included)
+Now running lintian...
+warning: lintian's authors do not recommend running it with root privileges!
+Finished running lintian.
+Now signing changes and any dsc files...
+ signfile sdr-shell_4~svn156-0gz1.dsc Dr. Gerolf Ziegenhain <g@ziegenhain.com>
+gpg: WARNING: unsafe ownership on configuration file `/root/.gnupg/gpg.conf'
+gpg: WARNING: unsafe ownership on configuration file `/root/.gnupg/gpg.conf'
+gpg: gpg-agent is not available in this session
+
+ signfile sdr-shell_4~svn156-0gz1_source.changes Dr. Gerolf Ziegenhain <g@ziegenhain.com>
+gpg: WARNING: unsafe ownership on configuration file `/root/.gnupg/gpg.conf'
+gpg: WARNING: unsafe ownership on configuration file `/root/.gnupg/gpg.conf'
+gpg: gpg-agent is not available in this session
+
+Successfully signed dsc and changes files
