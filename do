@@ -5,9 +5,10 @@ rm debian/debhelper.log
 #./debian/rules get-orig-source
 #mv sdr*gz ..
 
-debuild
+#checksum not updated
+#debuild
 debuild -S
-#dpkg-buildpackage -k5ED67C93 
+dpkg-buildpackage
 
 cd ..
 cd sdr-she*
@@ -15,11 +16,12 @@ make clean
 rm debian/debhelper.log
 cd ..
 
-#dput debexpo *changes
 git commit -a -m "new build"
 git push
-
 
 lintian --pedantic --all *dsc
 lintian  *deb
 
+for f in *changes; do
+dput -l debexpo $f
+done
