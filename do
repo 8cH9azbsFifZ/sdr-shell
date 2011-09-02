@@ -7,3 +7,6 @@ cd ..
 #dput debexpo *changes
 git commit -a -m "new build"
 git push
+
+lintian --pedantic --all *dsc
+lintian  *deb
