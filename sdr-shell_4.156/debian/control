@@ -3,7 +3,7 @@ Section: hamradio
 Priority: extra 
 Maintainer: Dr. Gerolf Ziegenhain <g@ziegenhain.com>
 Standards-Version: 3.9.2
-Build-Depends: libfftw3-dev, debhelper (>= 7.0.50), libjack-jackd2-0, libjack-jackd2-dev, automake, libqt4-dev (>= 4:4.5), qt4-qmake
+Build-Depends: libfftw3-dev, debhelper (>= 7.0.50), libjack-jackd2-0, libjack-jackd2-dev, automake, libqt4-dev (>= 4:4.5), qt4-qmake, cdbs
 Vcs-Git: git://github.com/8cH9azbsFifZ/sdr-shell.git
 Vcs-browser: https://github.com/8cH9azbsFifZ/sdr-shell
 Homepage: http://code.google.com/p/sdr-shell/
