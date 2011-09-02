@@ -5,16 +5,14 @@ REV=$(shell dpkg-parsechangelog | sed -rne 's,^Version: .*[+~]svn([0-9]+).*,\1,p
 VER=$(shell dpkg-parsechangelog | sed -rne 's,^Version: ([^-]+).*,\1,p')
 
 get-orig-source:
-        rm -rf somesoftware-$(VER).orig
-        svn -q export -r $(REV) http://somesite.org/stuff/somesoftware/trunk \
-                      somesoftware-$(VER).orig
+        rm -rf sdr-shell-$(VER).orig
+        svn -q export -r $(REV) http://sdr-shell.googlecode.com/svn/trunk \
+                        sdr-shell-$(VER).orig
         GZIP=--best tar -cz --owner root --group root --mode a+rX \
-                        -f somesoftware_$(VER).orig.tar.gz \
-                        somesoftware-$(VER).orig
-        rm -r somesoftware-$(VER).orig
+                        -f sdr-shell_$(VER).orig.tar.gz \
+                        sdr-shell-$(VER).orig
+        rm -r sdr-shell-$(VER).orig
 
-
-#svn checkout http://sdr-shell.googlecode.com/svn/branches/sdr-shell-v4
 
 override_dh_auto_configure:
 	qmake-qt4 sdr-shell.pro -o Makefile
