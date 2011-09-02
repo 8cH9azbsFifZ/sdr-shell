@@ -3,14 +3,14 @@ Section: hamradio
 Priority: extra 
 Maintainer: Dr. Gerolf Ziegenhain <g@ziegenhain.com>
 Standards-Version: 3.9.1
-Build-Depends: libfftw3-dev, debhelper (>= 7.0.50), libjack-jackd2-0, libjack-jackd2-dev, automake, libqt4-dev (>= 4:4.5), qt4-qmake, cdbs
+Build-Depends: ${build:Depends}
 Vcs-Git: git://github.com/8cH9azbsFifZ/sdr-shell.git
 Vcs-browser: https://github.com/8cH9azbsFifZ/sdr-shell
 Homepage: http://code.google.com/p/sdr-shell/
 
 Package: sdr-shell
 Architecture: any
-Depends: libfftw3-3, mime-support, liblo7, libc6-i686, gawk, libjack-jackd2-0, jackd2, dttsp (>= 0.675)
+Depends: ${misc:Depends}, ${shlib:Depends}
 Recommends: usbsoftrock
 Description: A Software Defined Radio
  This is a Qt GUI controller for the sdr-core (DttSP),
