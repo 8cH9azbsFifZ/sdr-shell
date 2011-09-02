@@ -1,8 +1,14 @@
-rm sdr*
 cd sdr-she*
-make clean
+#make clean
 rm debian/debhelper.log
+
+#./debian/rules get-orig-source
+#mv sdr*gz ..
+
+debuild
+exit
 dpkg-buildpackage -k5ED67C93 
+
 cd ..
 cd sdr-she*
 make clean
