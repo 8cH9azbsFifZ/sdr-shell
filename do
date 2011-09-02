@@ -6,8 +6,8 @@ rm debian/debhelper.log
 #mv sdr*gz ..
 
 debuild
-exit
-dpkg-buildpackage -k5ED67C93 
+debuild -S
+#dpkg-buildpackage -k5ED67C93 
 
 cd ..
 cd sdr-she*
