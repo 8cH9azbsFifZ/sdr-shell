@@ -5,6 +5,6 @@ qmake-qt4 sdr-shell.pro
 rm debian/debhelper.log
 dpkg-buildpackage -k5ED67C93 
 cd ..
-dput debexpo *changes
+#dput debexpo *changes
 git commit -a -m "new build"
 git push
