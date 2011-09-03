@@ -1,4 +1,4 @@
-rm *.changes
+rm *.changes *.upload
 cd sdr*
 #make clean
 rm debian/debhelper.log
@@ -8,7 +8,7 @@ rm debian/debhelper.log
 
 #checksum not updated
 debuild
-debuild -S
+#debuild -S
 #dpkg-buildpackage
 
 cd ..
@@ -20,8 +20,8 @@ cd ..
 git commit -a -m "new build"
 git push
 
-lintian --pedantic --all *dsc
-lintian  *deb
+#lintian --pedantic --all *dsc
+#lintian  *deb
 
 for f in *changes; do
 dput -l debexpo $f
