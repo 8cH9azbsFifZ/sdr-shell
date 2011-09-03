@@ -1,8 +1,123 @@
-.TH sdr-shell "1" "Version 4.156" "USER COMMANDS"
+.TH sdr-shell "1" "Version 4~svn156" "USER COMMANDS"
 .SH NAME
-sdr-shell - a software defined radio
-.SH DESCRIOPTION
-Have a look at the readme provided with this package.
-Alternatively http://code.google.com/p/sdr-shell/ provides a reference.
+sdr-shell \- a software defined radio
+.SH SYNOPSIS
+.B sdr-shell
+.RI [ options ]
+.SH ENVIRONMENT VARIABLES
+TBD
+.SH DESCRIPTION
+sdr-shell is a gui for a software defined radio based on dttsp.
+.SH OPTIONS
+TDB
+.SH KEYBOARD COMMANDS
+.TP
+.B Right-Arrow
+Increase tunning frequency
+.TP
+.B Left-Arrow
+Decrease tunning frequency
+.TP
+.B Up-Arrow
+Increase tunning step
+.TP
+.B Down-Arrow
+Decrease tunning step
+.TP
+.B j
+Increase tunning frequency
+.TP
+.B k
+Decrease tunning frequency
+.TP
+.B l
+Increase tunning step
+.TP
+.B h
+Decrease tunning step
+.TP
+.B u
+Decrease lower limit of filter passband
+.TP
+.B i
+Increase lower limit of filter passband
+.TP
+.B o
+Decrease higher limit of filter passband
+.TP
+.B p
+Increase higher limit of filter passband
+.TP
+.B q
+Decrease IQ gain
+.TP
+.B w
+Increase IQ gain
+.TP
+.B e
+Decrease IQ phase
+.TP
+.B r
+Increase IQ phase
+.TP
+.B z
+Decrease spectrogram color aperture lower limit
+.TP
+.B x
+Increase spectrogram color aperture lower limit
+.TP
+.B c
+Decrease spectrogram color aperture higher limit
+.TP
+.B v
+Increase spectrogram color aperture higher limit
+.TP
+.B ESC
+Quit program
+.SH MOUSE COMMANDS
+.TP
+.B Left click on upper spectrogram
+Bring signal to passband
+.TP
+.B Left click + horizontal drag on upper spectrogram
+Tune in 1 Hz steps
+.TP
+.B Right click + horizontal drag on upper spectrogram
+Tune in 10 Hz steps
+.TP
+.B Middle click + horizontal drag on upper spectrogram
+Tune in 100 Hz steps
+.TP
+.B Left click on NR label
+Toggle Noise Reduction
+.TP
+.B Left click on ANF label
+Toggle Automatic Notch Filter
+.TP
+.B Left click on NB label
+Toggle Noise Blanker
+.TP
+.B Left click on BIN label
+Tougle Binaural Audio output
+.TP
+.B Right click on F1-F8 labels
+Read memory
+.TP
+.B Middle click on F1-F8 labels
+Write memory
+.TP
+.B Right click on CFG label
+Open configuration window
+.SH CONFIGURATION
+In order to start sdr-shell you need to
+* have a sdr hardware connected to your machine
+* have dttsp (sdr-core) running
+* connect the audio interfaces using jackd
+For detailed instructions on how to use sdr-shell have a look at the
+README provided with this package.
+You may also want to go to http://code.google.com/p/sdr-shell.
+.SH EXAMPLES
+Example startup scripts for common configurations are provided in 
+/usr/share/doc/sdr-shell/startup/.
 .SH AUTHOR
 Dr. Gerolf Ziegenhain (g (at) ziegenhain.com)
