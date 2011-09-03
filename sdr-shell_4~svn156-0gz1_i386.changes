@@ -18,35 +18,35 @@ Changes:
  .
    * Adjusted version numbers, debianized package.
 Checksums-Sha1: 
- 6790b0cb3f49487431823ad4ef167631dbd3816c 2015 sdr-shell_4~svn156-0gz1.dsc
+ 9fb845dbfa20c04ac74e12e600fa58007a112535 2015 sdr-shell_4~svn156-0gz1.dsc
  639ca296bf2e5fb00f4287a33fd64ffe2c0fdd59 131866 sdr-shell_4~svn156.orig.tar.gz
- 87e6e497c4668829d387a99aecc9af56b025e429 105080 sdr-shell_4~svn156-0gz1.debian.tar.gz
- a0f950925c6c140bc6c2baf988d849c4ac68e774 122790 sdr-shell_4~svn156-0gz1_i386.deb
+ 9524115e4e9bf6132f93607b61a86bcee4d9ca03 105072 sdr-shell_4~svn156-0gz1.debian.tar.gz
+ d66fdc984c550f306d8c12999b5d3f9b02fda6c5 122788 sdr-shell_4~svn156-0gz1_i386.deb
 Checksums-Sha256: 
- 0e935d6e14101b26b04e61f0fa802b1286a89b7a169ea76fb6de5e96e8f2ae78 2015 sdr-shell_4~svn156-0gz1.dsc
+ 02af24a3e7e1611a2eaa65bb115cc2f4103cd652dfd53d0a029033e98e697952 2015 sdr-shell_4~svn156-0gz1.dsc
  5467140f2b30ee373c72cf3401c29c94308f8e47d7a8afc5169ea48c4c4ee036 131866 sdr-shell_4~svn156.orig.tar.gz
- 227a7f90e21c136480d0591fa74826566cd3612813b27b27138a5253b0f77cd9 105080 sdr-shell_4~svn156-0gz1.debian.tar.gz
- 55860a69272f851153487105473bd33c9e91a729e080e258bd82e2cae6655df0 122790 sdr-shell_4~svn156-0gz1_i386.deb
+ 74f4bbf30fe90cedd238209bad80c304ae5b7f4129c2794bee953d46364c1fda 105072 sdr-shell_4~svn156-0gz1.debian.tar.gz
+ 5c505229b0de10cc4a723933115f9f6f4140fe686766ff9d1a860c398b2c2782 122788 sdr-shell_4~svn156-0gz1_i386.deb
 Files: 
- 9971ed83a7248d8f26529d1ac757ec9f 2015 hamradio extra sdr-shell_4~svn156-0gz1.dsc
+ d81776068a2fee6d454227b9e39d5beb 2015 hamradio extra sdr-shell_4~svn156-0gz1.dsc
  d0d3dfe70099117153e578430f6ccbd2 131866 hamradio extra sdr-shell_4~svn156.orig.tar.gz
- f23353110f5b08bb5da3ed0a5c8f056a 105080 hamradio extra sdr-shell_4~svn156-0gz1.debian.tar.gz
- cee24c41bf1d4031375f726c83298a4b 122790 hamradio extra sdr-shell_4~svn156-0gz1_i386.deb
+ f63ff5f00b049e1510823ab30a1176f2 105072 hamradio extra sdr-shell_4~svn156-0gz1.debian.tar.gz
+ fc1af2d9bb6543327f6b39f3ca1a12fe 122788 hamradio extra sdr-shell_4~svn156-0gz1_i386.deb
 
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v1.4.10 (GNU/Linux)
 
-iQIcBAEBCAAGBQJOYfb+AAoJEFkTlKde1nyTTfsQAMX4pkcLEoqwR4HMrTPXHa/j
-0GMa1RBQf9wS1U2H9fzyPyCTO6FC0s4u6TzwkZ/QfX5zLLrwuBo+fTp+7seN/C32
-hCJUtgqdnLOjSjsaUNB4kMkrizBs9MWz18LpJR8eBtnhH/bdTyNVUTxfnqT6bjIv
-Wkej4n+5XXxoysu0aYn56AuSgf23gHcJcURqGB0103eYOQQMeCtPZSm2u8aiRe9o
-5WaXO0Y6GhCOxW3/EhZ46G+qq4lilPSuDlstoYZ+TUCGMeWiFkweGT/T+wrrRo4M
-Y4Zh38bGL3+zFkRYLRO56R3wEXvm03dlX5JbaGy7h4+3iXZyKiRGcYD9d1o3Mcki
-Cav7fZnVU2W/MxsiN3CmlUaQkC+fiMuF8hREJo9IcbecYtFEhWHvp1Pbno+1+f2o
-KrY/+TCaNCn+IfQ1jDqB/nn51mFoptzZCMIcCoc+L4eo5golVv1rpZsOA08rkMd7
-Gw48AgOhl6CSI0cbHWVADkrz6/mOtaLEOk0PTYaHhDRMwgXS5zIRbxx62KJPTp3c
-WGalj80pfr1Xd9MGNN+g6kdaJ+3BIHfGk8rWsGNpYynGhGrFb4IaYnEScC8bUzyU
-RDI3MYNJ/8BusBN9/urjzefJfyII9BpOJp4yZomKiHJ87icsUgAo0YDCCkRpeRq0
-PjWKO16hQzUee2If6Lo3
-=D1/X
+iQIcBAEBCAAGBQJOYfdXAAoJEFkTlKde1nyTRQsQAKZzpbBe4asc+0xe1Ab26q+V
+3VTxAXfgaO6lzQ9SbUfiWMYDIH10QO6ZR+vaRxRWKHpinKJ8m0QNZvqMQmvbAslo
+/ON7oeUs+quS8woqZdeq1jcmScgwqz7HQMEB4gm5BdvV73oiaeWnzw9uONQOw50+
+TIad6e7bbgZ1Kn3IOmD4OYD1INa22oJc7ygp9zmaHivDFs218YyAWVuOLxH2Vwv2
+cLD3Vr+3qFtIHB5xc9ROJ+64VV5J06OuqYKGy/XPdy1wcBKap/9rM4AsCYtAcaPg
+dxvJtR2rVg0huugrrtXoRCAIk+38td9QhqnSuGiAy3TvL0Qa6HtgbCy4/6LJF5YD
+MQzY2hAU9h6hW63apLszP9tPS4usrQpBA+BCPruA23Z0jTzLsvAwl7aTYBRhj/a8
+9wmw97G9RMiuc9nb8jMrMhOIRWZisxxfbQ1YYRYnHuGZusI/JY0ywNDJkGvAOEWo
+XoSgavJfMKyvzKhI0mvw8YsIrTJmLqo2a7Pz1Yize2B7MFPgNEDcehdgjSpp0unX
+VAchtrSMlczloOPZgJg43RASxo/ONMITEVYgFo8zdAx3DbGN1mdPkouzqKFz7DKP
+KWM/iRuR4aaUFORjA8N/abDnJJwHA4Dn4oN9kiFStMjUdEgyRXvS18ayLLUmhK8s
+izPBeXAsLgkTv/1VSR3M
+=IxTR
 -----END PGP SIGNATURE-----

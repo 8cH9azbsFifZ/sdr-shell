@@ -1,4 +1,4 @@
-cd sdr-she*
+cd *.changes
 #make clean
 rm debian/debhelper.log
 
@@ -8,7 +8,7 @@ rm debian/debhelper.log
 #checksum not updated
 debuild
 debuild -S
-dpkg-buildpackage
+#dpkg-buildpackage
 
 cd ..
 cd sdr-she*
