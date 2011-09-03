@@ -1,3 +1,6 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
 Format: 1.8
 Date: Tue, 30 Aug 2011 22:56:52 +0100
 Source: sdr-shell
@@ -15,17 +18,35 @@ Changes:
  .
    * Adjusted version numbers, debianized package.
 Checksums-Sha1: 
- 438c07139716e814debf9f75cbf22f1f58f58b2c 1123 sdr-shell_4~svn156-0gz1.dsc
+ 437df8caf2513de1ee8aebbb9c4b827f22cfbe80 2009 sdr-shell_4~svn156-0gz1.dsc
  639ca296bf2e5fb00f4287a33fd64ffe2c0fdd59 131866 sdr-shell_4~svn156.orig.tar.gz
- cb8ed5d904176b98d98c5a25e0c1530da0e2a2c8 105097 sdr-shell_4~svn156-0gz1.debian.tar.gz
- 6e876b03a70007538fd6993c4410ebef841d4884 122788 sdr-shell_4~svn156-0gz1_i386.deb
+ 5e9530197e0a83c88bb9f5884ada54f976d22914 105133 sdr-shell_4~svn156-0gz1.debian.tar.gz
+ 36629172291ba48750b3bbc1e18bf7250b6b94cf 122792 sdr-shell_4~svn156-0gz1_i386.deb
 Checksums-Sha256: 
- 9e6910951991fa2aa62749e90f5af90fa6040704b9c348ff2b3f9b09c7fa9104 1123 sdr-shell_4~svn156-0gz1.dsc
+ e64762501631aef4c9f9961bef5ee4d22155243779dae9195e688094e0abe3d2 2009 sdr-shell_4~svn156-0gz1.dsc
  5467140f2b30ee373c72cf3401c29c94308f8e47d7a8afc5169ea48c4c4ee036 131866 sdr-shell_4~svn156.orig.tar.gz
- 52834e3915fe6a99880137acbe6a829c0008c385b4dd99671c706a713fa9facb 105097 sdr-shell_4~svn156-0gz1.debian.tar.gz
- de83d87504c94e9acbe3129f859402bb69838a1d38e11ce4abc4596a6d4c13a6 122788 sdr-shell_4~svn156-0gz1_i386.deb
+ 6f9744a7aaf848516809fb6cacc1817ebe2712900b308580a5ba387e39b0caa1 105133 sdr-shell_4~svn156-0gz1.debian.tar.gz
+ 3c212dcc2d40fba52a22028cd7729a9250575a64ff0354fa9132e9609beb3674 122792 sdr-shell_4~svn156-0gz1_i386.deb
 Files: 
- b7b854c7ba863ca6e06d022c08c79052 1123 hamradio extra sdr-shell_4~svn156-0gz1.dsc
+ d642395e141f1e3aa186164f6305d745 2009 hamradio extra sdr-shell_4~svn156-0gz1.dsc
  d0d3dfe70099117153e578430f6ccbd2 131866 hamradio extra sdr-shell_4~svn156.orig.tar.gz
- 135b67fc17c5e0382cd503f10c1fa6d1 105097 hamradio extra sdr-shell_4~svn156-0gz1.debian.tar.gz
- 264dc08418fecd51fe5a79b895b3682a 122788 hamradio extra sdr-shell_4~svn156-0gz1_i386.deb
+ 1d9b934e3cb693d75b097857a1c7c58e 105133 hamradio extra sdr-shell_4~svn156-0gz1.debian.tar.gz
+ d242447e37f3276cdb3b4cd95dd8a391 122792 hamradio extra sdr-shell_4~svn156-0gz1_i386.deb
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.10 (GNU/Linux)
+
+iQIcBAEBCAAGBQJOYf8wAAoJEFkTlKde1nyTiZwQAOBxVn3dJjwbqW97OG9bNf2u
+GsLQoK7aP9pDHB7hOGH6Ti7tnEE1nAmtV1wwS7qoJukKr4O0Z8Gs06He5fYEJiIH
+r6ve6kx6aD+RHuOiEQ3Ld4LnSNr/Weg/kEBDav2h9FP4ewlbShii40Qv3Pm3Ocan
+gfWD8hK6DDHYC3ngIccVGg3ym5H/YrDLSWeiT4kuai4TSuW7l6BjhQMwAsVeq/IZ
+WKlQSeUtqS/IBSU0LsnmwfoT4uiXL8DpuI4yp0Rf/w7xeGhGxhJTpRTWfB6Tf+sA
+oFh6xY5j09G5UX0OEHOoOGM8ucD6GjcFoQEaILTSbeDsyjcR1z6b9WPJknlm6Pgp
+eXhm/tVfzivD32Tk2QIJmp6kWTXOqEsDpHQSmNj6ihRbfZNbsaSHGl0Gf38cuZi5
+KL+O5zY4v1lu54gx6MiLj1nRx6aJDixEqvACuJpzCQ+EqROY4FFe3aFQv2HF31nk
+a+jDqsOMsiNlryp7TcDnvJOOgOymZGMZPBtjwF14ZfnKOpMuryjcZ3AX0qwcJEoB
+JTHa1gXb1jcSTyQ39e4F/JxcuulAXlb5HmEczkRNmpyJx9yGqY60IjsAwvW07nuu
+3zKpMi2OSxURICxb/P+psrF4rSVOcYF9WSBlqceAK+69CLY2Qy2aPAopB7O+h8Km
+L2HZLshVzH59emSMt8X8
+=U3pz
+-----END PGP SIGNATURE-----

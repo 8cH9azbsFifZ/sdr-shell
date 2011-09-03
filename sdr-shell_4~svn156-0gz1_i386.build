@@ -141,9 +141,17 @@ dpkg-source: info: using options from sdr-shell_4~svn156/debian/source/local-opt
 dpkg-buildpackage: full upload (original source is included)
 Now running lintian...
 warning: lintian's authors do not recommend running it with root privileges!
+W: sdr-shell source: newer-standards-version 3.9.2 (current is 3.9.1)
 Finished running lintian.
 Now signing changes and any dsc files...
  signfile sdr-shell_4~svn156-0gz1.dsc Dr. Gerolf Ziegenhain <g@ziegenhain.com>
 gpg: WARNING: unsafe ownership on configuration file `/root/.gnupg/gpg.conf'
 gpg: WARNING: unsafe ownership on configuration file `/root/.gnupg/gpg.conf'
 gpg: gpg-agent is not available in this session
+
+ signfile sdr-shell_4~svn156-0gz1_i386.changes Dr. Gerolf Ziegenhain <g@ziegenhain.com>
+gpg: WARNING: unsafe ownership on configuration file `/root/.gnupg/gpg.conf'
+gpg: WARNING: unsafe ownership on configuration file `/root/.gnupg/gpg.conf'
+gpg: gpg-agent is not available in this session
+
+Successfully signed dsc and changes files
