@@ -1,3 +1,4 @@
 command.o dttsp.o hamlibwrapper.o idbutton.o lcdfreq.o main.o main_widget.o memorycell.o moc_command.o moc_hamlibwrapper.o moc_idbutton.o moc_lcdfreq.o moc_main_widget.o moc_memorycell.o moc_pbscale.o moc_rigctl.o moc_spectrogram.o moc_spectrum.o moc_varilabel.o pbscale.o rigctl.o spectrogram.o spectrum.o varilabel.o
 sdr-shell
 debian/debhelper.log
+.pc
