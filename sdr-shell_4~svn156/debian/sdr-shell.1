@@ -5,11 +5,54 @@ sdr-shell \- a software defined radio
 .B sdr-shell
 .RI [ options ]
 .SH ENVIRONMENT VARIABLES
+.TP
+.B SDR_DEFRATE
+Set samplerate
+.TP
+.TP
+.B SDR_HOST
+TBD
+.TP
+.B SDR_MODE
+TBD
+.TP
+.B SDR_BAND
+TBD
+.TP
+.B SDR_RXTX
 TBD
 .SH DESCRIPTION
 sdr-shell is a gui for a software defined radio based on dttsp.
 .SH OPTIONS
-TDB
+.TP
+.B \-v or \-\-verbose
+Verbose output
+.TP
+.B \-f or \-\-sample-rate=<samplerate>
+Set sample rate
+.TP
+.B \-r or \-\-rx-command-port=<portnum>
+Use port <portnum> as a conduit for update commands.
+Default is 19001
+.TP
+.B \-s or \-\-spectrum-port=<portnum>
+Use port <portnum> as conduit for spectrum data.
+Default is 19002
+.TP
+.B \-m or \-\-meter-port=<portnum>
+Use port <portnum> as conduit for meter data.
+Default is 19003
+.TP
+.B \-t or \-\-tx-command-port=<portnum>
+Use port <portnum> as a conduit for update commands.
+Default is 19005
+.TP
+.B \-u or \-\-usbsoftrock-port=<portnum>
+Use port <portnum> as a conduit for update commands.
+Default is 19004
+.TP
+.B \-l or \-\-conf-file=<configuration file>
+The file is in ~/.config/freesoftware/ on Linux.
 .SH KEYBOARD COMMANDS
 .TP
 .B Right-Arrow
