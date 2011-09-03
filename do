@@ -1,4 +1,5 @@
-cd *.changes
+rm *.changes
+cd sdr*
 #make clean
 rm debian/debhelper.log
 

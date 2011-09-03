@@ -14,13 +14,6 @@ dpkg-buildpackage: host architecture i386
 dh clean
    dh_testdir
    dh_auto_clean
-make[1]: Entering directory `/root/sdr-shell/sdr-shell_4~svn156'
-rm -f moc_main_widget.cpp moc_spectrogram.cpp moc_varilabel.cpp moc_memorycell.cpp moc_pbscale.cpp moc_spectrum.cpp moc_hamlibwrapper.cpp moc_rigctl.cpp moc_lcdfreq.cpp moc_command.cpp moc_idbutton.cpp
-rm -f main.o main_widget.o spectrogram.o varilabel.o memorycell.o spectrum.o hamlibwrapper.o rigctl.o pbscale.o dttsp.o lcdfreq.o command.o idbutton.o moc_main_widget.o moc_spectrogram.o moc_varilabel.o moc_memorycell.o moc_pbscale.o moc_spectrum.o moc_hamlibwrapper.o moc_rigctl.o moc_lcdfreq.o moc_command.o moc_idbutton.o
-rm -f *~ core *.core
-rm -f sdr-shell 
-rm -f Makefile
-make[1]: Leaving directory `/root/sdr-shell/sdr-shell_4~svn156'
    dh_clean
  dpkg-source -b sdr-shell_4~svn156
 dpkg-source: info: using source format `3.0 (quilt)'

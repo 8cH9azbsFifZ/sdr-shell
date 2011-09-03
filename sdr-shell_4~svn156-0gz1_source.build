@@ -93,6 +93,7 @@ Now signing changes and any dsc files...
 gpg: WARNING: unsafe ownership on configuration file `/root/.gnupg/gpg.conf'
 gpg: WARNING: unsafe ownership on configuration file `/root/.gnupg/gpg.conf'
 gpg: gpg-agent is not available in this session
+gpg: Invalid passphrase; please try again ...
 
  signfile sdr-shell_4~svn156-0gz1_source.changes Dr. Gerolf Ziegenhain <g@ziegenhain.com>
 gpg: WARNING: unsafe ownership on configuration file `/root/.gnupg/gpg.conf'
