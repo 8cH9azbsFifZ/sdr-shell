@@ -56,30 +56,19 @@ Default is 19004
 .TP
 .B \-l or \-\-conf-file=<configuration file>
 The file is in ~/.config/freesoftware/ on Linux.
+
 .SH KEYBOARD COMMANDS
 .TP
-.B Right-Arrow
+.B Right-Arrow or k
 Increase tunning frequency
 .TP
-.B Left-Arrow
+.B Left-Arrow or j
 Decrease tunning frequency
 .TP
-.B Up-Arrow
+.B Up-Arrow or h
 Increase tunning step
 .TP
-.B Down-Arrow
-Decrease tunning step
-.TP
-.B j
-Increase tunning frequency
-.TP
-.B k
-Decrease tunning frequency
-.TP
-.B l
-Increase tunning step
-.TP
-.B h
+.B Down-Arrow or l
 Decrease tunning step
 .TP
 .B u
@@ -93,6 +82,12 @@ Decrease higher limit of filter passband
 .TP
 .B p
 Increase higher limit of filter passband
+.TP
+.B [
+filter[lh] -= step
+.TP
+.B ]  
+filter[lh] += step
 .TP
 .B q
 Decrease IQ gain
@@ -117,6 +112,12 @@ Decrease spectrogram color aperture higher limit
 .TP
 .B v
 Increase spectrogram color aperture higher limit
+.TP 
+.B t
+toggle transmit on/off
+.TP
+.B SPACE
+turn transmit off
 .TP
 .B ESC
 Quit program
