@@ -18,32 +18,32 @@ Changes:
  .
    * Adjusted version numbers, debianized package.
 Checksums-Sha1: 
- f8fca85ee7d1fe754be8038c7ac6b37336332f37 2015 sdr-shell_4~svn156-0gz1.dsc
+ 047ef81c9d52436912d98ab79267d8b222537085 2015 sdr-shell_4~svn156-0gz1.dsc
  639ca296bf2e5fb00f4287a33fd64ffe2c0fdd59 131866 sdr-shell_4~svn156.orig.tar.gz
- 018f7a1d9930e4bb228c89dce65a07d2580580ba 103863 sdr-shell_4~svn156-0gz1.debian.tar.gz
+ abc6b65cd534dc0892707300aa4c80a36f0a24e9 105125 sdr-shell_4~svn156-0gz1.debian.tar.gz
 Checksums-Sha256: 
- 01b2f58c1c37d137c8373d50e2bbf8a30877f56e2c62ca54b33bce60b074e657 2015 sdr-shell_4~svn156-0gz1.dsc
+ 7758fee529edba4d2db814961184dba6b4ab2e67e74f0abc0cf509456e8ef38b 2015 sdr-shell_4~svn156-0gz1.dsc
  5467140f2b30ee373c72cf3401c29c94308f8e47d7a8afc5169ea48c4c4ee036 131866 sdr-shell_4~svn156.orig.tar.gz
- 4156b6b2b49e576a4f6d1ff12f03e46a3696f5584f9b06859d8423bee70d962d 103863 sdr-shell_4~svn156-0gz1.debian.tar.gz
+ ac618e616e2ce2f6540763f8a488f6ceeac89a3d69ad2a80c7e0b9f254bf39e9 105125 sdr-shell_4~svn156-0gz1.debian.tar.gz
 Files: 
- ceb58ca8216bc0a9a39ee3f2c7b13d9b 2015 hamradio extra sdr-shell_4~svn156-0gz1.dsc
+ eca533987c8014f7be32ca76df7ee43b 2015 hamradio extra sdr-shell_4~svn156-0gz1.dsc
  d0d3dfe70099117153e578430f6ccbd2 131866 hamradio extra sdr-shell_4~svn156.orig.tar.gz
- 7d6e9e7862b0f83692d18c5c2d88da4c 103863 hamradio extra sdr-shell_4~svn156-0gz1.debian.tar.gz
+ dbd903c651ed29fb1ceb056fcf65aff8 105125 hamradio extra sdr-shell_4~svn156-0gz1.debian.tar.gz
 
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v1.4.10 (GNU/Linux)
 
-iQIcBAEBCAAGBQJOYV7WAAoJEFkTlKde1nyTSs0QAI1kUByVpIcN95BFK2T/iEqG
-A/16PctLnuV/FOCq0n5HrbasVIMOTOuCwLfmw2hvjCKuUrEmPrkPX7px+NyV/YZO
-OzrIsecD1laQxUHHd8h3ZK63rMipP7AVCuZ7uuQL0eypivXGa7WqShm7z9+cXE+X
-eoAeZOBNGXZvkhsKSDcQ74TVxMWIzt7pLz5RAuXyggH52CX7+rzPyNqi4a78K4ft
-JrRJpiKfDnqW0zxWXfhDeqrgfcWoVM8sGXQ7Fyidg4/kB0JM7UB8RczpdRmS2e6d
-HzqbHxnjSVZyK7r1sx+JMqli/6qoNv5zo+6yHCvYjllIvcRlaF0gY5lm3qTNiO4p
-qH9ktkcibJvh0t8T/cZ5qX+t9nNeQQ1OL1a2158eHvX9OiOmrIpkct2QHzfy2ggm
-GdfSlwW3OmxCYUpz0Q6S89GC/KDAbk1+FPEcVmn0isAkxctL0DiBqkiMbgCC4v92
-7F6T8VTCmA6SUNttUuDNwfCB216Xyb2usNT2EpsTIhkwLDlMljV1+G8p1uc+r8wS
-XLewRqJpbm4kHVYIixDTMUL8z/70mn0nH9Pk35zcGo/n7NTl6LzV46K4cmLDXhHh
-zPEQWrKk1JYF69W/Icp8gyAqGYXlZcjlD5SfGkBTpNuHEFH42fSmnSlc+urmhKKx
-4eWgwa0krkQmq5fv/ERA
-=wDRn
+iQIcBAEBCAAGBQJOYfYwAAoJEFkTlKde1nyT77MP/2s5BFUcQHg0zr4UEwUD2DqZ
+FU9XM9vcR5/unHo+mC8N0K7voybgvFQQIKai1kIIkRdnWYcEK/GF4rb0pmijJpx3
+5X9cvOc2NIn5ssx2I0umr/vO6wdljGrRtyPA/Q2t3PP3MSBtx115XZHNhxTzk+NK
+8tcQMY03Gi7JezppKc4pp63zyIb6SrYnL8+Ha9hDC0cJJZGv9HXdHuRsjdZwkdCe
+bJxTufQdOvx1jt56OmNBGEavbTH5swF37qZFummD8jNJWZCFZCAy1A0GQfoIp5NK
+Kt1C4of0ACdSMaNZl5ECjJabMTaZWXNHxg6DUnR5Y76t2gjTpxSNq7thY9a+L5QQ
+oqETiEnDC95VnIgSsFzY4UxmkyIRHuJuc3SJQrS/qt0JQWd6fD8/mrDPG+IOL7+C
+ydScEjoV199S2par/hKe8q8KDo4cW7hsvupXjmL69uFBU0wF0wCxMz8DpHkzEAFt
+2zW28Hjwch87R1AYJJWsarh62okOoLVzTcIiHOHmiRLPnEZACqd5af1GWWURsxcc
+3KIKHvjrfw+8HpUgpk1AJZiEKg2w2XuizsJaxg4BPcLlytbydNU9xo6iiyLU5n3E
+lLcFGSQp+cR/LCeUrtfSX4ATWQu5pBVyIgbTyAVDiGXZvzErmEmR8609zngYuelM
+07PoKtZTx6jqqlP9rsJt
+=AVkH
 -----END PGP SIGNATURE-----

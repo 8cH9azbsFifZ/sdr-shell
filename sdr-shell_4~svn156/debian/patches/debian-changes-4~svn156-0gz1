@@ -3518,7 +3518,7 @@ Last-Update: <YYYY-MM-DD>
 @@ -0,0 +1,3 @@
 +SDR-Shell
 +
-+* Edson Pereira (pu1jte, n1vtn, jf1afn)
++* Edson Pereira (pu1jte, n1vtn, jf1afn) <ewpereira@gmail.com>
 --- /dev/null
 +++ sdr-shell-4~svn156/idbutton.h
 @@ -0,0 +1,27 @@
