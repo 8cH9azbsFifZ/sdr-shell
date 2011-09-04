@@ -419,6 +419,7 @@ class Main_Widget : public QWidget
                 void set_USBPort( int );
                 void set_SpectrumPort( int );
                 void set_MeterPort( int );
+                void set_Fullscreen( bool );
                 void set_SampleRate( int );
                 void set_Host( char * );
                 void set_Verbose( bool );
