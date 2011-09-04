@@ -11,6 +11,7 @@
 #include "text.h"
 #include "dttsp.h"
 
+#include <qdesktopwidget.h> 
 
 /* formatting note: in vi :set tab=4 */
 
@@ -61,7 +62,11 @@ void Main_Widget::init()
 	if (fullscreen)
 	{
 	//		showFullScreen();
-
+QDesktopWidget * desk = qApp->desktop() ;
+int width = desk->width() ;
+int height = desk->height() ;
+	setMinimumWidth ( width );
+	setMinimumHeight ( height );
 	}
 	
     if (sample_rate == 0) {
@@ -1636,6 +1641,10 @@ void Main_Widget::init()
 	connect ( freqTimer, SIGNAL ( timeout() ), this, SLOT ( updateFreq() ) );
     freqTimer->start( 150 );      
 #endif
+	if (fullscreen)
+	{
+			showFullScreen();
+	}
 }
 
 void Main_Widget::set_InitFile(char *path)
@@ -2565,6 +2574,10 @@ void Main_Widget::rx_cmd ( int key ) // Leave for IF shift now.
 			break;
 		case 4096:
 			finish();
+			break;
+		case 'Q':
+			finish();
+			exit(0);
 			break;
 		default:
 			//printf("k %d\n", key);
