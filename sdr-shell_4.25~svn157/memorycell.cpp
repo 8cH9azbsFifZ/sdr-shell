@@ -1,6 +1,6 @@
 #include "memorycell.h"
 
-MemoryCell::MemoryCell(QWidget *parent) : QLabel(parent)
+MemoryCell::MemoryCell(QWidget *parent, const char *name) : QLabel(parent, name)
 {
     id = 0;
     frequency = 0;
@@ -16,7 +16,7 @@ void MemoryCell::setID( int i )
     id = i;
 }
 
-void MemoryCell::setMode( rmode_t m )
+void MemoryCell::setMode( int m )
 {
     mode = m;
 }
@@ -30,11 +30,6 @@ void MemoryCell::setFilter( int l, int h )
 void MemoryCell::setFrequency( long long int f )
 {
     frequency = f;
-}
-
-void MemoryCell::setTxFrequency( long long int f )
-{
-    txFrequency = f;
 }
 
 int MemoryCell::getID()
@@ -62,27 +57,15 @@ long long int MemoryCell::getFrequency()
     return frequency;
 }
 
-long long int MemoryCell::getTxFrequency()
-{
-    return txFrequency;
-}
-
 void MemoryCell::mouseReleaseEvent ( QMouseEvent *e )
 {
-    if ( e->button() == Qt::LeftButton )
+    if ( e->state() == LeftButton )
         emit read( this );
-    else if ( e->button() == Qt::MidButton )
+    else if ( e->state() == MidButton )
         emit write( this );
 }
 
 void MemoryCell::enterEvent( QEvent * )
 {
-	//fprintf( stderr, "memory cell mouse enter\n" );
 	emit display( this );
-}
-
-void MemoryCell::leaveEvent( QEvent * )
-{
-	//fprintf( stderr, "memory cell mouse leave\n" );
-	//emit display( this );
 }

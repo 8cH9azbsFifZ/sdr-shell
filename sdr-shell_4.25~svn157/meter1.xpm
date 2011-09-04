@@ -1,5 +1,5 @@
 /* XPM */
-static const char *meter1_xpm[]={
+static char *meter1_xpm[]={
 "193 27 8 1",
 ". c #000000",
 "# c #00ff00",

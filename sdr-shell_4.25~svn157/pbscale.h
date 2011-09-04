@@ -2,17 +2,14 @@
 #define SDXCVR_PBSCALE_H
 
 #include <qwidget.h>
-#include <QMouseEvent>
 
 class PassBandScale : public QWidget
 {
     Q_OBJECT
     
     public:
-//    PassBandScale(QWidget *parent = 0, const char *name = 0, WFlags f = 0 );
-//    PassBandScale(QWidget *parent = 0, const char *name = 0);
-    PassBandScale(QWidget *parent = 0);
-    
+	PassBandScale(QWidget *parent = 0, const char *name = 0, WFlags f = 0 );
+
     private:
         int x0;
 

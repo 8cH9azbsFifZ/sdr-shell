@@ -1,17 +1,15 @@
 #ifndef VARILABEL_H
 #define VARILABEL_H
 
-#include <QLabel>
-#include <QMouseEvent>
-#include <hamlib/rig.h>
+#include <qlabel.h>
 
 class Varilabel : public QLabel
 {
     Q_OBJECT
     
     public:
-    	Varilabel(QWidget *parent = 0);    
-    	void setLabel( int );
+        Varilabel(QWidget *parent = 0, const char *name = 0);
+    void setLabel( int );
 
     private:
         int label;
@@ -24,27 +22,6 @@ class Varilabel : public QLabel
         void y( int );
         void pulse( int );
         void mouseRelease( int );
-        void mouseRelease2( int );
-        void mouseRelease3( int );
-
-};
-
-class VariModelabel : public Varilabel
-{
-	Q_OBJECT
-    
-	public:
-		VariModelabel(QWidget *parent);
-		void setLabel( rmode_t );
-		
-	private:
-		rmode_t label;
-		
-	protected:
-		void mouseReleaseEvent ( QMouseEvent *);
-		
-	signals:
-		void mouseRelease( rmode_t, bool, bool );
 
 };
 #endif

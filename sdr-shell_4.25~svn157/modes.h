@@ -1,5 +1,5 @@
 /* XPM */
-static const char *lsb_xpm[]={
+static char *lsb_xpm[]={
 "21 11 2 1",
 ". c None",
 "# c #ffffff",
@@ -16,7 +16,7 @@ static const char *lsb_xpm[]={
 "....................."};
 
 
-static const char *usb_xpm[]={
+static char *usb_xpm[]={
 "21 11 2 1",
 ". c None",
 "# c #ffffff",
@@ -32,7 +32,7 @@ static const char *usb_xpm[]={
 "......................",
 "....................."};
 
-static const char *dsb_xpm[]={
+static char *dsb_xpm[]={
 "21 11 2 1",
 ". c None",
 "# c #ffffff",
@@ -48,7 +48,7 @@ static const char *dsb_xpm[]={
 ".....................",
 "....................."};
 
-static const char *am_xpm[]={
+static char *am_xpm[]={
 "21 11 2 1",
 ". c None",
 "# c #ffffff",
@@ -64,7 +64,7 @@ static const char *am_xpm[]={
 ".....................",
 "....................."};
 
-static const char *cwl_xpm[]={
+static char *cwl_xpm[]={
 "21 11 2 1",
 ". c None",
 "# c #ffffff",
@@ -80,7 +80,7 @@ static const char *cwl_xpm[]={
 ".....................",
 "....................."};
 
-static const char *cwu_xpm[]={
+static char *cwu_xpm[]={
 "21 11 2 1",
 ". c None",
 "# c #ffffff",
@@ -96,7 +96,7 @@ static const char *cwu_xpm[]={
 ".....................",
 "....................."};
 
-static const char *sam_xpm[]={
+static char *sam_xpm[]={
 "21 11 2 1",
 ". c None",
 "# c #ffffff",
@@ -112,7 +112,7 @@ static const char *sam_xpm[]={
 ".....................",
 "....................."};
 
-static const char *fmn_xpm[]={
+static char *fmn_xpm[]={
 "21 11 2 1",
 ". c None",
 "# c #ffffff",
