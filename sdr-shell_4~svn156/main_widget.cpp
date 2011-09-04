@@ -31,6 +31,7 @@ Main_Widget::Main_Widget()
     host = NULL;
     usbPort =19004;
     verbose = false;
+	 fullscreen = false;
     settings = new QSettings("freesoftware", "sdr-shell");
     if ( ( ep = getenv ( "SDR_DEFRATE" ) ) )
     {
@@ -1663,6 +1664,11 @@ void Main_Widget::set_SampleRate( int rate)
 {
     sample_rate = rate;
     //if(verbose) fprintf(stderr, "Set the sample rate to %d",sample_rate);
+}
+
+void Main_Widget::set_Fullscreen( bool flag )
+{
+	fullscreen = flag;
 }
 
 void Main_Widget::set_Host( char *ip )

@@ -22,6 +22,7 @@ int main (int argc, char **argv)
         {"host", required_argument, 0, 'h'},
         {"usbsoftrock-port", required_argument, 0, 'u'},
         {"conf-file", required_argument, 0, 'l'},
+        {"fullscree", no_argument, 0, 'F'},
         {"help", no_argument, 0, '?'},
         {"?", no_argument, 0, '?'},
         {0, 0, 0, 0}
@@ -36,11 +37,14 @@ int main (int argc, char **argv)
     // The function getopt_long stores the option index here.
     int option_index = 0;
 
-    while ( (c = getopt_long ( argc, argv, "v?h:r:s:m:t:f:h:u:l:",
+    while ( (c = getopt_long ( argc, argv, "Fv?h:r:s:m:t:f:h:u:l:",
                                long_options, &option_index )) != -1 )
     {
         switch ( c )
         {
+		  case 'F':
+			  w->set_Fullscreen(true);
+			  break;
         case 0:
             // If this option set a flag, do nothing else now.
             if ( long_options[option_index].flag != 0 )
