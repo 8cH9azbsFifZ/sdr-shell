@@ -278,6 +278,7 @@ class Main_Widget : public QWidget
 		QString tx_f_string;
 		QString	TuneOffset_string;
 		bool specLineFill;	// true=enables spectrum display line filled
+		bool fullscreen;	// run app in fullscreen mode
                 int sample_rate;
 		int tuneCenter;		// where to put tune center when using usbsoftrock
 		int spec_width;		// spectrum display width
