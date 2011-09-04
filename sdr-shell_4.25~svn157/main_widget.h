@@ -31,7 +31,6 @@
 
 #include <time.h>
 #include <sys/timeb.h>
-#include <stdlib.h>
 
 #include "spectrogram.h"
 #include "spectrum.h"
