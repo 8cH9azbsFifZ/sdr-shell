@@ -57,6 +57,13 @@ void Main_Widget::init()
 	slopeTuneOffset = 0;
 
 	loadSettings();
+	
+	if (fullscreen)
+	{
+	//		showFullScreen();
+
+	}
+	
     if (sample_rate == 0) {
         fprintf ( stderr, "Unable to get SDR_DEFRATE environment variable.\n"
                  "Use the -f or --sample-rate option or\n"
