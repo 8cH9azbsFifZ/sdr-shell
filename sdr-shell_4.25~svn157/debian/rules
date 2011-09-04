@@ -1,5 +1,5 @@
 #!/usr/bin/make -f
-QMAKE=qmake-qt4
+#QMAKE=qmake-qt4
 
 REV=$(shell dpkg-parsechangelog | sed -rne 's,^Version: .*[+~]svn([0-9]+).*,\1,p')
 VER=$(shell dpkg-parsechangelog | sed -rne 's,^Version: ([^-]+).*,\1,p')
@@ -14,7 +14,8 @@ get-orig-source:
 	rm -r sdr-shell-$(VER).orig
 
 override_dh_auto_configure:
-	qmake-qt4 sdr-shell.pro -o Makefile
+	#qmake-qt4 sdr-shell.pro -o Makefile
+	qmake-qt3 sdr-shell.pro -o Makefile
 
 %:
 	dh $@
