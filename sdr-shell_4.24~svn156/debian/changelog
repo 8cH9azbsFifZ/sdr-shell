@@ -1,4 +1,4 @@
-sdr-shell (4.27~svn156-0gz1) unstable; urgency=low
+sdr-shell (4.25~svn157-0gz1) unstable; urgency=low
  
   * Adjusted version numbers, clean debian package.
 
