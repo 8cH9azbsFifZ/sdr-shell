@@ -1,6 +1,8 @@
 Installation Instructions for sdr-shell-v4 branch.
 
-Building for OSX 10.6 * not updated for qt4 *
+# was installed sudo port install qt4-mac
+# does not work on my mac osx qt4-x11
+
 
 sdr-shell-v4 on OSX doesn't preserve the background of the spectrogram frame.
 
