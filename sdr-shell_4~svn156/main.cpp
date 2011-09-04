@@ -22,7 +22,7 @@ int main (int argc, char **argv)
         {"host", required_argument, 0, 'h'},
         {"usbsoftrock-port", required_argument, 0, 'u'},
         {"conf-file", required_argument, 0, 'l'},
-        {"fullscree", no_argument, 0, 'F'},
+        {"fullscreen", no_argument, 0, 'F'},
         {"help", no_argument, 0, '?'},
         {"?", no_argument, 0, '?'},
         {0, 0, 0, 0}
