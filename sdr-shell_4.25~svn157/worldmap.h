@@ -3,7 +3,7 @@
 
 #include <qframe.h>
 #include <qpixmap.h>
-#include <qpointarray.h>
+//#include <qpointarray.h>
 #include <qpainter.h>
 #include <qlabel.h>
 #include <qtimer.h>

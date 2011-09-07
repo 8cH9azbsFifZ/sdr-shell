@@ -1,7 +1,7 @@
 /****************************************************************************
 ** PassBandScale meta object code from reading C++ file 'pbscale.h'
 **
-** Created: Mon Sep 5 00:21:25 2011
+** Created: Wed Sep 7 19:28:54 2011
 **      by: The Qt MOC ($Id: qt/moc_yacc.cpp   3.3.8   edited Feb 2 14:59 $)
 **
 ** WARNING! All changes made in this file will be lost!

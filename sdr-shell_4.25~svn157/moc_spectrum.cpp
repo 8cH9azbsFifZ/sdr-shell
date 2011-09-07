@@ -1,7 +1,7 @@
 /****************************************************************************
 ** Spectrum meta object code from reading C++ file 'spectrum.h'
 **
-** Created: Mon Sep 5 00:21:26 2011
+** Created: Wed Sep 7 19:28:55 2011
 **      by: The Qt MOC ($Id: qt/moc_yacc.cpp   3.3.8   edited Feb 2 14:59 $)
 **
 ** WARNING! All changes made in this file will be lost!
