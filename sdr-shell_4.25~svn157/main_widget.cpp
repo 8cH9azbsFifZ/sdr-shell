@@ -1,3 +1,4 @@
+#include <stdlib.h>
 #include "main_widget.h"
 #include "switches.h"
 #include "modes.h"
