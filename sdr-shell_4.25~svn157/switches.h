@@ -1,6 +1,6 @@
 /* XPM */
 
-static char *nr_xpm[]={
+const char *nr_xpm[]={
 "27 11 2 1",
 ". c None",
 "# c #ffffff",
@@ -16,7 +16,7 @@ static char *nr_xpm[]={
 "...........................",
 "..........................."};
 
-static char *anf_xpm[]={
+const char *anf_xpm[]={
 "27 11 2 1",
 ". c None",
 "# c #ffffff",
@@ -32,7 +32,7 @@ static char *anf_xpm[]={
 "...........................",
 "..........................."};
 
-static char *nb_xpm[]={
+const char *nb_xpm[]={
 "27 11 2 1",
 ". c None",
 "# c #ffffff",
@@ -48,7 +48,7 @@ static char *nb_xpm[]={
 "...........................",
 "..........................."};
 
-static char *bin_xpm[]={
+const char *bin_xpm[]={
 "27 11 2 1",
 ". c None",
 "# c #ffffff",
@@ -65,7 +65,7 @@ static char *bin_xpm[]={
 "..........................."};
 
 
-static char *mute_xpm[]={
+const char *mute_xpm[]={
 "27 11 2 1",
 ". c None",
 "# c #ffffff",
@@ -82,7 +82,7 @@ static char *mute_xpm[]={
 "..........................."};
 
 
-static char *spec_xpm[]={
+const char *spec_xpm[]={
 "27 11 2 1",
 ". c None",
 "# c #ffffff",

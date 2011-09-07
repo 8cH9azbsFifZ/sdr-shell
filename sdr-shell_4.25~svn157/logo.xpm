@@ -1,5 +1,5 @@
 /* XPM */
-static char *logo_xpm[]={
+const char *logo_xpm[]={
 "88 27 5 1",
 ". c #000000",
 "# c #00ff00",

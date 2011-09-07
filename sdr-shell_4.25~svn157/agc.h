@@ -1,6 +1,6 @@
 /* XPM */
 /*
-static char *agc_o_xpm[]={
+const char *agc_o_xpm[]={
 	"9 11 2 1",
 	". c None",
 	"# c #ffffff",
@@ -16,7 +16,7 @@ static char *agc_o_xpm[]={
 	".........",
 	"........."};
 */
-static char *agc_l_xpm[]={
+const char *agc_l_xpm[]={
 	"9 11 2 1",
 	". c None",
 	"# c #ffffff",
@@ -32,7 +32,7 @@ static char *agc_l_xpm[]={
 	".........",
 	"........."};
 
-static char *agc_s_xpm[]={
+const char *agc_s_xpm[]={
 	"9 11 2 1",
 	". c None",
 	"# c #ffffff",
@@ -48,7 +48,7 @@ static char *agc_s_xpm[]={
 	".........",
 	"........."};
 
-static char *agc_m_xpm[]={
+const char *agc_m_xpm[]={
 	"9 11 2 1",
 	". c None",
 	"# c #ffffff",
@@ -64,7 +64,7 @@ static char *agc_m_xpm[]={
 	".........",
 	"........."};
 
-static char *agc_f_xpm[]={
+const char *agc_f_xpm[]={
 	"9 11 2 1",
 	". c None",
 	"# c #ffffff",
