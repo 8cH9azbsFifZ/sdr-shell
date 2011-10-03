@@ -1,10 +1,12 @@
 #!/usr/bin/make -f
 QMAKE=qmake-qt4
 
-REV=$(shell dpkg-parsechangelog | sed -rne 's,^Version: .*[+~]svn([0-9]+).*,\1,p')
+# version number
 VER=$(shell dpkg-parsechangelog | sed -rne 's,^Version: ([^-]+).*,\1,p')
+# revision for svn
+REV=$(shell dpkg-parsechangelog | sed -rne 's,^Version: .*[+~]svn([0-9]+).*,\1,p')
 
-get-orig-source:
+get-orig-source-svn:
 	rm -rf sdr-shell-$(VER).orig
 	svn -q export -r $(REV) http://sdr-shell.googlecode.com/svn/trunk \
 		sdr-shell-$(VER).orig
