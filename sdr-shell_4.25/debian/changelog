@@ -1,10 +1,4 @@
-sdr-shell (4.25~svn157-0gz1) unstable; urgency=low
- 
-  * Adjusted version numbers, clean debian package.
-
- -- Dr. Gerolf Ziegenhain <g@ziegenhain.com>  Tue, 04 Sep 2011 23:46:52 +0100
-
-sdr-shell (4~svn156-0gz1) unstable; urgency=low
+sdr-shell (4.25-0gz1) unstable; urgency=low
  
   * Adjusted version numbers, debianized package.
 
