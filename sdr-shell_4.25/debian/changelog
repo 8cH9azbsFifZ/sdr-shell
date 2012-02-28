@@ -1,6 +1,0 @@
-sdr-shell (4.25-0gz1) unstable; urgency=low
- 
-  * Adjusted version numbers, debianized package.
-
- -- Dr. Gerolf Ziegenhain <g@ziegenhain.com>  Tue, 30 Aug 2011 22:56:52 +0100
-
