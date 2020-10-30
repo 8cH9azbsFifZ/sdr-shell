@@ -1,0 +1,353 @@
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/155/branches/sdr-shell-v4
+END
+switches.h
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/94/branches/sdr-shell-v4/switches.h
+END
+dttsp.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/144/branches/sdr-shell-v4/dttsp.cpp
+END
+spectrum.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/93/branches/sdr-shell-v4/spectrum.cpp
+END
+hamlibwrapper.h
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/93/branches/sdr-shell-v4/hamlibwrapper.h
+END
+app.xpm
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/92/branches/sdr-shell-v4/app.xpm
+END
+Makefile.osx
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/92/branches/sdr-shell-v4/Makefile.osx
+END
+IDEAS
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/104/branches/sdr-shell-v4/IDEAS
+END
+start-audigy.sh
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/92/branches/sdr-shell-v4/start-audigy.sh
+END
+CHANGELOG
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/151/branches/sdr-shell-v4/CHANGELOG
+END
+varilabel.h
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/94/branches/sdr-shell-v4/varilabel.h
+END
+memorycell.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/93/branches/sdr-shell-v4/memorycell.cpp
+END
+sunpropagator.h
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/92/branches/sdr-shell-v4/sunpropagator.h
+END
+world.xpm
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/92/branches/sdr-shell-v4/world.xpm
+END
+moonpropagator.h
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/92/branches/sdr-shell-v4/moonpropagator.h
+END
+pbscale.h
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/93/branches/sdr-shell-v4/pbscale.h
+END
+command.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/150/branches/sdr-shell-v4/command.cpp
+END
+mhz.xpm
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/92/branches/sdr-shell-v4/mhz.xpm
+END
+lcdfreq.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/106/branches/sdr-shell-v4/lcdfreq.cpp
+END
+trxwidget.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/92/branches/sdr-shell-v4/trxwidget.cpp
+END
+constants.h
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/92/branches/sdr-shell-v4/constants.h
+END
+logo.xpm
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/92/branches/sdr-shell-v4/logo.xpm
+END
+rigctl.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/154/branches/sdr-shell-v4/rigctl.cpp
+END
+main.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/150/branches/sdr-shell-v4/main.cpp
+END
+start-delta44.sh
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/92/branches/sdr-shell-v4/start-delta44.sh
+END
+worldmap.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/92/branches/sdr-shell-v4/worldmap.cpp
+END
+INSTALL
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/110/branches/sdr-shell-v4/INSTALL
+END
+main_widget.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/155/branches/sdr-shell-v4/main_widget.cpp
+END
+idbutton.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/106/branches/sdr-shell-v4/idbutton.cpp
+END
+text.h
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/92/branches/sdr-shell-v4/text.h
+END
+spectrogram.h
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/103/branches/sdr-shell-v4/spectrogram.h
+END
+hamlibwrapper.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/136/branches/sdr-shell-v4/hamlibwrapper.cpp
+END
+agc.h
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/92/branches/sdr-shell-v4/agc.h
+END
+hook-mode
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/92/branches/sdr-shell-v4/hook-mode
+END
+varilabel.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/94/branches/sdr-shell-v4/varilabel.cpp
+END
+freqlabel.h
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/93/branches/sdr-shell-v4/freqlabel.h
+END
+dttsp.h
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/136/branches/sdr-shell-v4/dttsp.h
+END
+sunpropagator.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/92/branches/sdr-shell-v4/sunpropagator.cpp
+END
+moonpropagator.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/92/branches/sdr-shell-v4/moonpropagator.cpp
+END
+sdrshell.kdevelop
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/92/branches/sdr-shell-v4/sdrshell.kdevelop
+END
+spectrum.h
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/103/branches/sdr-shell-v4/spectrum.h
+END
+pbscale.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/93/branches/sdr-shell-v4/pbscale.cpp
+END
+rx.xpm
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/92/branches/sdr-shell-v4/rx.xpm
+END
+sdr-shell.pro
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/152/branches/sdr-shell-v4/sdr-shell.pro
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/130/branches/sdr-shell-v4/README
+END
+modes.h
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/92/branches/sdr-shell-v4/modes.h
+END
+tx.xpm
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/92/branches/sdr-shell-v4/tx.xpm
+END
+memorycell.h
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/93/branches/sdr-shell-v4/memorycell.h
+END
+meter1.xpm
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/92/branches/sdr-shell-v4/meter1.xpm
+END
+command.h
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/136/branches/sdr-shell-v4/command.h
+END
+start_rx
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/92/branches/sdr-shell-v4/start_rx
+END
+lcdfreq.h
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/103/branches/sdr-shell-v4/lcdfreq.h
+END
+spectrogram.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/151/branches/sdr-shell-v4/spectrogram.cpp
+END
+trxwidget.h
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/92/branches/sdr-shell-v4/trxwidget.h
+END
+rigctl.h
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/153/branches/sdr-shell-v4/rigctl.h
+END
+worldmap.h
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/92/branches/sdr-shell-v4/worldmap.h
+END
+main_widget.h
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/152/branches/sdr-shell-v4/main_widget.h
+END
+idbutton.h
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/104/branches/sdr-shell-v4/idbutton.h
+END
+freqlabel.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/93/branches/sdr-shell-v4/freqlabel.cpp
+END

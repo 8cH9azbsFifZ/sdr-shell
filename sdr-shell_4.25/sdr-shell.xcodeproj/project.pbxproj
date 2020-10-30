@@ -1,0 +1,702 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+		D7BA7D76DAB5DD13389D6332 = {
+			buildActionMask = 2147483647;
+			files = (
+				);
+			generatedFileNames = (
+				);
+			isa = PBXShellScriptBuildPhase;
+			name = "Qt Qmake";
+			neededFileNames = (
+				);
+			shellPath = "/bin/sh";
+			shellScript = "make\ -C\ /Users/g/linux/src/amafu/sdr-shell/sdr-shell/sdr-shell_4.25\ -f\ \'sdr-shell.xcodeproj/qt_makeqmake.mak\'";
+		};
+		118FCBAABA162BA17933C789 = {
+			isa = PBXFileReference;
+			name = "main.cpp";
+			path = "main.cpp";
+			refType = 4;
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		2B093CA6F071B023A473CED0 = {
+			fileRef = "118FCBAABA162BA17933C789";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		E6E87E54C49EDA3CE47845AB = {
+			isa = PBXFileReference;
+			name = "main_widget.cpp";
+			path = "main_widget.cpp";
+			refType = 4;
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		845C961B2FA20F6945C1ED52 = {
+			fileRef = "E6E87E54C49EDA3CE47845AB";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		CE4F59C19808550B603723EE = {
+			isa = PBXFileReference;
+			name = "spectrogram.cpp";
+			path = "spectrogram.cpp";
+			refType = 4;
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		51E762209BB239D7C19CD46F = {
+			fileRef = "CE4F59C19808550B603723EE";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		E9F5F54B24973990CD76BE3A = {
+			isa = PBXFileReference;
+			name = "varilabel.cpp";
+			path = "varilabel.cpp";
+			refType = 4;
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		B83DECF33B046CD74581135C = {
+			fileRef = "E9F5F54B24973990CD76BE3A";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		FAABBE6F3D7E8EE5C2B0B6BF = {
+			isa = PBXFileReference;
+			name = "memorycell.cpp";
+			path = "memorycell.cpp";
+			refType = 4;
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		8CC1FFDDB14BD4F5C8103AF2 = {
+			fileRef = "FAABBE6F3D7E8EE5C2B0B6BF";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		C2CCAA42D880C9AA3A9AFC58 = {
+			isa = PBXFileReference;
+			name = "spectrum.cpp";
+			path = "spectrum.cpp";
+			refType = 4;
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		670912D76CB5BBC1407C2C9F = {
+			fileRef = "C2CCAA42D880C9AA3A9AFC58";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		D6C873F01EA1CF503E751179 = {
+			isa = PBXFileReference;
+			name = "pbscale.cpp";
+			path = "pbscale.cpp";
+			refType = 4;
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		D7211FFD6CB4B4169E6A3E59 = {
+			fileRef = "D6C873F01EA1CF503E751179";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		48BB7C49E0A87AF18155A79B = {
+			isa = PBXFileReference;
+			name = "sunpropagator.cpp";
+			path = "sunpropagator.cpp";
+			refType = 4;
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		035F82B51FCBF0430BF68D71 = {
+			fileRef = "48BB7C49E0A87AF18155A79B";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		AAD31240C7806979E5A7CBB3 = {
+			isa = PBXFileReference;
+			name = "moonpropagator.cpp";
+			path = "moonpropagator.cpp";
+			refType = 4;
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		FC626405FE54BC4375783143 = {
+			fileRef = "AAD31240C7806979E5A7CBB3";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		82B1D6AFEEA00A5E74B9DDF6 = {
+			isa = PBXFileReference;
+			name = "worldmap.cpp";
+			path = "worldmap.cpp";
+			refType = 4;
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		DD6805ED07D160E79CFBC2E6 = {
+			fileRef = "82B1D6AFEEA00A5E74B9DDF6";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		6D63EB18195FD12CDF9A1316 = {
+			isa = PBXFileReference;
+			name = "moc_main_widget.cpp";
+			path = "moc_main_widget.cpp";
+			refType = 4;
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		12239401F87CD12A68A8B06B = {
+			fileRef = "6D63EB18195FD12CDF9A1316";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		E5010E10568C271786677837 = {
+			isa = PBXFileReference;
+			name = "moc_spectrogram.cpp";
+			path = "moc_spectrogram.cpp";
+			refType = 4;
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		1EF5A70944327CA9D3271DC0 = {
+			fileRef = "E5010E10568C271786677837";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		0230C597D46E3E2ED4B3379B = {
+			isa = PBXFileReference;
+			name = "moc_varilabel.cpp";
+			path = "moc_varilabel.cpp";
+			refType = 4;
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		E2F11C996B7ACE40EE1D4A0D = {
+			fileRef = "0230C597D46E3E2ED4B3379B";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		B39D2E800FDE9335725E2208 = {
+			isa = PBXFileReference;
+			name = "moc_memorycell.cpp";
+			path = "moc_memorycell.cpp";
+			refType = 4;
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		D251349C6364D59317092666 = {
+			fileRef = "B39D2E800FDE9335725E2208";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		D22BEE81CB717BA21C0361CA = {
+			isa = PBXFileReference;
+			name = "moc_pbscale.cpp";
+			path = "moc_pbscale.cpp";
+			refType = 4;
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		F6743D512D7E9738280C822B = {
+			fileRef = "D22BEE81CB717BA21C0361CA";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		52B5D8C11C336C3CE8205F64 = {
+			isa = PBXFileReference;
+			name = "moc_worldmap.cpp";
+			path = "moc_worldmap.cpp";
+			refType = 4;
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		C20FA45FBBC01FA8761363A0 = {
+			fileRef = "52B5D8C11C336C3CE8205F64";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		46373EB3B51D6791F757F134 = {
+			isa = PBXFileReference;
+			name = "moc_spectrum.cpp";
+			path = "moc_spectrum.cpp";
+			refType = 4;
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		D7C24B362A5CD2FB68DA52CC = {
+			fileRef = "46373EB3B51D6791F757F134";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		480E4640C81676CA4552037E = {
+			isa = PBXFileReference;
+			name = "main_widget.h";
+			path = "main_widget.h";
+			refType = 4;
+		};
+		5C1209E4D25163D22FCA3A45 = {
+			isa = PBXFileReference;
+			name = "spectrogram.h";
+			path = "spectrogram.h";
+			refType = 4;
+		};
+		4D0851BF080ACD209B7AB9F9 = {
+			isa = PBXFileReference;
+			name = "varilabel.h";
+			path = "varilabel.h";
+			refType = 4;
+		};
+		2D9F7A88A24C6B1F094D87EC = {
+			isa = PBXFileReference;
+			name = "memorycell.h";
+			path = "memorycell.h";
+			refType = 4;
+		};
+		F2EE9D6DD256F926D8AF7C48 = {
+			isa = PBXFileReference;
+			name = "pbscale.h";
+			path = "pbscale.h";
+			refType = 4;
+		};
+		63D0A6CA44E38D50BCA4D1CA = {
+			isa = PBXFileReference;
+			name = "sunpropagator.h";
+			path = "sunpropagator.h";
+			refType = 4;
+		};
+		12AF1F15CB2EE7541E0B6B92 = {
+			isa = PBXFileReference;
+			name = "moonpropagator.h";
+			path = "moonpropagator.h";
+			refType = 4;
+		};
+		68CFAF40AE5C78D238928ED9 = {
+			isa = PBXFileReference;
+			name = "worldmap.h";
+			path = "worldmap.h";
+			refType = 4;
+		};
+		6100309A2877DC46747CAADB = {
+			isa = PBXFileReference;
+			name = "spectrum.h";
+			path = "spectrum.h";
+			refType = 4;
+		};
+		50AEC2B746449CA4A3DBBADF = {
+			isa = PBXFileReference;
+			name = "text.h";
+			path = "text.h";
+			refType = 4;
+		};
+		8D4986AAA2FFC28B86B1C162 = {
+			isa = PBXFileReference;
+			name = "sdr-shell.pro";
+			path = "sdr-shell.pro";
+			refType = 4;
+		};
+		883D7615C4D2DE3FA1218F12 = {
+			isa = PBXGroup;
+			children = (
+				"480E4640C81676CA4552037E",
+				"5C1209E4D25163D22FCA3A45",
+				"4D0851BF080ACD209B7AB9F9",
+				"2D9F7A88A24C6B1F094D87EC",
+				"F2EE9D6DD256F926D8AF7C48",
+				"63D0A6CA44E38D50BCA4D1CA",
+				"12AF1F15CB2EE7541E0B6B92",
+				"68CFAF40AE5C78D238928ED9",
+				"6100309A2877DC46747CAADB",
+				"50AEC2B746449CA4A3DBBADF");
+			name = "Headers";
+			refType = 4;
+		};
+		FB61758D0F0FDA4BA867C3D5 = {
+			isa = PBXGroup;
+			children = (
+				"118FCBAABA162BA17933C789",
+				"E6E87E54C49EDA3CE47845AB",
+				"CE4F59C19808550B603723EE",
+				"E9F5F54B24973990CD76BE3A",
+				"FAABBE6F3D7E8EE5C2B0B6BF",
+				"C2CCAA42D880C9AA3A9AFC58",
+				"D6C873F01EA1CF503E751179",
+				"48BB7C49E0A87AF18155A79B",
+				"AAD31240C7806979E5A7CBB3",
+				"82B1D6AFEEA00A5E74B9DDF6");
+			name = "Sources";
+			refType = 4;
+		};
+		7CABE3C80E79AD2B307756D2 = {
+			isa = PBXGroup;
+			children = (
+				"8D4986AAA2FFC28B86B1C162");
+			name = "Sources [qmake]";
+			refType = 4;
+		};
+		46E892BBB6BB6952967E0561 = {
+			isa = PBXGroup;
+			children = (
+				"6D63EB18195FD12CDF9A1316",
+				"E5010E10568C271786677837",
+				"0230C597D46E3E2ED4B3379B",
+				"B39D2E800FDE9335725E2208",
+				"D22BEE81CB717BA21C0361CA",
+				"52B5D8C11C336C3CE8205F64",
+				"46373EB3B51D6791F757F134");
+			name = "Temporary Sources";
+			refType = 4;
+		};
+		A0A52A2ADF7A1E2A99738674 = {
+			buildActionMask = 2147483647;
+			files = (
+				);
+			generatedFileNames = (
+				"2B093CA6F071B023A473CED0",
+				"845C961B2FA20F6945C1ED52",
+				"51E762209BB239D7C19CD46F",
+				"B83DECF33B046CD74581135C",
+				"8CC1FFDDB14BD4F5C8103AF2",
+				"670912D76CB5BBC1407C2C9F",
+				"D7211FFD6CB4B4169E6A3E59",
+				"035F82B51FCBF0430BF68D71",
+				"FC626405FE54BC4375783143",
+				"DD6805ED07D160E79CFBC2E6",
+				"12239401F87CD12A68A8B06B",
+				"1EF5A70944327CA9D3271DC0",
+				"E2F11C996B7ACE40EE1D4A0D",
+				"D251349C6364D59317092666",
+				"F6743D512D7E9738280C822B",
+				"C20FA45FBBC01FA8761363A0",
+				"D7C24B362A5CD2FB68DA52CC");
+			isa = PBXShellScriptBuildPhase;
+			name = "Qt Preprocessors";
+			neededFileNames = (
+				"2B093CA6F071B023A473CED0",
+				"845C961B2FA20F6945C1ED52",
+				"51E762209BB239D7C19CD46F",
+				"B83DECF33B046CD74581135C",
+				"8CC1FFDDB14BD4F5C8103AF2",
+				"670912D76CB5BBC1407C2C9F",
+				"D7211FFD6CB4B4169E6A3E59",
+				"035F82B51FCBF0430BF68D71",
+				"FC626405FE54BC4375783143",
+				"DD6805ED07D160E79CFBC2E6",
+				"12239401F87CD12A68A8B06B",
+				"1EF5A70944327CA9D3271DC0",
+				"E2F11C996B7ACE40EE1D4A0D",
+				"D251349C6364D59317092666",
+				"F6743D512D7E9738280C822B",
+				"C20FA45FBBC01FA8761363A0",
+				"D7C24B362A5CD2FB68DA52CC");
+			shellPath = "/bin/sh";
+			shellScript = "make\ -C\ /Users/g/linux/src/amafu/sdr-shell/sdr-shell/sdr-shell_4.25\ -f\ \'sdr-shell.xcodeproj/qt_preprocess.mak\'";
+		};
+		C29B8785722055ED95EF7B57 = {
+			buildActionMask = 2147483647;
+			files = (
+				"2B093CA6F071B023A473CED0",
+				"845C961B2FA20F6945C1ED52",
+				"51E762209BB239D7C19CD46F",
+				"B83DECF33B046CD74581135C",
+				"8CC1FFDDB14BD4F5C8103AF2",
+				"670912D76CB5BBC1407C2C9F",
+				"D7211FFD6CB4B4169E6A3E59",
+				"035F82B51FCBF0430BF68D71",
+				"FC626405FE54BC4375783143",
+				"DD6805ED07D160E79CFBC2E6",
+				"12239401F87CD12A68A8B06B",
+				"1EF5A70944327CA9D3271DC0",
+				"E2F11C996B7ACE40EE1D4A0D",
+				"D251349C6364D59317092666",
+				"F6743D512D7E9738280C822B",
+				"C20FA45FBBC01FA8761363A0",
+				"D7C24B362A5CD2FB68DA52CC");
+			isa = PBXSourcesBuildPhase;
+			name = "Build Sources";
+		};
+		9B36DA7E32F0304E780E7972 = {
+			isa = PBXFrameworkReference;
+			name = "QtGui.framework";
+			path = "/Library/Frameworks/QtGui.framework";
+			refType = 0;
+		};
+		501667F26B3C1FF6767A7C12 = {
+			fileRef = "9B36DA7E32F0304E780E7972";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		7BC2E65A5E699A5E5D834CA2 = {
+			isa = PBXFrameworkReference;
+			name = "QtCore.framework";
+			path = "/Library/Frameworks/QtCore.framework";
+			refType = 0;
+		};
+		069D05B0128AE5DC7EE31738 = {
+			fileRef = "7BC2E65A5E699A5E5D834CA2";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		ED1E82605DD74B483AF3C982 = {
+			children = (
+				"9B36DA7E32F0304E780E7972",
+				"7BC2E65A5E699A5E5D834CA2");
+			isa = PBXGroup;
+			name = "External Frameworks and Libraries";
+			path = "";
+			refType = 4;
+		};
+		2A1043669E6E5A7426EA502A = {
+			buildActionMask = 2147483647;
+			files = (
+				"501667F26B3C1FF6767A7C12",
+				"069D05B0128AE5DC7EE31738");
+			isa = PBXFrameworksBuildPhase;
+			name = "Frameworks & Libraries";
+		};
+		3787F99312C85FF0073FD7BA = {
+			buildActionMask = 2147483647;
+			files = (
+			);
+			isa = PBXResourcesBuildPhase;
+			name = "Bundle Resources";
+		};
+		F6069D5A5DA8AA28EDB8B3C6 = {
+			name = "Project Copy";
+			buildActionMask = 2147483647;
+			dstPath = "/Users/g/linux/src/amafu/sdr-shell/sdr-shell/sdr-shell_4.25";
+			dstSubfolderSpec = 0;
+			files = (
+"07E0DFA73EB56DCB9E28CDD9");
+			isa = PBXCopyFilesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07E0DFA73EB56DCB9E28CDD9 = {
+			fileRef = "D4120739A496830F77F45B7D";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		05596AB53D8D521C69802C27 = {
+			children = (
+				"FB61758D0F0FDA4BA867C3D5",
+				"46E892BBB6BB6952967E0561",
+				"883D7615C4D2DE3FA1218F12",
+				"7CABE3C80E79AD2B307756D2",
+				"ED1E82605DD74B483AF3C982");
+			isa = PBXGroup;
+			name = "sdr-shell";
+			path = "";
+			refType = 4;
+		};
+		D4120739A496830F77F45B7D = {
+			isa = PBXFileReference;
+			explicitFileType = "wrapper.application";
+			path = "sdr-shell.app";
+			refType = 3;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		068F80C7519D0528FB08E821 = {
+			children = (
+				"D4120739A496830F77F45B7D");
+			isa = PBXGroup;
+			name = "Products";
+			refType = 4;
+		};
+		C9CD76CE9A7E155A79CDDD0B = {
+			buildPhases = (
+				"D7BA7D76DAB5DD13389D6332",
+				"A0A52A2ADF7A1E2A99738674",
+				"F6069D5A5DA8AA28EDB8B3C6",
+				"C29B8785722055ED95EF7B57",
+				"2A1043669E6E5A7426EA502A",
+				"3787F99312C85FF0073FD7BA");
+			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					"/Library/Frameworks/QtCore.framework/Versions/4/Headers",
+					"/usr/include/QtCore",
+					"/Library/Frameworks/QtGui.framework/Versions/4/Headers",
+					"/usr/include/QtGui",
+					"/usr/include",
+					".",
+					".",
+					"/usr/local/include",
+					"/System/Library/Frameworks/CarbonCore.framework/Headers",
+					"/usr/local/Qt4.7/mkspecs/macx-xcode");
+				LIBRARY_SEARCH_PATHS = (
+					"/Library/Frameworks");
+				OPTIMIZATION_CFLAGS = (
+					);
+				OTHER_CFLAGS = (
+					"-pipe",
+					"-g",
+					"-Wall",
+					"-W",
+					"-DQT_GUI_LIB",
+					"-DQT_CORE_LIB",
+					"-DQT_SHARED");
+				OTHER_CPLUSPLUSFLAGS = (
+					"-pipe",
+					"-g",
+					"-Wall",
+					"-W",
+					"-DQT_GUI_LIB",
+					"-DQT_CORE_LIB",
+					"-DQT_SHARED");
+				LEXFLAGS = "";
+				YACCFLAGS = "-d";
+				OTHER_REZFLAGS = "";
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = "";
+				PREBINDING = NO;
+				INFOPLIST_FILE = "Info.plist";
+				BUILD_ROOT = "/Users/g/linux/src/amafu/sdr-shell/sdr-shell/sdr-shell_4.25";
+				OTHER_LDFLAGS = (
+						"-headerpad_max_install_names",
+						"-L/Library/Frameworks",
+						"-F/Library/Frameworks");
+				DYLIB_CURRENT_VERSION = "1.0.0";
+				DYLIB_COMPATIBILITY_VERSION = "1.0";
+				MACOSX_DEPLOYMENT_TARGET = "10.4";
+				PRODUCT_NAME = "sdr-shell";
+			};
+			conditionalBuildSettings = {
+			};
+			dependencies = (
+				);
+			productReference = "D4120739A496830F77F45B7D";
+			shouldUseHeadermap = 1;
+			isa = PBXNativeTarget;
+			productType = "com.apple.product-type.application";
+			productSettingsXML = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>
+<!DOCTYPE plist SYSTEM \"file://localhost/System/Library/DTDs/PropertyList.dtd\">
+<plist version=\"0.9\">
+<dict>
+	<key>CFBundleIconFile</key>
+	<string></string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+    <key>CFBundleGetInfoString</key>
+	<string>Created by Qt/QMake</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleExecutable</key>
+	<string>sdr-shell</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.yourcompany.sdr-shell</string>
+	<key>NOTE</key>
+	<string>This file was generated by Qt/QMake.</string>
+</dict>
+</plist>
+";
+			name = "sdr-shell";
+			productName = "sdr-shell";
+			startupPath = "<<ProjectDirectory>>";
+		};
+		8DB1DD96F65B1BF1FFC506E0 = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = "NO";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = "YES";
+				GCC_OPTIMIZATION_LEVEL = "0";
+			};
+			name = "Debug";
+		};
+		2C641C3335766025DD51B7BD = {
+			buildRules = (
+				);
+			buildSettings = {
+				COPY_PHASE_STRIP = "NO";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = "YES";
+				GCC_OPTIMIZATION_LEVEL = "0";
+			};
+			isa = "PBXBuildStyle";
+			name = "Debug";
+		};
+		95E1EB2E5DDD587BE5B3E548 = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = "YES";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = "NO";
+			};
+			name = "Release";
+		};
+		26DE8D2AEA4B3714B41E931F = {
+			buildRules = (
+				);
+			buildSettings = {
+				COPY_PHASE_STRIP = "YES";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = "NO";
+			};
+			isa = "PBXBuildStyle";
+			name = "Release";
+		};
+		2A951308CDB28F104D0A4BD2 = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				"8DB1DD96F65B1BF1FFC506E0",
+				"95E1EB2E5DDD587BE5B3E548");
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationIsName = "Debug";
+		};
+		91B15E841AA80083484172DE = {
+			buildStyles = (
+				"2C641C3335766025DD51B7BD",
+				"26DE8D2AEA4B3714B41E931F");
+			hasScannedForEncodings = 1;
+			isa = PBXProject;
+			mainGroup = "05596AB53D8D521C69802C27";
+			buildConfigurationList = "2A951308CDB28F104D0A4BD2";
+			projectDirPath = "";
+			targets = (
+				"C9CD76CE9A7E155A79CDDD0B");
+		};
+	};
+	rootObject = "91B15E841AA80083484172DE";
+}
