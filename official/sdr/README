@@ -1,0 +1,55 @@
+# by Edson Pereira, pu1jte, n1vtn
+#
+# The following instructions assume you are using Debian or Ubuntu
+
+# To get the needed runtime packages
+apt-get update
+apt-get install libqt3-mt
+apt-get install libjack0.100.0-0
+apt-get install fftw3
+apt-get install jackd
+apt-get install xmms-jack
+
+# To get the needed development packages
+apt-get update
+apt-get install gcc
+apt-get install g++
+apt-get install make
+apt-get install libqt3-mt-dev
+apt-get install libjack0.100.0-dev
+apt-get install fftw3-dev
+
+# To get the latest DttSP sources
+apt-get update
+apt-get install subversion
+mkdir /usr/local/sdr
+cd /usr/local/sdr
+svn co svn://206.216.146.154/svn/repos_sdr_dttsp/trunk
+mv trunk dttsp-r<revision_number_displayed_by_svn>
+rm dttsp
+ln -s dttsp-r<revision_number_displayed_by_svn> dttsp
+
+# To compile sdr-core
+cd /usr/local/sdr/dttsp-v<version>/src
+make staticlib
+make
+make install
+
+# To compile sdr-shell
+cd /usr/local/sdr/sdr-shell/src
+qmake sdr-shell.pro -o Makefile
+make
+cp sdr-shell ../bin
+
+# To start sdr-core and jack
+. /usr/local/sdr/dttsp/bin/setup_env
+/usr/local/sdr/dttsp/bin/sdr.sh start
+
+# To stop sdr-core and jack
+/usr/local/sdr/dttsp/bin/sdr.sh stop
+
+# You can (should) run the following as a non root user
+# To run sdr-shell
+. /usr/local/sdr/dttsp/bin/setup_env
+/usr/local/sdr/sdr-shell/bin/sdr-shell
+

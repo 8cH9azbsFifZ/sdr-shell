@@ -1,0 +1,14 @@
+#!/bin/sh
+
+CMDPIPE=${SDR_PARMPATH:-.SDRcommands}
+
+while true
+do
+  read -p "command: " -e cmdline
+  if [ $? -ne 0 ]
+  then
+    break
+  fi
+  sendline="$cmdline"
+  echo $sendline
+done | m4 -e ../lib/enums.m4 - >$CMDPIPE
